@@ -1,0 +1,383 @@
+{
+  "lockfiles": {
+    "yarn.lock": {
+      "current": {
+        "checksum": "83c5d344a0f608acb8f3e5e62a4252f1",
+        "dependencies": {
+          "asap": {
+            "constraint": "~2.0.3",
+            "installed": {
+              "name": "2.0.6"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "core-js": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.2.7"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "create-react-class": {
+            "constraint": "^15.6.0",
+            "dependencies": {
+              "fbjs": {
+                "constraint": "^0.8.9",
+                "installed": {
+                  "name": "0.8.16"
+                },
+                "relationship": "direct"
+              },
+              "loose-envify": {
+                "constraint": "^1.3.1",
+                "installed": {
+                  "name": "1.3.1"
+                },
+                "relationship": "direct"
+              },
+              "object-assign": {
+                "constraint": "^4.1.1",
+                "installed": {
+                  "name": "4.1.1"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "15.6.2"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "encoding": {
+            "constraint": "^0.1.11",
+            "dependencies": {
+              "iconv-lite": {
+                "constraint": "~0.4.13",
+                "installed": {
+                  "name": "0.4.19"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "0.1.12"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "fbjs": {
+            "constraint": "^0.8.9",
+            "dependencies": {
+              "core-js": {
+                "constraint": "^1.0.0",
+                "installed": {
+                  "name": "1.2.7"
+                },
+                "relationship": "direct"
+              },
+              "isomorphic-fetch": {
+                "constraint": "^2.1.1",
+                "installed": {
+                  "name": "2.2.1"
+                },
+                "relationship": "direct"
+              },
+              "loose-envify": {
+                "constraint": "^1.0.0",
+                "installed": {
+                  "name": "1.3.1"
+                },
+                "relationship": "direct"
+              },
+              "object-assign": {
+                "constraint": "^4.1.0",
+                "installed": {
+                  "name": "4.1.1"
+                },
+                "relationship": "direct"
+              },
+              "promise": {
+                "constraint": "^7.1.1",
+                "installed": {
+                  "name": "7.3.1"
+                },
+                "relationship": "direct"
+              },
+              "setimmediate": {
+                "constraint": "^1.0.5",
+                "installed": {
+                  "name": "1.0.5"
+                },
+                "relationship": "direct"
+              },
+              "ua-parser-js": {
+                "constraint": "^0.7.9",
+                "installed": {
+                  "name": "0.7.17"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "0.8.16"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "iconv-lite": {
+            "constraint": "~0.4.13",
+            "installed": {
+              "name": "0.4.19"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "is-stream": {
+            "constraint": "^1.0.1",
+            "installed": {
+              "name": "1.1.0"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "isomorphic-fetch": {
+            "constraint": "^2.1.1",
+            "dependencies": {
+              "node-fetch": {
+                "constraint": "^1.0.1",
+                "installed": {
+                  "name": "1.7.3"
+                },
+                "relationship": "direct"
+              },
+              "whatwg-fetch": {
+                "constraint": ">=0.10.0",
+                "installed": {
+                  "name": "2.0.3"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "2.2.1"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "js-tokens": {
+            "constraint": "^3.0.0",
+            "installed": {
+              "name": "3.0.2"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "lodash": {
+            "constraint": "^4.2.1",
+            "installed": {
+              "name": "4.17.4"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "lodash-es": {
+            "constraint": "^4.2.1",
+            "installed": {
+              "name": "4.17.4"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "loose-envify": {
+            "constraint": "^1.3.1",
+            "dependencies": {
+              "js-tokens": {
+                "constraint": "^3.0.0",
+                "installed": {
+                  "name": "3.0.2"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "1.3.1"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "node-fetch": {
+            "constraint": "^1.0.1",
+            "dependencies": {
+              "encoding": {
+                "constraint": "^0.1.11",
+                "installed": {
+                  "name": "0.1.12"
+                },
+                "relationship": "direct"
+              },
+              "is-stream": {
+                "constraint": "^1.0.1",
+                "installed": {
+                  "name": "1.1.0"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "1.7.3"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "object-assign": {
+            "constraint": "^4.1.1",
+            "installed": {
+              "name": "4.1.1"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "promise": {
+            "constraint": "^7.1.1",
+            "dependencies": {
+              "asap": {
+                "constraint": "~2.0.3",
+                "installed": {
+                  "name": "2.0.6"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "7.3.1"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "prop-types": {
+            "constraint": "^15.5.10",
+            "dependencies": {
+              "fbjs": {
+                "constraint": "^0.8.16",
+                "installed": {
+                  "name": "0.8.16"
+                },
+                "relationship": "direct"
+              },
+              "loose-envify": {
+                "constraint": "^1.3.1",
+                "installed": {
+                  "name": "1.3.1"
+                },
+                "relationship": "direct"
+              },
+              "object-assign": {
+                "constraint": "^4.1.1",
+                "installed": {
+                  "name": "4.1.1"
+                },
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "15.6.0"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "react": {
+            "constraint": "^15.5.3",
+            "dependencies": {
+              "create-react-class": {
+                "constraint": "^15.6.0",
+                "relationship": "direct"
+              },
+              "fbjs": {
+                "constraint": "^0.8.9",
+                "relationship": "direct"
+              },
+              "loose-envify": {
+                "constraint": "^1.1.0",
+                "relationship": "direct"
+              },
+              "object-assign": {
+                "constraint": "^4.1.0",
+                "relationship": "direct"
+              },
+              "prop-types": {
+                "constraint": "^15.5.10",
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "15.6.2"
+            },
+            "relationship": "direct",
+            "source": "npm"
+          },
+          "redux": {
+            "constraint": "~3.5.0",
+            "dependencies": {
+              "lodash": {
+                "constraint": "^4.2.1",
+                "relationship": "direct"
+              },
+              "lodash-es": {
+                "constraint": "^4.2.1",
+                "relationship": "direct"
+              },
+              "loose-envify": {
+                "constraint": "^1.1.0",
+                "relationship": "direct"
+              },
+              "symbol-observable": {
+                "constraint": "^0.2.3",
+                "relationship": "direct"
+              }
+            },
+            "installed": {
+              "name": "3.5.2"
+            },
+            "relationship": "direct",
+            "source": "npm"
+          },
+          "setimmediate": {
+            "constraint": "^1.0.5",
+            "installed": {
+              "name": "1.0.5"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "symbol-observable": {
+            "constraint": "^0.2.3",
+            "installed": {
+              "name": "0.2.4"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "ua-parser-js": {
+            "constraint": "^0.7.9",
+            "installed": {
+              "name": "0.7.17"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          },
+          "whatwg-fetch": {
+            "constraint": ">=0.10.0",
+            "installed": {
+              "name": "2.0.3"
+            },
+            "relationship": "transitive",
+            "source": "npm"
+          }
+        }
+      }
+    }
+  }
+}

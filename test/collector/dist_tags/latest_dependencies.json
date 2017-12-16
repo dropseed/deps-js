@@ -1,0 +1,26 @@
+{
+  "manifests": {
+    "package.json": {
+      "dependencies": {
+        "semantic-release": {
+          "available": [
+            {
+              "name": "8.1.1"
+            },
+            {
+              "name": "8.1.2"
+            },
+            {
+              "name": "8.2.0"
+            }
+          ],
+          "constraint": "8.1.0",
+          "installed": {
+            "name": "8.1.0"
+          },
+          "source": "npm"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+name: actor-js-npm
+type: actor
+
+cases:
+
+- name: package.json basic
+  dockerfile: Dockerfile
+  repo_contents: test/actor/basic/base
+  input_dependencies_json: test/actor/basic/input_dependencies.json
+  output_dependencies_json: test/actor/basic/output_dependencies.json
+  tests:
+    - |
+        git checkout react-15.5.4-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/react_final/ ./
+    - |
+        git checkout redux-3.6.0-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/redux_final/ ./
+
+- name: package-lock.json
+  dockerfile: Dockerfile
+  repo_contents: test/actor/package_lock/base
+  input_dependencies_json: test/actor/package_lock/input_dependencies.json
+  output_dependencies_json: test/actor/package_lock/output_dependencies.json
+
+- name: yarn.lock
+  dockerfile: Dockerfile
+  repo_contents: test/actor/yarn/base
+  input_dependencies_json: test/actor/yarn/input_dependencies.json
+  output_dependencies_json: test/actor/yarn/output_dependencies.json
+  tests:
+    - |
+        git checkout react-15.5.4-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/yarn/react_final/ ./
+    - |
+        git checkout redux-3.6.0-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/yarn/redux_final/ ./
+
+- name: yarn.lock with caret and tilde
+  dockerfile: Dockerfile
+  repo_contents: test/actor/yarn/ranges
+  input_dependencies_json: test/actor/yarn/ranges_input_dependencies.json
+  output_dependencies_json: test/actor/yarn/ranges_output_dependencies.json
+
+- name: package.json subdirectory
+  dockerfile: Dockerfile
+  repo_contents: test/actor/subdirectory/base
+  input_dependencies_json: test/actor/subdirectory/input_dependencies.json
+  output_dependencies_json: test/actor/subdirectory/output_dependencies.json
+
+- name: package.json basic with registry mirror
+  dockerfile: Dockerfile
+  repo_contents: test/actor/basic/base
+  input_dependencies_json: test/actor/basic/input_dependencies.json
+  output_dependencies_json: test/actor/basic/output_dependencies.json
+  user_config:
+    settings:
+      npmrc: |
+        registry=https://skimdb.npmjs.com/registry
+        another=tes
+      commit_message_prefix: "deps: "
+  tests:
+    - |
+        git checkout react-15.5.4-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/react_final/ ./
+    - |
+        git checkout redux-3.6.0-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/redux_final/ ./
+
+- name: package.json batch mode
+  dockerfile: Dockerfile
+  repo_contents: test/actor/basic/base
+  input_dependencies_json: test/actor/basic/input_dependencies.json
+  output_dependencies_json: test/actor/basic/output_dependencies.json
+  user_config:
+    settings:
+      batch_mode: true
+  tests:
+    - |
+        git checkout dependencies.io-update-build-0.0.0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/batch_final/ ./

@@ -1,0 +1,33 @@
+{
+    "manifests": {
+        "package.json": {
+            "dependencies": {
+                "react": {
+                    "constraint": "15.5.3",
+                    "installed": {
+                        "name": "15.5.3"
+                    },
+                    "available": [
+                        {
+                            "name": "15.5.4",
+                            "content": "This won't break it! Or `this`"
+                        }
+                    ],
+                    "source": "npm"
+                },
+                "redux": {
+                    "constraint": "3.5.0",
+                    "installed": {
+                        "name": "3.5.0"
+                    },
+                    "available": [
+                        {
+                            "name": "3.6.0"
+                        }
+                    ],
+                    "source": "npm"
+                }
+            }
+        }
+    }
+}

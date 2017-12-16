@@ -1,0 +1,22 @@
+{
+  "manifests": {
+    "sub/package.json": {
+      "dependencies": {
+        "react": {
+          "constraint": "15.5.4",
+          "installed": {
+            "name": "15.5.4"
+          },
+          "source": "npm"
+        },
+        "redux": {
+          "constraint": "3.6.0",
+          "installed": {
+            "name": "3.6.0"
+          },
+          "source": "npm"
+        }
+      }
+    }
+  }
+}
