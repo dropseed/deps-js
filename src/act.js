@@ -15,7 +15,7 @@ export const act = () => {
 
     // if batch mode do all lockfiles in 1 PR
     const batchMode = process.env.SETTING_BATCH_MODE == 'true'
-    const batchModeBranchName = `update-lockfiles-build-${process.env.ACTOR_ID}`
+    const batchModeBranchName = `update-lockfiles-build-${process.env.JOB_ID}`
     if (batchMode) createGitBranch(batchModeBranchName)
 
     Object.entries(schema.lockfiles).forEach(([path, schema]) => {
@@ -23,7 +23,7 @@ export const act = () => {
       console.log(schema)
 
       // TODO needs to have some lockfile identifier -- actor could do multiple
-      const branchName = `lockfile-update-build-${process.env.ACTOR_ID}`
+      const branchName = `lockfile-update-build-${process.env.JOB_ID}`
 
       if (!batchMode) createGitBranch(branchName)
 

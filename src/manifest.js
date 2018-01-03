@@ -54,11 +54,11 @@ const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
 }
 
 export const updateManifest = (manifestPath, schema) => {
-  const ACTOR_ID = process.env.ACTOR_ID
+  const JOB_ID = process.env.JOB_ID
   const BATCH_MODE = process.env.SETTING_BATCH_MODE == 'true'
   const COMMIT_MESSAGE_PREFIX = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
 
-  const batchPrBranchName = `dependencies.io-update-build-${ACTOR_ID}`
+  const batchPrBranchName = `dependencies.io-update-build-${JOB_ID}`
   if (BATCH_MODE) createGitBranch(batchPrBranchName)
 
   const dependencyPath = path.join('/repo', path.dirname(manifestPath))
@@ -75,7 +75,7 @@ export const updateManifest = (manifestPath, schema) => {
     const installed = dependency.installed.name
 
     const version = dependency.available[0].name
-    const branchName = `${name}-${version}-${ACTOR_ID}`
+    const branchName = `${name}-${version}-${JOB_ID}`
     const msg = `${COMMIT_MESSAGE_PREFIX}Update ${name} from ${installed} to ${version}`
 
     if (!BATCH_MODE) createGitBranch(branchName)

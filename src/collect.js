@@ -34,26 +34,22 @@ export const collect = dependencyPath => {
 
   if (lockfile.existed) {
     const originalSchema = lockfile.convertToLockfileSchema()
-
-    lockfile.update()
-
-    // only include updated if it's different?
-
-    // do we need a way to ensure that these are the changes that end up getting made?
-    // i.e. other changes happen between now and action...
-    // git diff, hash of file...
-
-    const updatedSchema = lockfile.convertToLockfileSchema()
-
     const lockfilePath = pathInRepo(lockfile.path)
 
     output.lockfiles = {
       [lockfilePath]: {
         current: originalSchema,
-        updated: updatedSchema,
       },
     }
 
+    lockfile.update()
+    const updatedSchema = lockfile.convertToLockfileSchema()
+    if (updatedSchema.checksum !== originalSchema.checksum) {
+      // only include in output if the file actually changed
+      output.lockfiles[lockfilePath].updated = updatedSchema
+    }
+
+    // point the manifest entry to this lockfile
     output.manifests[manifestPath].lockfile_path = lockfilePath
   }
 
