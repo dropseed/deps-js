@@ -6,7 +6,7 @@ import detectIndent from 'detect-indent'
 
 import { Lockfile } from './lockfile'
 import { getPackageJSONPath, pushGitBranch, createGitBranch } from './utils'
-import { outputSchema } from './schema'
+import { outputActions } from './schema'
 
 const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
   const file = fs.readFileSync(packageJSONPath, 'utf8')
@@ -136,17 +136,25 @@ export const updateManifest = (manifestPath, schema) => {
       pushGitBranch(branchName)
 
       const resultSchema = {
-        manifests: {
-          [manifestPath]: {
-            dependencies: {
-              [name]: dependency
+        [name]: {
+          metadata: {
+            // could throw entire github pr response back in here?
+            git_branch: branchName
+          },
+          dependencies: {
+            manifests: {
+              [manifestPath]: {
+                dependencies: {
+                  [name]: dependency
+                }
+              }
             }
           }
-        },
+        }
       }
       // TODO needs to use new schema
       // shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-schema', JSON.stringify(resultSchema), '--title-from-schema', '--body-from-schema']))
-      outputSchema(resultSchema)
+      outputActions(resultSchema)
     }
   })
 
@@ -157,6 +165,6 @@ export const updateManifest = (manifestPath, schema) => {
       manifests: { [manifestPath]: { dependencies: schema.dependencies } },
     }
     // shell.exec(shellEscape(['pullrequest', '--branch', batchPrBranchName, '--dependencies-schema', JSON.stringify(resultSchema), '--title-from-schema', '--body-from-schema']))
-    outputSchema(resultSchema)
+    outputActions(resultSchema)
   }
 }

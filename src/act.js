@@ -3,7 +3,7 @@ import shell from 'shelljs'
 import { updateManifest } from './manifest'
 import { Lockfile } from './lockfile'
 import { createGitBranch, pushGitBranch } from './utils'
-import { outputSchema } from './schema'
+import { outputActions } from './schema'
 
 export const act = () => {
   console.log('Acting')
@@ -40,11 +40,19 @@ export const act = () => {
         pushGitBranch(branchName)
 
         // output the newly updated schema
-        outputSchema({
-          lockfiles: {
-            [lockfile.path]: {
-              current: lockfile.convertToLockfileSchema(),
-            }
+        outputActions({
+          [lockfile.path]: {
+              metadata: {
+                git_branch: branchName,
+                url: "test"
+              },
+              dependencies: {
+                  lockfiles: {
+                    [lockfile.path]: {
+                      current: lockfile.convertToLockfileSchema(),
+                    }
+                  }
+              }
           }
         })
       }

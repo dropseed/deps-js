@@ -1,6 +1,6 @@
 import { Lockfile } from './lockfile'
 import { getAvailableVersionsOfDependency } from './dependency'
-import { outputSchema } from './schema'
+import { outputDependencies } from './schema'
 import { getPackageJSONPath, pathInRepo } from './utils'
 
 export const collect = dependencyPath => {
@@ -53,5 +53,5 @@ export const collect = dependencyPath => {
     output.manifests[manifestPath].lockfile_path = lockfilePath
   }
 
-  outputSchema(output)
+  outputDependencies(output)
 }
