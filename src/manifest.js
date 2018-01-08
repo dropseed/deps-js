@@ -128,33 +128,33 @@ export const updateManifest = (manifestPath, schema) => {
         shell.exec('git status').stdout
     }
 
-    dependency.installed.name = version
-    dependency.constraint = updatedConstraint
-    delete dependency.available
+    // dependency.installed.name = version
+    // dependency.constraint = updatedConstraint
+    // delete dependency.available
 
     if (!BATCH_MODE) {
       pushGitBranch(branchName)
-
-      const resultSchema = {
-        [name]: {
-          metadata: {
-            // could throw entire github pr response back in here?
-            git_branch: branchName
-          },
-          dependencies: {
-            manifests: {
-              [manifestPath]: {
-                dependencies: {
-                  [name]: dependency
+      const results = {
+        manifests: {
+          [manifestPath]: {
+            current: {
+              dependencies: {
+                [name]: dependency
+              }
+            },
+            updated: {
+              dependencies: {
+                [name]: {
+                  installed: {name: version},
+                  constraint: updatedConstraint,
+                  source: dependency.source
                 }
               }
             }
           }
         }
       }
-      // TODO needs to use new schema
-      // shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-schema', JSON.stringify(resultSchema), '--title-from-schema', '--body-from-schema']))
-      outputActions(resultSchema)
+      shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
     }
   })
 
@@ -164,7 +164,7 @@ export const updateManifest = (manifestPath, schema) => {
     const resultSchema = {
       manifests: { [manifestPath]: { dependencies: schema.dependencies } },
     }
-    // shell.exec(shellEscape(['pullrequest', '--branch', batchPrBranchName, '--dependencies-schema', JSON.stringify(resultSchema), '--title-from-schema', '--body-from-schema']))
-    outputActions(resultSchema)
+    // shell.exec(shellEscape(['pullrequest', '--branch', batchPrBranchName, '--dependencies-json', JSON.stringify(resultSchema)]))
+    // outputActions(resultSchema)
   }
 }

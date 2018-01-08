@@ -45,7 +45,7 @@ export class Lockfile {
     return parts.includes(constraint.trim())
   }
 
-  getChecksum() {
+  getFingerprint() {
     return shell
       .exec(`md5sum ${this.path}`, { silent: true })
       .stdout.trim()
@@ -212,7 +212,7 @@ export class Lockfile {
       }
     }
 
-    return { dependencies: dependenciesForSchema, checksum: this.getChecksum() }
+    return { dependencies: dependenciesForSchema, fingerprint: this.getFingerprint() }
   }
 
   convertYarnLockToManifestSchema() {
@@ -329,7 +329,7 @@ export class Lockfile {
 
     return {
       dependencies: packageLockDependenciesToSchema(packageLock.dependencies),
-      checksum: this.getChecksum(),
+      fingerprint: this.getFingerprint(),
     }
   }
 

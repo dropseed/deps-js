@@ -1,5 +1,6 @@
 import fs from 'fs'
 import shell from 'shelljs'
+import shellEscape from 'shell-escape'
 import { updateManifest } from './manifest'
 import { Lockfile } from './lockfile'
 import { createGitBranch, pushGitBranch } from './utils'
@@ -35,26 +36,16 @@ export const act = () => {
       const commitMessagePrefix = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
       shell.exec(`git commit -m "${commitMessagePrefix}Update ${lockfile.path}"`)
 
-      // TODO git commit, push, PR
       if (!batchMode) {
         pushGitBranch(branchName)
-
-        // output the newly updated schema
-        outputActions({
-          [lockfile.path]: {
-              metadata: {
-                git_branch: branchName,
-                url: "test"
-              },
-              dependencies: {
-                  lockfiles: {
-                    [lockfile.path]: {
-                      current: lockfile.convertToLockfileSchema(),
-                    }
-                  }
-              }
+        const results = {
+          "lockfiles": {
+            [lockfile.path]: schema
           }
-        })
+        }
+        // send exactly what we updated, in case it changed from when originally collected
+        results.lockfiles[lockfile.path].updated.dependencies = lockfile.convertToLockfileSchema()
+        shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
       }
 
       // if lockfile.can_be_updated

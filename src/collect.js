@@ -15,7 +15,7 @@ export const collect = dependencyPath => {
 
   let output = {
     manifests: {
-      [manifestPath]: lockfile.convertToManifestSchema(),
+      [manifestPath]: {current: lockfile.convertToManifestSchema()},
     },
   }
 
@@ -50,7 +50,7 @@ export const collect = dependencyPath => {
     }
 
     // point the manifest entry to this lockfile
-    output.manifests[manifestPath].lockfile_path = lockfilePath
+    output.manifests[manifestPath].current.lockfile_path = lockfilePath
   }
 
   outputDependencies(output)
