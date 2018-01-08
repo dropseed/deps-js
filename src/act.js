@@ -38,13 +38,14 @@ export const act = () => {
 
       if (!batchMode) {
         pushGitBranch(branchName)
+
+        // send exactly what we updated, in case it changed from when originally collected
+        schema.updated = lockfile.convertToLockfileSchema()
         const results = {
-          "lockfiles": {
+          lockfiles: {
             [lockfile.path]: schema
           }
         }
-        // send exactly what we updated, in case it changed from when originally collected
-        results.lockfiles[lockfile.path].updated.dependencies = lockfile.convertToLockfileSchema()
         shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
       }
 
@@ -54,14 +55,16 @@ export const act = () => {
 
       // never have to worry about re-running this? or yes we do,
       // don't want to open/close a PR for the exact same changes
-      // MD5 checksum of lockfile change that was sent? then collector can
+      // MD5 fingerprint of lockfile change that was sent? then collector can
       // skip if not different?
     })
 
     if (batchMode) {
       pushGitBranch(batchModeBranchName)
-
-      // TODO output batch schema
+      const results = {
+        lockfiles: schema.lockfiles
+      }
+      shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
     }
   }
 

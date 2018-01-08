@@ -53,7 +53,7 @@ const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
   return updatedConstraint
 }
 
-export const updateManifest = (manifestPath, schema) => {
+export const updateManifest = (manifestPath, manifest) => {
   const JOB_ID = process.env.JOB_ID
   const BATCH_MODE = process.env.SETTING_BATCH_MODE == 'true'
   const COMMIT_MESSAGE_PREFIX = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
@@ -69,7 +69,7 @@ export const updateManifest = (manifestPath, schema) => {
   const nodeModulesPath = path.join(dependencyPath, 'node_modules')
   const tmpNodeModulesPath = path.join('/tmp', nodeModulesPath)
 
-  Object.entries(schema.dependencies).forEach(([name, dependency]) => {
+  Object.entries(manifest.current.dependencies).forEach(([name, dependency]) => {
     console.log(dependency)
 
     const installed = dependency.installed.name
@@ -128,12 +128,16 @@ export const updateManifest = (manifestPath, schema) => {
         shell.exec('git status').stdout
     }
 
-    // dependency.installed.name = version
-    // dependency.constraint = updatedConstraint
-    // delete dependency.available
+    if (!manifest.updated) manifest.updated = {dependencies: {}}
+    manifest.updated.dependencies[name] = {
+      installed: {name: version},
+      constraint: updatedConstraint,
+      source: dependency.source,
+    }
 
     if (!BATCH_MODE) {
       pushGitBranch(branchName)
+
       const results = {
         manifests: {
           [manifestPath]: {
@@ -144,11 +148,7 @@ export const updateManifest = (manifestPath, schema) => {
             },
             updated: {
               dependencies: {
-                [name]: {
-                  installed: {name: version},
-                  constraint: updatedConstraint,
-                  source: dependency.source
-                }
+                [name]: manifest.updated.dependencies[name]
               }
             }
           }
@@ -162,9 +162,8 @@ export const updateManifest = (manifestPath, schema) => {
     pushGitBranch(batchPrBranchName)
 
     const resultSchema = {
-      manifests: { [manifestPath]: { dependencies: schema.dependencies } },
+      manifests: { [manifestPath]: manifest },
     }
-    // shell.exec(shellEscape(['pullrequest', '--branch', batchPrBranchName, '--dependencies-json', JSON.stringify(resultSchema)]))
-    // outputActions(resultSchema)
+    shell.exec(shellEscape(['pullrequest', '--branch', batchPrBranchName, '--dependencies-json', JSON.stringify(resultSchema)]))
   }
 }

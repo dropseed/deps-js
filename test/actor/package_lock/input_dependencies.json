@@ -1,7 +1,8 @@
 {
     "lockfiles": {
         "package-lock.json": {
-
+            "current": {},
+            "updated": {}
         }
     }
 }

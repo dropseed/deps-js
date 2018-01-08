@@ -19,19 +19,6 @@ export const collect = dependencyPath => {
     },
   }
 
-  // both need
-  // - installed
-  // - source
-  // - constraint
-
-  // lockfile schema needs
-  // - dependencies { installed (if unique), source, constraint}
-  // - relationship
-  // - (available comes from "updated" lockfile - only need that 1 version change)
-
-  // manifest needs
-  // - available
-
   if (lockfile.existed) {
     const originalSchema = lockfile.convertToLockfileSchema()
     const lockfilePath = pathInRepo(lockfile.path)
@@ -44,7 +31,7 @@ export const collect = dependencyPath => {
 
     lockfile.update()
     const updatedSchema = lockfile.convertToLockfileSchema()
-    if (updatedSchema.checksum !== originalSchema.checksum) {
+    if (updatedSchema.fingerprint !== originalSchema.fingerprint) {
       // only include in output if the file actually changed
       output.lockfiles[lockfilePath].updated = updatedSchema
     }

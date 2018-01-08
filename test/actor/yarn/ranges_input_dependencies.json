@@ -1,7 +1,8 @@
 {
     "lockfiles": {
         "yarn.lock": {
-
+            "current": {},
+            "updated": {}
         }
     }
 }
