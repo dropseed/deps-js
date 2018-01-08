@@ -1,24 +1,68 @@
 {
   "manifests": {
     "package.json": {
-      "dependencies": {
-        "semantic-release": {
-          "available": [
-            {
-              "name": "8.1.1"
+      "current": {
+        "dependencies": {
+          "semantic-release": {
+            "available": [
+              {
+                "name": "8.1.1"
+              },
+              {
+                "name": "8.1.2"
+              },
+              {
+                "name": "8.2.0"
+              },
+              {
+                "name": "8.2.1"
+              },
+              {
+                "name": "8.2.2"
+              },
+              {
+                "name": "8.2.3"
+              },
+              {
+                "name": "9.0.0"
+              },
+              {
+                "name": "9.0.1"
+              },
+              {
+                "name": "9.0.2"
+              },
+              {
+                "name": "9.0.3"
+              },
+              {
+                "name": "9.1.0"
+              },
+              {
+                "name": "9.1.1"
+              },
+              {
+                "name": "10.0.0"
+              },
+              {
+                "name": "10.0.1"
+              },
+              {
+                "name": "11.0.0"
+              },
+              {
+                "name": "11.0.1"
+              },
+              {
+                "name": "11.0.2"
+              }
+            ],
+            "constraint": "8.1.0",
+            "installed": {
+              "name": "8.1.0"
             },
-            {
-              "name": "8.1.2"
-            },
-            {
-              "name": "8.2.0"
-            }
-          ],
-          "constraint": "8.1.0",
-          "installed": {
-            "name": "8.1.0"
-          },
-          "source": "npm"
+            "source": "npm"
+          }
         }
       }
     }

@@ -1,14 +1,16 @@
 {
   "manifests": {
     "package.json": {
-      "dependencies": {
-        "percy-docs": {
-          "available": [],
-          "constraint": "git+https://github.com/percy/percy-docs.git#bc459749fbdf98f2d0e087d10359481fb4542b0e",
-          "installed": {
-            "name": "0.0.0"
-          },
-          "source": "git+https://github.com/percy/percy-docs.git#bc459749fbdf98f2d0e087d10359481fb4542b0e"
+      "current": {
+        "dependencies": {
+          "percy-docs": {
+            "available": [],
+            "constraint": "git+https://github.com/percy/percy-docs.git#bc459749fbdf98f2d0e087d10359481fb4542b0e",
+            "installed": {
+              "name": "0.0.0"
+            },
+            "source": "git+https://github.com/percy/percy-docs.git#bc459749fbdf98f2d0e087d10359481fb4542b0e"
+          }
         }
       }
     }

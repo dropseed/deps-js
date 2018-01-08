@@ -1,273 +1,275 @@
 {
   "manifests": {
     "package.json": {
-      "dependencies": {
-        "prop-types": {
-          "available": [
-            {
-              "version": "15.5.9"
+      "current": {
+        "dependencies": {
+          "prop-types": {
+            "available": [
+              {
+                "name": "15.5.9"
+              },
+              {
+                "name": "15.5.10"
+              },
+              {
+                "name": "15.6.0"
+              }
+            ],
+            "constraint": "15.5.8",
+            "installed": {
+              "name": "15.5.8"
             },
-            {
-              "version": "15.5.10"
-            },
-            {
-              "version": "15.6.0"
-            }
-          ],
-          "constraint": "15.5.8",
-          "installed": {
-            "version": "15.5.8"
+            "source": "npm"
           },
-          "source": "npm"
-        },
-        "react": {
-          "available": [
-            {
-              "version": "15.6.0-rc.1"
+          "react": {
+            "available": [
+              {
+                "name": "15.6.0-rc.1"
+              },
+              {
+                "name": "15.6.0"
+              },
+              {
+                "name": "15.6.1"
+              },
+              {
+                "name": "15.6.2"
+              },
+              {
+                "name": "16.0.0-alpha"
+              },
+              {
+                "name": "16.0.0-alpha.0"
+              },
+              {
+                "name": "16.0.0-alpha.2"
+              },
+              {
+                "name": "16.0.0-alpha.3"
+              },
+              {
+                "name": "16.0.0-alpha.4"
+              },
+              {
+                "name": "16.0.0-alpha.5"
+              },
+              {
+                "name": "16.0.0-alpha.6"
+              },
+              {
+                "name": "16.0.0-alpha.7"
+              },
+              {
+                "name": "16.0.0-alpha.8"
+              },
+              {
+                "name": "16.0.0-alpha.9"
+              },
+              {
+                "name": "16.0.0-alpha.10"
+              },
+              {
+                "name": "16.0.0-alpha.11"
+              },
+              {
+                "name": "16.0.0-alpha.12"
+              },
+              {
+                "name": "16.0.0-alpha.13"
+              },
+              {
+                "name": "16.0.0-beta.1"
+              },
+              {
+                "name": "16.0.0-beta.2"
+              },
+              {
+                "name": "16.0.0-beta.3"
+              },
+              {
+                "name": "16.0.0-beta.4"
+              },
+              {
+                "name": "16.0.0-beta.5"
+              },
+              {
+                "name": "16.0.0-rc.1"
+              },
+              {
+                "name": "16.0.0-rc.2"
+              },
+              {
+                "name": "16.0.0-rc.3"
+              },
+              {
+                "name": "16.0.0"
+              },
+              {
+                "name": "16.1.0-beta"
+              },
+              {
+                "name": "16.1.0-beta.1"
+              },
+              {
+                "name": "16.1.0-rc"
+              },
+              {
+                "name": "16.1.0"
+              },
+              {
+                "name": "16.1.1"
+              },
+              {
+                "name": "16.2.0"
+              }
+            ],
+            "constraint": "15.5.4",
+            "installed": {
+              "name": "15.5.4"
             },
-            {
-              "version": "15.6.0"
-            },
-            {
-              "version": "15.6.1"
-            },
-            {
-              "version": "15.6.2"
-            },
-            {
-              "version": "16.0.0-alpha"
-            },
-            {
-              "version": "16.0.0-alpha.0"
-            },
-            {
-              "version": "16.0.0-alpha.2"
-            },
-            {
-              "version": "16.0.0-alpha.3"
-            },
-            {
-              "version": "16.0.0-alpha.4"
-            },
-            {
-              "version": "16.0.0-alpha.5"
-            },
-            {
-              "version": "16.0.0-alpha.6"
-            },
-            {
-              "version": "16.0.0-alpha.7"
-            },
-            {
-              "version": "16.0.0-alpha.8"
-            },
-            {
-              "version": "16.0.0-alpha.9"
-            },
-            {
-              "version": "16.0.0-alpha.10"
-            },
-            {
-              "version": "16.0.0-alpha.11"
-            },
-            {
-              "version": "16.0.0-alpha.12"
-            },
-            {
-              "version": "16.0.0-alpha.13"
-            },
-            {
-              "version": "16.0.0-beta.1"
-            },
-            {
-              "version": "16.0.0-beta.2"
-            },
-            {
-              "version": "16.0.0-beta.3"
-            },
-            {
-              "version": "16.0.0-beta.4"
-            },
-            {
-              "version": "16.0.0-beta.5"
-            },
-            {
-              "version": "16.0.0-rc.1"
-            },
-            {
-              "version": "16.0.0-rc.2"
-            },
-            {
-              "version": "16.0.0-rc.3"
-            },
-            {
-              "version": "16.0.0"
-            },
-            {
-              "version": "16.1.0-beta"
-            },
-            {
-              "version": "16.1.0-beta.1"
-            },
-            {
-              "version": "16.1.0-rc"
-            },
-            {
-              "version": "16.1.0"
-            },
-            {
-              "version": "16.1.1"
-            },
-            {
-              "version": "16.2.0"
-            }
-          ],
-          "constraint": "15.5.4",
-          "installed": {
-            "version": "15.5.4"
+            "source": "npm"
           },
-          "source": "npm"
-        },
-        "react-dom": {
-          "available": [
-            {
-              "version": "15.6.0-rc.1"
+          "react-dom": {
+            "available": [
+              {
+                "name": "15.6.0-rc.1"
+              },
+              {
+                "name": "15.6.0"
+              },
+              {
+                "name": "15.6.1"
+              },
+              {
+                "name": "15.6.2"
+              },
+              {
+                "name": "16.0.0-alpha"
+              },
+              {
+                "name": "16.0.0-alpha.0"
+              },
+              {
+                "name": "16.0.0-alpha.2"
+              },
+              {
+                "name": "16.0.0-alpha.3"
+              },
+              {
+                "name": "16.0.0-alpha.4"
+              },
+              {
+                "name": "16.0.0-alpha.5"
+              },
+              {
+                "name": "16.0.0-alpha.6"
+              },
+              {
+                "name": "16.0.0-alpha.7"
+              },
+              {
+                "name": "16.0.0-alpha.8"
+              },
+              {
+                "name": "16.0.0-alpha.9"
+              },
+              {
+                "name": "16.0.0-alpha.10"
+              },
+              {
+                "name": "16.0.0-alpha.11"
+              },
+              {
+                "name": "16.0.0-alpha.12"
+              },
+              {
+                "name": "16.0.0-alpha.13"
+              },
+              {
+                "name": "16.0.0-beta.1"
+              },
+              {
+                "name": "16.0.0-beta.2"
+              },
+              {
+                "name": "16.0.0-beta.3"
+              },
+              {
+                "name": "16.0.0-beta.4"
+              },
+              {
+                "name": "16.0.0-beta.5"
+              },
+              {
+                "name": "16.0.0-rc.1"
+              },
+              {
+                "name": "16.0.0-rc.2"
+              },
+              {
+                "name": "16.0.0-rc.3"
+              },
+              {
+                "name": "16.0.0"
+              },
+              {
+                "name": "16.1.0-beta"
+              },
+              {
+                "name": "16.1.0-beta.1"
+              },
+              {
+                "name": "16.1.0-rc"
+              },
+              {
+                "name": "16.1.0"
+              },
+              {
+                "name": "16.1.1"
+              },
+              {
+                "name": "16.2.0"
+              }
+            ],
+            "constraint": "15.5.4",
+            "installed": {
+              "name": "15.5.4"
             },
-            {
-              "version": "15.6.0"
-            },
-            {
-              "version": "15.6.1"
-            },
-            {
-              "version": "15.6.2"
-            },
-            {
-              "version": "16.0.0-alpha"
-            },
-            {
-              "version": "16.0.0-alpha.0"
-            },
-            {
-              "version": "16.0.0-alpha.2"
-            },
-            {
-              "version": "16.0.0-alpha.3"
-            },
-            {
-              "version": "16.0.0-alpha.4"
-            },
-            {
-              "version": "16.0.0-alpha.5"
-            },
-            {
-              "version": "16.0.0-alpha.6"
-            },
-            {
-              "version": "16.0.0-alpha.7"
-            },
-            {
-              "version": "16.0.0-alpha.8"
-            },
-            {
-              "version": "16.0.0-alpha.9"
-            },
-            {
-              "version": "16.0.0-alpha.10"
-            },
-            {
-              "version": "16.0.0-alpha.11"
-            },
-            {
-              "version": "16.0.0-alpha.12"
-            },
-            {
-              "version": "16.0.0-alpha.13"
-            },
-            {
-              "version": "16.0.0-beta.1"
-            },
-            {
-              "version": "16.0.0-beta.2"
-            },
-            {
-              "version": "16.0.0-beta.3"
-            },
-            {
-              "version": "16.0.0-beta.4"
-            },
-            {
-              "version": "16.0.0-beta.5"
-            },
-            {
-              "version": "16.0.0-rc.1"
-            },
-            {
-              "version": "16.0.0-rc.2"
-            },
-            {
-              "version": "16.0.0-rc.3"
-            },
-            {
-              "version": "16.0.0"
-            },
-            {
-              "version": "16.1.0-beta"
-            },
-            {
-              "version": "16.1.0-beta.1"
-            },
-            {
-              "version": "16.1.0-rc"
-            },
-            {
-              "version": "16.1.0"
-            },
-            {
-              "version": "16.1.1"
-            },
-            {
-              "version": "16.2.0"
-            }
-          ],
-          "constraint": "15.5.4",
-          "installed": {
-            "version": "15.5.4"
+            "source": "npm"
           },
-          "source": "npm"
-        },
-        "react-redux": {
-          "available": [
-            {
-              "version": "5.0.5"
+          "react-redux": {
+            "available": [
+              {
+                "name": "5.0.5"
+              },
+              {
+                "name": "5.0.6"
+              }
+            ],
+            "constraint": "5.0.4",
+            "installed": {
+              "name": "5.0.4"
             },
-            {
-              "version": "5.0.6"
-            }
-          ],
-          "constraint": "5.0.4",
-          "installed": {
-            "version": "5.0.4"
+            "source": "npm"
           },
-          "source": "npm"
-        },
-        "redux": {
-          "available": [
-            {
-              "version": "3.7.0"
+          "redux": {
+            "available": [
+              {
+                "name": "3.7.0"
+              },
+              {
+                "name": "3.7.1"
+              },
+              {
+                "name": "3.7.2"
+              }
+            ],
+            "constraint": "3.6.0",
+            "installed": {
+              "name": "3.6.0"
             },
-            {
-              "version": "3.7.1"
-            },
-            {
-              "version": "3.7.2"
-            }
-          ],
-          "constraint": "3.6.0",
-          "installed": {
-            "version": "3.6.0"
-          },
-          "source": "npm"
+            "source": "npm"
+          }
         }
       }
     }
