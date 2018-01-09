@@ -41002,7 +41002,7 @@
               }
             },
             "installed": {
-              "name": "1.6.0"
+              "name": "1.7.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -46888,7 +46888,7 @@
               "common-tags": {
                 "constraint": "^1.4.0",
                 "installed": {
-                  "name": "1.6.0"
+                  "name": "1.7.0"
                 },
                 "relationship": "direct"
               },
@@ -67583,7 +67583,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "e3f3cdf6336d7deec00f6b976275cd5d"
+        "fingerprint": "93fbb406eea9911ca4d964fa9752a293"
       }
     }
   },
@@ -68121,6 +68121,9 @@
             "available": [
               {
                 "name": "0.7.0"
+              },
+              {
+                "name": "0.7.1"
               }
             ],
             "constraint": "^0.6.0",

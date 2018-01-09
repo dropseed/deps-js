@@ -7,7 +7,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/package_json/repo
   output_dependencies_json: test/collector/package_json/dependencies.json
-  compare_available_versions: true
   user_config:
     path: /
 
@@ -15,7 +14,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/package_json/repo
   output_dependencies_json: test/collector/package_json/dependencies_production.json
-  compare_available_versions: true
   user_config:
     path: /
     settings:
@@ -25,7 +23,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/package_lock/repo
   output_dependencies_json: test/collector/package_lock/dependencies.json
-  compare_available_versions: true
   user_config:
     path: /
 
@@ -33,7 +30,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/package_lock/repo
   output_dependencies_json: test/collector/package_lock/dependencies_production.json
-  compare_available_versions: true
   user_config:
     path: /
     settings:
@@ -43,7 +39,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/yarn/repo
   output_dependencies_json: test/collector/yarn/dependencies.json
-  compare_available_versions: true
   user_config:
     path: /
 
@@ -51,7 +46,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/yarn/repo
   output_dependencies_json: test/collector/yarn/dependencies_production.json
-  compare_available_versions: true
   user_config:
     path: /
     settings:
@@ -61,7 +55,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/yarn/multiple_installed_resolution
   output_dependencies_json: test/collector/yarn/multiple_installed_dependencies.json
-  compare_available_versions: false
   user_config:
     path: /
 
@@ -69,7 +62,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/github_dependency/repo
   output_dependencies_json: test/collector/github_dependency/dependencies.json
-  compare_available_versions: true
   user_config:
     path: /
 
@@ -77,7 +69,6 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/dist_tags/badger
   output_dependencies_json: test/collector/dist_tags/badger_dependencies.json
-  compare_available_versions: true
   user_config:
     path: /
     settings:
@@ -88,6 +79,5 @@ cases:
   dockerfile: Dockerfile
   repo_contents: test/collector/dist_tags/latest
   output_dependencies_json: test/collector/dist_tags/latest_dependencies.json
-  compare_available_versions: true
   user_config:
     path: /
