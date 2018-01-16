@@ -9,7 +9,7 @@ import { outputActions } from './schema'
 export const act = () => {
   console.log('Acting')
 
-  const schemaFile = fs.readFileSync('/dependencies/schema.json', 'utf8')
+  const schemaFile = fs.readFileSync('/dependencies/input_data.json', 'utf8')
   const schema = JSON.parse(schemaFile)
 
   if (schema.lockfiles) {
