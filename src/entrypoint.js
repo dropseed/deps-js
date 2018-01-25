@@ -27,8 +27,7 @@ if (process.env.SETTING_BOOTSTRAP_COMMAND) {
 
 if (process.env.RUN_AS === 'collector') {
   console.log('Running as collector')
-  const pathGiven = process.argv[2].trim('/')
-  const dependencyPath = path.join('/repo', pathGiven)
+  const dependencyPath = process.argv[2]
   outputPackageJSON(dependencyPath)
   collect(dependencyPath)
 } else if (process.env.RUN_AS === 'actor') {

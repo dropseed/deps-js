@@ -1,13 +1,10 @@
-name: actor-js-npm
-type: actor
-
 cases:
-
 - name: package.json basic
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/basic/base
-  input_dependencies_json: test/actor/basic/input_dependencies.json
-  output_dependencies_json: test/actor/basic/output_dependencies.json
+  input_data_path: test/actor/basic/input_dependencies.json
+  output_data_path: test/actor/basic/output_dependencies.json
   tests:
     - |
         git checkout react-15.5.4-0 && \
@@ -17,16 +14,18 @@ cases:
         diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/redux_final/ ./
 
 - name: package-lock.json
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/package_lock/base
-  input_dependencies_json: test/actor/package_lock/input_dependencies.json
-  output_dependencies_json: test/actor/package_lock/output_dependencies.json
+  input_data_path: test/actor/package_lock/input_dependencies.json
+  output_data_path: test/actor/package_lock/output_dependencies.json
 
 - name: yarn.lock
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/yarn/base
-  input_dependencies_json: test/actor/yarn/input_dependencies.json
-  output_dependencies_json: test/actor/yarn/output_dependencies.json
+  input_data_path: test/actor/yarn/input_dependencies.json
+  output_data_path: test/actor/yarn/output_dependencies.json
   tests:
     - |
         git checkout react-15.5.4-0 && \
@@ -36,22 +35,25 @@ cases:
         diff -x ".git*" -x "node_modules" ${CWD}/test/actor/yarn/redux_final/ ./
 
 - name: yarn.lock with caret and tilde
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/yarn/ranges
-  input_dependencies_json: test/actor/yarn/ranges_input_dependencies.json
-  output_dependencies_json: test/actor/yarn/ranges_output_dependencies.json
+  input_data_path: test/actor/yarn/ranges_input_dependencies.json
+  output_data_path: test/actor/yarn/ranges_output_dependencies.json
 
 - name: package.json subdirectory
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/subdirectory/base
-  input_dependencies_json: test/actor/subdirectory/input_dependencies.json
-  output_dependencies_json: test/actor/subdirectory/output_dependencies.json
+  input_data_path: test/actor/subdirectory/input_dependencies.json
+  output_data_path: test/actor/subdirectory/output_dependencies.json
 
 - name: package.json basic with registry mirror
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/basic/base
-  input_dependencies_json: test/actor/basic/input_dependencies.json
-  output_dependencies_json: test/actor/basic/output_dependencies.json
+  input_data_path: test/actor/basic/input_dependencies.json
+  output_data_path: test/actor/basic/output_dependencies.json
   user_config:
     settings:
       npmrc: |
@@ -67,10 +69,11 @@ cases:
         diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/redux_final/ ./
 
 - name: package.json batch mode
+  type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/basic/base
-  input_dependencies_json: test/actor/basic/input_dependencies.json
-  output_dependencies_json: test/actor/basic/output_dependencies.json
+  input_data_path: test/actor/basic/input_dependencies.json
+  output_data_path: test/actor/basic/output_dependencies.json
   user_config:
     settings:
       batch_mode: true
