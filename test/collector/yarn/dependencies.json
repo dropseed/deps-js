@@ -17590,7 +17590,7 @@
               "caniuse-db": {
                 "constraint": "^1.0.30000634",
                 "installed": {
-                  "name": "1.0.30000789"
+                  "name": "1.0.30000794"
                 },
                 "relationship": "direct"
               },
@@ -19720,7 +19720,7 @@
               "electron-to-chromium": {
                 "constraint": "^1.1.0",
                 "installed": {
-                  "name": "1.3.30"
+                  "name": "1.3.31"
                 },
                 "relationship": "direct"
               },
@@ -20257,7 +20257,7 @@
               "depd": {
                 "constraint": "~1.1.1",
                 "installed": {
-                  "name": "1.1.1"
+                  "name": "1.1.2"
                 },
                 "relationship": "direct"
               },
@@ -20447,14 +20447,14 @@
               "caniuse-db": {
                 "constraint": "^1.0.30000639",
                 "installed": {
-                  "name": "1.0.30000789"
+                  "name": "1.0.30000794"
                 },
                 "relationship": "direct"
               },
               "electron-to-chromium": {
                 "constraint": "^1.2.7",
                 "installed": {
-                  "name": "1.3.30"
+                  "name": "1.3.31"
                 },
                 "relationship": "direct"
               }
@@ -20607,7 +20607,7 @@
               "caniuse-db": {
                 "constraint": "^1.0.30000529",
                 "installed": {
-                  "name": "1.0.30000789"
+                  "name": "1.0.30000794"
                 },
                 "relationship": "direct"
               },
@@ -20635,7 +20635,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000789"
+              "name": "1.0.30000794"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -20896,22 +20896,22 @@
             "constraint": "^0.1.1",
             "dependencies": {
               "marked": {
-                "constraint": "^0.3.6",
+                "constraint": "^0.3.12",
                 "installed": {
                   "name": "0.3.12"
                 },
                 "relationship": "direct"
               },
               "marked-terminal": {
-                "constraint": "^1.6.2",
+                "constraint": "^2.0.0",
                 "installed": {
-                  "name": "1.7.0"
+                  "name": "2.0.0"
                 },
                 "relationship": "direct"
               }
             },
             "installed": {
-              "name": "0.1.4"
+              "name": "0.1.7"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -21126,9 +21126,9 @@
             "source": "npm"
           },
           "commander": {
-            "constraint": "~2.12.1",
+            "constraint": "~2.13.0",
             "installed": {
-              "name": "2.12.2"
+              "name": "2.13.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -22014,7 +22014,7 @@
               "es5-ext": {
                 "constraint": "^0.10.9",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               }
@@ -22202,7 +22202,7 @@
           "depd": {
             "constraint": "~1.1.1",
             "installed": {
-              "name": "1.1.1"
+              "name": "1.1.2"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -22428,27 +22428,10 @@
             "relationship": "transitive",
             "source": "npm"
           },
-          "electron-releases": {
-            "constraint": "^2.1.0",
-            "installed": {
-              "name": "2.1.0"
-            },
-            "relationship": "transitive",
-            "source": "npm"
-          },
           "electron-to-chromium": {
             "constraint": "^1.2.7",
-            "dependencies": {
-              "electron-releases": {
-                "constraint": "^2.1.0",
-                "installed": {
-                  "name": "2.1.0"
-                },
-                "relationship": "direct"
-              }
-            },
             "installed": {
-              "name": "1.3.30"
+              "name": "1.3.31"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -22472,7 +22455,7 @@
           "encodeurl": {
             "constraint": "~1.0.1",
             "installed": {
-              "name": "1.0.1"
+              "name": "1.0.2"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -22571,7 +22554,7 @@
             "constraint": "~0.10.14",
             "dependencies": {
               "es6-iterator": {
-                "constraint": "~2.0.1",
+                "constraint": "~2.0.3",
                 "installed": {
                   "name": "2.0.3"
                 },
@@ -22586,13 +22569,13 @@
               }
             },
             "installed": {
-              "name": "0.10.37"
+              "name": "0.10.38"
             },
             "relationship": "transitive",
             "source": "npm"
           },
           "es6-iterator": {
-            "constraint": "~2.0.1",
+            "constraint": "~2.0.3",
             "dependencies": {
               "d": {
                 "constraint": "1",
@@ -22604,7 +22587,7 @@
               "es5-ext": {
                 "constraint": "^0.10.35",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               },
@@ -22635,7 +22618,7 @@
               "es5-ext": {
                 "constraint": "~0.10.14",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               },
@@ -22687,7 +22670,7 @@
               "es5-ext": {
                 "constraint": "~0.10.14",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               },
@@ -22732,7 +22715,7 @@
               "es5-ext": {
                 "constraint": "~0.10.14",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               }
@@ -22756,7 +22739,7 @@
               "es5-ext": {
                 "constraint": "^0.10.14",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               },
@@ -22998,7 +22981,7 @@
               "is-resolvable": {
                 "constraint": "^1.0.0",
                 "installed": {
-                  "name": "1.0.1"
+                  "name": "1.1.0"
                 },
                 "relationship": "direct"
               },
@@ -23488,7 +23471,7 @@
               "es5-ext": {
                 "constraint": "~0.10.14",
                 "installed": {
-                  "name": "0.10.37"
+                  "name": "0.10.38"
                 },
                 "relationship": "direct"
               }
@@ -23653,14 +23636,14 @@
               "depd": {
                 "constraint": "~1.1.1",
                 "installed": {
-                  "name": "1.1.1"
+                  "name": "1.1.2"
                 },
                 "relationship": "direct"
               },
               "encodeurl": {
                 "constraint": "~1.0.1",
                 "installed": {
-                  "name": "1.0.1"
+                  "name": "1.0.2"
                 },
                 "relationship": "direct"
               },
@@ -24163,7 +24146,7 @@
               "encodeurl": {
                 "constraint": "~1.0.1",
                 "installed": {
-                  "name": "1.0.1"
+                  "name": "1.0.2"
                 },
                 "relationship": "direct"
               },
@@ -25148,7 +25131,7 @@
               "uglify-js": {
                 "constraint": "3.3.x",
                 "installed": {
-                  "name": "3.3.5"
+                  "name": "3.3.8"
                 },
                 "relationship": "direct"
               }
@@ -25932,7 +25915,7 @@
           "is-resolvable": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.0.1"
+              "name": "1.1.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -26203,7 +26186,7 @@
               "semver": {
                 "constraint": "^5.3.0",
                 "installed": {
-                  "name": "5.4.1"
+                  "name": "5.5.0"
                 },
                 "relationship": "direct"
               }
@@ -27156,7 +27139,7 @@
           "js-base64": {
             "constraint": "^2.1.9",
             "installed": {
-              "name": "2.4.0"
+              "name": "2.4.2"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -28012,7 +27995,7 @@
             "source": "npm"
           },
           "marked": {
-            "constraint": "^0.3.6",
+            "constraint": "^0.3.12",
             "installed": {
               "name": "0.3.12"
             },
@@ -28020,7 +28003,7 @@
             "source": "npm"
           },
           "marked-terminal": {
-            "constraint": "^1.6.2",
+            "constraint": "^2.0.0",
             "dependencies": {
               "cardinal": {
                 "constraint": "^1.0.0",
@@ -28059,7 +28042,7 @@
               }
             },
             "installed": {
-              "name": "1.7.0"
+              "name": "2.0.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -28545,7 +28528,7 @@
               "stream-http": {
                 "constraint": "^2.3.1",
                 "installed": {
-                  "name": "2.7.2"
+                  "name": "2.8.0"
                 },
                 "relationship": "direct"
               },
@@ -28559,7 +28542,7 @@
               "timers-browserify": {
                 "constraint": "^2.0.2",
                 "installed": {
-                  "name": "2.0.4"
+                  "name": "2.0.6"
                 },
                 "relationship": "direct"
               },
@@ -28604,7 +28587,7 @@
               "cli-usage": {
                 "constraint": "^0.1.1",
                 "installed": {
-                  "name": "0.1.4"
+                  "name": "0.1.7"
                 },
                 "relationship": "direct"
               },
@@ -28632,7 +28615,7 @@
               "semver": {
                 "constraint": "^5.1.0",
                 "installed": {
-                  "name": "5.4.1"
+                  "name": "5.5.0"
                 },
                 "relationship": "direct"
               },
@@ -28698,7 +28681,7 @@
               "rc": {
                 "constraint": "^1.1.7",
                 "installed": {
-                  "name": "1.2.3"
+                  "name": "1.2.4"
                 },
                 "relationship": "direct"
               },
@@ -28719,7 +28702,7 @@
               "semver": {
                 "constraint": "^5.3.0",
                 "installed": {
-                  "name": "5.4.1"
+                  "name": "5.5.0"
                 },
                 "relationship": "direct"
               },
@@ -28788,7 +28771,7 @@
               "semver": {
                 "constraint": "2 || 3 || 4 || 5",
                 "installed": {
-                  "name": "5.4.1"
+                  "name": "5.5.0"
                 },
                 "relationship": "direct"
               },
@@ -30822,7 +30805,7 @@
               }
             },
             "installed": {
-              "name": "1.2.3"
+              "name": "1.2.4"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -31219,7 +31202,7 @@
             "source": "npm"
           },
           "readable-stream": {
-            "constraint": "^2.2.6",
+            "constraint": "^2.3.3",
             "dependencies": {
               "core-util-is": {
                 "constraint": "~1.0.0",
@@ -31838,7 +31821,7 @@
               "uuid": {
                 "constraint": "^3.1.0",
                 "installed": {
-                  "name": "3.1.0"
+                  "name": "3.2.1"
                 },
                 "relationship": "direct"
               }
@@ -32092,7 +32075,7 @@
           "semver": {
             "constraint": "^5.3.0",
             "installed": {
-              "name": "5.4.1"
+              "name": "5.5.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -32110,7 +32093,7 @@
               "depd": {
                 "constraint": "~1.1.1",
                 "installed": {
-                  "name": "1.1.1"
+                  "name": "1.1.2"
                 },
                 "relationship": "direct"
               },
@@ -32124,7 +32107,7 @@
               "encodeurl": {
                 "constraint": "~1.0.1",
                 "installed": {
-                  "name": "1.0.1"
+                  "name": "1.0.2"
                 },
                 "relationship": "direct"
               },
@@ -32263,7 +32246,7 @@
               "encodeurl": {
                 "constraint": "~1.0.1",
                 "installed": {
-                  "name": "1.0.1"
+                  "name": "1.0.2"
                 },
                 "relationship": "direct"
               },
@@ -32428,7 +32411,7 @@
               "uuid": {
                 "constraint": "^3.0.1",
                 "installed": {
-                  "name": "3.1.0"
+                  "name": "3.2.1"
                 },
                 "relationship": "direct"
               }
@@ -32706,7 +32689,7 @@
                 "relationship": "direct"
               },
               "readable-stream": {
-                "constraint": "^2.2.6",
+                "constraint": "^2.3.3",
                 "installed": {
                   "name": "2.3.3"
                 },
@@ -32728,7 +32711,7 @@
               }
             },
             "installed": {
-              "name": "2.7.2"
+              "name": "2.8.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -33178,7 +33161,7 @@
               }
             },
             "installed": {
-              "name": "2.0.4"
+              "name": "2.0.6"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -33574,7 +33557,7 @@
           "uuid": {
             "constraint": "^3.1.0",
             "installed": {
-              "name": "3.1.0"
+              "name": "3.2.1"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -34380,7 +34363,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "709f60e6cb462916321823d20c8dff16"
+        "fingerprint": "d921e2e872ddfec04b05852a5364e8e0"
       }
     }
   },
@@ -34681,6 +34664,9 @@
               },
               {
                 "name": "1.0.17"
+              },
+              {
+                "name": "1.1.0"
               }
             ],
             "constraint": "^0.9.5",
