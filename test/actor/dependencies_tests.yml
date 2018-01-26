@@ -1,5 +1,5 @@
 cases:
-- name: package.json basic
+- name: package.json batch mode
   type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/basic/base
@@ -7,11 +7,9 @@ cases:
   output_data_path: test/actor/basic/output_dependencies.json
   tests:
     - |
-        git checkout react-15.5.4-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/react_final/ ./
-    - |
-        git checkout redux-3.6.0-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/redux_final/ ./
+        git checkout dependencies.io-update-build-0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/final/ ./
+
 
 - name: package-lock.json
   type: actor
@@ -26,13 +24,6 @@ cases:
   repo_contents: test/actor/yarn/base
   input_data_path: test/actor/yarn/input_dependencies.json
   output_data_path: test/actor/yarn/output_dependencies.json
-  tests:
-    - |
-        git checkout react-15.5.4-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/yarn/react_final/ ./
-    - |
-        git checkout redux-3.6.0-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/yarn/redux_final/ ./
 
 - name: yarn.lock with caret and tilde
   type: actor
@@ -62,22 +53,5 @@ cases:
       commit_message_prefix: "deps: "
   tests:
     - |
-        git checkout react-15.5.4-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/react_final/ ./
-    - |
-        git checkout redux-3.6.0-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/redux_final/ ./
-
-- name: package.json batch mode
-  type: actor
-  dockerfile: Dockerfile
-  repo_contents: test/actor/basic/base
-  input_data_path: test/actor/basic/input_dependencies.json
-  output_data_path: test/actor/basic/output_dependencies.json
-  user_config:
-    settings:
-      batch_mode: true
-  tests:
-    - |
         git checkout dependencies.io-update-build-0 && \
-        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/batch_final/ ./
+        diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/final/ ./
