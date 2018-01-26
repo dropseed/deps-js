@@ -54,12 +54,7 @@ const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
 }
 
 export const updateManifest = (manifestPath, manifest) => {
-  const JOB_ID = process.env.JOB_ID
-  const BATCH_MODE = process.env.SETTING_BATCH_MODE == 'true'
   const COMMIT_MESSAGE_PREFIX = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
-
-  const batchPrBranchName = `dependencies.io-update-build-${JOB_ID}`
-  if (BATCH_MODE) createGitBranch(batchPrBranchName)
 
   const dependencyPath = path.join('/repo', path.dirname(manifestPath))
   const lockfile = new Lockfile(dependencyPath)
@@ -69,16 +64,11 @@ export const updateManifest = (manifestPath, manifest) => {
   const nodeModulesPath = path.join(dependencyPath, 'node_modules')
   const tmpNodeModulesPath = path.join('/tmp', nodeModulesPath)
 
-  Object.entries(manifest.current.dependencies).forEach(([name, dependency]) => {
-    console.log(dependency)
+  Object.entries(manifest.updated.dependencies).forEach(([name, dependency]) => {
+    const installed = manifest.current.dependencies[name].constraint
+    const update = dependency.constraint
 
-    const installed = dependency.installed.name
-
-    const version = dependency.available[0].name
-    const branchName = `${name}-${version}-${JOB_ID}`
-    const msg = `${COMMIT_MESSAGE_PREFIX}Update ${name} from ${installed} to ${version}`
-
-    if (!BATCH_MODE) createGitBranch(branchName)
+    const msg = `${COMMIT_MESSAGE_PREFIX}Update ${name} from ${installed} to ${update}`
 
     if (fs.existsSync(nodeModulesPath) && !fs.existsSync(tmpNodeModulesPath)) {
       // install everything the first time, then keep a copy of those node_modules
@@ -102,7 +92,7 @@ export const updateManifest = (manifestPath, manifest) => {
       shell.cp('-R', tmpNodeModulesPath, nodeModulesPath)
     }
 
-    const updatedConstraint = updatePackageJSONDependencyVersion(packageJSONPath, name, version)
+    const updatedConstraint = updatePackageJSONDependencyVersion(packageJSONPath, name, update)
 
     if (lockfile.existed) {
       if (lockfile.isYarnLock()) {
@@ -121,49 +111,5 @@ export const updateManifest = (manifestPath, manifest) => {
 
     shell.exec(`git add ${packageJSONPath}`)
     shell.exec(`git commit -m "${msg}"`)
-
-    // fail if there are other unchanged files
-    if (shell.exec('git status --porcelain').stdout.trim() != '') {
-      throw "Git repo is dirty, there are changes that aren't accounted for\n" +
-        shell.exec('git status').stdout
-    }
-
-    if (!manifest.updated) manifest.updated = {dependencies: {}}
-    manifest.updated.dependencies[name] = {
-      installed: {name: version},
-      constraint: updatedConstraint,
-      source: dependency.source,
-    }
-
-    if (!BATCH_MODE) {
-      pushGitBranch(branchName)
-
-      const results = {
-        manifests: {
-          [manifestPath]: {
-            current: {
-              dependencies: {
-                [name]: dependency
-              }
-            },
-            updated: {
-              dependencies: {
-                [name]: manifest.updated.dependencies[name]
-              }
-            }
-          }
-        }
-      }
-      shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
-    }
   })
-
-  if (BATCH_MODE) {
-    pushGitBranch(batchPrBranchName)
-
-    const resultSchema = {
-      manifests: { [manifestPath]: manifest },
-    }
-    shell.exec(shellEscape(['pullrequest', '--branch', batchPrBranchName, '--dependencies-json', JSON.stringify(resultSchema)]))
-  }
 }

@@ -9,25 +9,13 @@ import { outputActions } from './schema'
 export const act = () => {
   console.log('Acting')
 
-  const schemaFile = fs.readFileSync('/dependencies/input_data.json', 'utf8')
-  const schema = JSON.parse(schemaFile)
+  const data = JSON.parse(fs.readFileSync('/dependencies/input_data.json', 'utf8'))
 
-  if (schema.lockfiles) {
+  const branchName = `deps/update-job-${process.env.JOB_ID}`
+  createGitBranch(branchName)
 
-    // if batch mode do all lockfiles in 1 PR
-    const batchMode = process.env.SETTING_BATCH_MODE == 'true'
-    const batchModeBranchName = `update-lockfiles-build-${process.env.JOB_ID}`
-    if (batchMode) createGitBranch(batchModeBranchName)
-
-    Object.entries(schema.lockfiles).forEach(([path, schema]) => {
-      console.log(path)
-      console.log(schema)
-
-      // TODO needs to have some lockfile identifier -- actor could do multiple
-      const branchName = `lockfile-update-build-${process.env.JOB_ID}`
-
-      if (!batchMode) createGitBranch(branchName)
-
+  if (data.lockfiles) {
+    Object.entries(data.lockfiles).forEach(([path, lockfileData]) => {
       const lockfile = new Lockfile(path)
       lockfile.update()
 
@@ -36,41 +24,16 @@ export const act = () => {
       const commitMessagePrefix = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
       shell.exec(`git commit -m "${commitMessagePrefix}Update ${lockfile.path}"`)
 
-      if (!batchMode) {
-        pushGitBranch(branchName)
-
-        // send exactly what we updated, in case it changed from when originally collected
-        schema.updated = lockfile.convertToLockfileSchema()
-        const results = {
-          lockfiles: {
-            [lockfile.path]: schema
-          }
-        }
-        shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
-      }
-
-      // if lockfile.can_be_updated
-      // doesn't need all of the schema, can parse it if need be and
-      // will contain the actual changes made
-
-      // never have to worry about re-running this? or yes we do,
-      // don't want to open/close a PR for the exact same changes
-      // MD5 fingerprint of lockfile change that was sent? then collector can
-      // skip if not different?
-    })
-
-    if (batchMode) {
-      pushGitBranch(batchModeBranchName)
-      const results = {
-        lockfiles: schema.lockfiles
-      }
-      shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(results)]))
-    }
-  }
-
-  if (schema.manifests) {
-    Object.entries(schema.manifests).forEach(([path, schema]) => {
-      updateManifest(path, schema)
+      lockfileData.updated = lockfile.convertToLockfileSchema()
     })
   }
+
+  if (data.manifests) {
+    Object.entries(data.manifests).forEach(([path, manifestData]) => {
+      updateManifest(path, manifestData)
+    })
+  }
+
+  pushGitBranch(branchName)
+  shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(data)]))
 }

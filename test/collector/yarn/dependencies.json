@@ -17590,7 +17590,7 @@
               "caniuse-db": {
                 "constraint": "^1.0.30000634",
                 "installed": {
-                  "name": "1.0.30000794"
+                  "name": "1.0.30000795"
                 },
                 "relationship": "direct"
               },
@@ -20447,7 +20447,7 @@
               "caniuse-db": {
                 "constraint": "^1.0.30000639",
                 "installed": {
-                  "name": "1.0.30000794"
+                  "name": "1.0.30000795"
                 },
                 "relationship": "direct"
               },
@@ -20607,7 +20607,7 @@
               "caniuse-db": {
                 "constraint": "^1.0.30000529",
                 "installed": {
-                  "name": "1.0.30000794"
+                  "name": "1.0.30000795"
                 },
                 "relationship": "direct"
               },
@@ -20635,7 +20635,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000794"
+              "name": "1.0.30000795"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -22333,7 +22333,7 @@
           "domain-browser": {
             "constraint": "^1.1.1",
             "installed": {
-              "name": "1.1.7"
+              "name": "1.2.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -28458,7 +28458,7 @@
               "domain-browser": {
                 "constraint": "^1.1.1",
                 "installed": {
-                  "name": "1.1.7"
+                  "name": "1.2.0"
                 },
                 "relationship": "direct"
               },
@@ -32902,7 +32902,7 @@
           "symbol-observable": {
             "constraint": "^1.0.3",
             "installed": {
-              "name": "1.1.0"
+              "name": "1.2.0"
             },
             "relationship": "transitive",
             "source": "npm"
@@ -34363,7 +34363,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "d921e2e872ddfec04b05852a5364e8e0"
+        "fingerprint": "475b3deb3c2981d60159173f438ee080"
       }
     }
   },

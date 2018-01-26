@@ -256,6 +256,12 @@
           "updated": {
             "dependencies": {
               "react": {
+                "available": [
+                  {
+                    "content": "This won't break it! Or `this`",
+                    "name": "15.5.4"
+                  }
+                ],
                 "constraint": "15.5.4",
                 "installed": {
                   "name": "15.5.4"
@@ -263,6 +269,11 @@
                 "source": "npm"
               },
               "redux": {
+                "available": [
+                  {
+                    "name": "3.6.0"
+                  }
+                ],
                 "constraint": "3.6.0",
                 "installed": {
                   "name": "3.6.0"
