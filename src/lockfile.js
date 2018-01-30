@@ -184,7 +184,7 @@ export class Lockfile {
       dependenciesForSchema[info.name] = {
         installed: { name: info.version },
         constraint: dep.replace(`${info.name}@`, ''), // simply keep the comma separated ranges without the name@ parts
-        relationship: isDirectDependency ? 'direct' : 'transitive',
+        is_transitive: !isDirectDependency,
         source: info.registry,
       }
 
@@ -255,7 +255,6 @@ export class Lockfile {
       availableVersions = availableVersions.map(v => ({ name: v }))
 
       dependenciesForSchema[info.name] = {
-        installed: { name: info.version },
         constraint: constraint,
         available: availableVersions,
         source:
@@ -313,7 +312,7 @@ export class Lockfile {
         dependenciesForSchema[name] = {
           installed: { name: data.version },
           // constraint: '',  // don't have constraint info readily available, doesn't necessarily impact installed versions anyway
-          relationship: isDirectDependency ? 'direct' : 'transitive',
+          is_transitive: !isDirectDependency,
           source: data.resolved && !data.resolved.startsWith('https://registry.npmjs.org/')
             ? data.resolved
             : 'npm',
@@ -357,7 +356,6 @@ export class Lockfile {
       availableVersions = availableVersions.map(v => ({ name: v }))
 
       dependenciesForSchema[name] = {
-        installed: { name: data.version },
         constraint: constraint,
         available: availableVersions,
         source: data.resolved.startsWith('https://registry.npmjs.org/')

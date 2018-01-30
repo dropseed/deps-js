@@ -1,8 +1,14 @@
 {
     "lockfiles": {
         "yarn.lock": {
-            "current": {},
-            "updated": {}
+            "current": {
+                "fingerprint": "test",
+                "dependencies": {}
+            },
+            "updated": {
+                "fingerprint": "test",
+                "dependencies": {}
+            }
         }
     },
     "manifests": {
@@ -11,9 +17,6 @@
                 "dependencies": {
                     "react": {
                         "constraint": "15.5.3",
-                        "installed": {
-                            "name": "15.5.3"
-                        },
                         "available": [
                             {
                                 "name": "15.5.4",
@@ -24,9 +27,6 @@
                     },
                     "redux": {
                         "constraint": "3.5.0",
-                        "installed": {
-                            "name": "3.5.0"
-                        },
                         "available": [
                             {
                                 "name": "3.6.0"
@@ -40,9 +40,6 @@
                 "dependencies": {
                     "react": {
                         "constraint": "15.5.4",
-                        "installed": {
-                            "name": "15.5.4"
-                        },
                         "available": [
                             {
                                 "name": "15.5.4",
@@ -53,9 +50,6 @@
                     },
                     "redux": {
                         "constraint": "3.6.0",
-                        "installed": {
-                            "name": "3.6.0"
-                        },
                         "available": [
                             {
                                 "name": "3.6.0"

@@ -4,8 +4,8 @@
       "lockfiles": {
         "yarn.lock": {
           "current": {
-            "dependencies": null,
-            "fingerprint": ""
+            "dependencies": {},
+            "fingerprint": "test"
           },
           "updated": {
             "dependencies": {
@@ -14,7 +14,7 @@
                 "installed": {
                   "name": "2.0.6"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "core-js": {
@@ -22,7 +22,7 @@
                 "installed": {
                   "name": "1.2.7"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "create-react-class": {
@@ -30,7 +30,7 @@
                 "installed": {
                   "name": "15.6.2"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "encoding": {
@@ -38,7 +38,7 @@
                 "installed": {
                   "name": "0.1.12"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "fbjs": {
@@ -46,7 +46,7 @@
                 "installed": {
                   "name": "0.8.16"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "iconv-lite": {
@@ -54,7 +54,7 @@
                 "installed": {
                   "name": "0.4.19"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "is-stream": {
@@ -62,7 +62,7 @@
                 "installed": {
                   "name": "1.1.0"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "isomorphic-fetch": {
@@ -70,7 +70,7 @@
                 "installed": {
                   "name": "2.2.1"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "js-tokens": {
@@ -78,7 +78,7 @@
                 "installed": {
                   "name": "3.0.2"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "lodash": {
@@ -86,7 +86,7 @@
                 "installed": {
                   "name": "4.17.4"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "lodash-es": {
@@ -94,7 +94,7 @@
                 "installed": {
                   "name": "4.17.4"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "loose-envify": {
@@ -102,7 +102,7 @@
                 "installed": {
                   "name": "1.3.1"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "node-fetch": {
@@ -110,7 +110,7 @@
                 "installed": {
                   "name": "1.7.3"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "object-assign": {
@@ -118,7 +118,7 @@
                 "installed": {
                   "name": "4.1.1"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "promise": {
@@ -126,7 +126,7 @@
                 "installed": {
                   "name": "7.3.1"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "prop-types": {
@@ -134,7 +134,7 @@
                 "installed": {
                   "name": "15.6.0"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "react": {
@@ -142,7 +142,6 @@
                 "installed": {
                   "name": "15.6.2"
                 },
-                "relationship": "direct",
                 "source": "npm"
               },
               "redux": {
@@ -150,7 +149,6 @@
                 "installed": {
                   "name": "3.5.2"
                 },
-                "relationship": "direct",
                 "source": "npm"
               },
               "setimmediate": {
@@ -158,7 +156,7 @@
                 "installed": {
                   "name": "1.0.5"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "symbol-observable": {
@@ -166,7 +164,7 @@
                 "installed": {
                   "name": "0.2.4"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "ua-parser-js": {
@@ -174,7 +172,7 @@
                 "installed": {
                   "name": "0.7.17"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               },
               "whatwg-fetch": {
@@ -182,7 +180,7 @@
                 "installed": {
                   "name": "2.0.3"
                 },
-                "relationship": "transitive",
+                "is_transitive": true,
                 "source": "npm"
               }
             },

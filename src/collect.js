@@ -37,7 +37,7 @@ export const collect = dependencyPath => {
     }
 
     // point the manifest entry to this lockfile
-    output.manifests[manifestPath].current.lockfile_path = lockfilePath
+    output.manifests[manifestPath].lockfile_path = lockfilePath
   }
 
   outputDependencies(output)

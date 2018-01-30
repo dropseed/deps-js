@@ -16,9 +16,6 @@
               }
             ],
             "constraint": "15.5.8",
-            "installed": {
-              "name": "15.5.8"
-            },
             "source": "npm"
           },
           "react": {
@@ -124,9 +121,6 @@
               }
             ],
             "constraint": "15.5.4",
-            "installed": {
-              "name": "15.5.4"
-            },
             "source": "npm"
           },
           "react-dom": {
@@ -232,9 +226,6 @@
               }
             ],
             "constraint": "15.5.4",
-            "installed": {
-              "name": "15.5.4"
-            },
             "source": "npm"
           },
           "react-redux": {
@@ -247,9 +238,6 @@
               }
             ],
             "constraint": "5.0.4",
-            "installed": {
-              "name": "5.0.4"
-            },
             "source": "npm"
           },
           "react-scripts": {
@@ -343,9 +331,6 @@
               }
             ],
             "constraint": "0.9.5",
-            "installed": {
-              "name": "0.9.5"
-            },
             "source": "npm"
           },
           "redux": {
@@ -361,9 +346,6 @@
               }
             ],
             "constraint": "3.6.0",
-            "installed": {
-              "name": "3.6.0"
-            },
             "source": "npm"
           }
         }

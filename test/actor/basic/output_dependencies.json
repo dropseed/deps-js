@@ -13,9 +13,6 @@
                   }
                 ],
                 "constraint": "15.5.3",
-                "installed": {
-                  "name": "15.5.3"
-                },
                 "source": "npm"
               },
               "redux": {
@@ -25,9 +22,6 @@
                   }
                 ],
                 "constraint": "3.5.0",
-                "installed": {
-                  "name": "3.5.0"
-                },
                 "source": "npm"
               }
             }
@@ -42,9 +36,6 @@
                   }
                 ],
                 "constraint": "15.5.4",
-                "installed": {
-                  "name": "15.5.4"
-                },
                 "source": "npm"
               },
               "redux": {
@@ -54,9 +45,6 @@
                   }
                 ],
                 "constraint": "3.6.0",
-                "installed": {
-                  "name": "3.6.0"
-                },
                 "source": "npm"
               }
             }

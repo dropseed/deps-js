@@ -1,8 +1,14 @@
 {
     "lockfiles": {
         "yarn.lock": {
-            "current": {},
-            "updated": {}
+            "current": {
+                "fingerprint": "test",
+                "dependencies": {}
+            },
+            "updated": {
+                "fingerprint": "test",
+                "dependencies": {}
+            }
         }
     }
 }

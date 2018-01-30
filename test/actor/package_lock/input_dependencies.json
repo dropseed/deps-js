@@ -1,8 +1,14 @@
 {
     "lockfiles": {
         "package-lock.json": {
-            "current": {},
-            "updated": {}
+            "current": {
+                "fingerprint": "test",
+                "dependencies": {}
+            },
+            "updated": {
+                "fingerprint": "test",
+                "dependencies": {}
+            }
         }
     }
 }
