@@ -35,5 +35,7 @@ export const act = () => {
   }
 
   pushGitBranch(branchName)
-  shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', JSON.stringify(data)]))
+  const dependenciesJson = '/tmp/dependencies.json'
+  fs.writeFileSync(dependenciesJson, JSON.stringify(data))
+  shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', dependenciesJson]))
 }
