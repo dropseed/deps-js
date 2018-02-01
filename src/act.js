@@ -19,7 +19,7 @@ export const act = () => {
       const lockfile = new Lockfile(path)
       lockfile.update()
 
-      // any reason not to commit everything changed?
+      // commit everything that was changed (scripts may have updated other files)
       shell.exec(`git add .`)
       const commitMessagePrefix = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
       shell.exec(`git commit -m "${commitMessagePrefix}Update ${lockfile.path}"`)

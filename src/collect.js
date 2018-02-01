@@ -29,6 +29,7 @@ export const collect = dependencyPath => {
       },
     }
 
+    lockfile.generate()  // run 'install' first, so 'update' doesn't complain
     lockfile.update()
     const updatedSchema = lockfile.convertToLockfileSchema()
     if (updatedSchema.fingerprint !== originalSchema.fingerprint) {
