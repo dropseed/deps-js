@@ -96,6 +96,7 @@ export class Lockfile {
   }
 
   updateYarnLock() {
+    this.generateYarnLock()
     shell.exec(`cd ${this.dirPath} && yarn upgrade --ignore-scripts`)
   }
 
