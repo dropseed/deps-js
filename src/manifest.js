@@ -8,7 +8,7 @@ import { Lockfile } from './lockfile'
 import { getPackageJSONPath, pushGitBranch, createGitBranch } from './utils'
 import { outputActions } from './schema'
 
-const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
+const updatePackageJSONDependencyVersion = (packageJSONPath, name, constraint) => {
   const file = fs.readFileSync(packageJSONPath, 'utf8')
   // tries to detect the indentation and falls back to a default if it can't
   const indent = detectIndent(file).indent || '  '
@@ -22,26 +22,12 @@ const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
     'bundledDependencies',
   ]
 
-  let updatedConstraint
-
   depTypes.forEach(t => {
     if (packageJson.hasOwnProperty(t) && packageJson[t].hasOwnProperty(name)) {
-      const currentRange = packageJson[t][name]
-      // get the prefix they were using and keep using it
-      let packageJsonVersionRangeSpecifier = ''
-      if (currentRange.startsWith('^')) {
-        packageJsonVersionRangeSpecifier = '^'
-      } else if (currentRange.startsWith('~')) {
-        packageJsonVersionRangeSpecifier = '~'
-      }
-      // update package.json with the new range
-      const constraint = packageJsonVersionRangeSpecifier + version
       console.log(
         `Updating ${name} to ${constraint} in ${t} of ${packageJSONPath}`
       )
       packageJson[t][name] = constraint
-
-      updatedConstraint = constraint
     }
   })
 
@@ -49,8 +35,6 @@ const updatePackageJSONDependencyVersion = (packageJSONPath, name, version) => {
     packageJSONPath,
     JSON.stringify(packageJson, null, indent) + '\n'
   )
-
-  return updatedConstraint
 }
 
 export const updateManifest = (manifestPath, manifest) => {
@@ -66,9 +50,9 @@ export const updateManifest = (manifestPath, manifest) => {
 
   Object.entries(manifest.updated.dependencies).forEach(([name, dependency]) => {
     const installed = manifest.current.dependencies[name].constraint
-    const update = dependency.constraint
+    const updatedConstraint = dependency.constraint
 
-    const msg = `${COMMIT_MESSAGE_PREFIX}Update ${name} from ${installed} to ${update}`
+    const msg = `${COMMIT_MESSAGE_PREFIX}Update ${name} from ${installed} to ${updatedConstraint}`
 
     if (fs.existsSync(nodeModulesPath) && !fs.existsSync(tmpNodeModulesPath)) {
       // install everything the first time, then keep a copy of those node_modules
@@ -92,7 +76,7 @@ export const updateManifest = (manifestPath, manifest) => {
       shell.cp('-R', tmpNodeModulesPath, nodeModulesPath)
     }
 
-    const updatedConstraint = updatePackageJSONDependencyVersion(packageJSONPath, name, update)
+    updatePackageJSONDependencyVersion(packageJSONPath, name, updatedConstraint)
 
     if (lockfile.existed) {
       if (lockfile.isYarnLock()) {
