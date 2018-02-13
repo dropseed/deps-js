@@ -28,7 +28,7 @@
               "create-react-class": {
                 "constraint": "^15.5.1",
                 "installed": {
-                  "name": "15.6.2"
+                  "name": "15.6.3"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -100,7 +100,7 @@
               "lodash": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.4"
+                  "name": "4.17.5"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -108,7 +108,7 @@
               "lodash-es": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.4"
+                  "name": "4.17.5"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -214,7 +214,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "7b70001fb84f18e776a606be7dcda246"
+            "fingerprint": "ad53685cb2cbd0cd5963a4d9c4daf39c"
           }
         }
       },
