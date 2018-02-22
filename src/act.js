@@ -3,16 +3,13 @@ import shell from 'shelljs'
 import shellEscape from 'shell-escape'
 import { updateManifest } from './manifest'
 import { Lockfile } from './lockfile'
-import { createGitBranch, pushGitBranch } from './utils'
-import { outputActions } from './schema'
 
 export const act = () => {
   console.log('Acting')
 
   const data = JSON.parse(fs.readFileSync('/dependencies/input_data.json', 'utf8'))
 
-  const branchName = `deps/update-job-${process.env.JOB_ID}`
-  createGitBranch(branchName)
+  shell.exec("deps branch")
 
   if (data.lockfiles) {
     Object.entries(data.lockfiles).forEach(([path, lockfileData]) => {
@@ -20,9 +17,7 @@ export const act = () => {
       lockfile.update()
 
       // commit everything that was changed (scripts may have updated other files)
-      shell.exec(`git add .`)
-      const commitMessagePrefix = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
-      shell.exec(`git commit -m "${commitMessagePrefix}Update ${lockfile.path}"`)
+      shell.exec(`deps commit -m "Update ${lockfile.path}" .`)
 
       lockfileData.updated = lockfile.convertToLockfileSchema()
     })
@@ -34,8 +29,7 @@ export const act = () => {
     })
   }
 
-  pushGitBranch(branchName)
   const dependenciesJson = '/tmp/dependencies.json'
   fs.writeFileSync(dependenciesJson, JSON.stringify(data))
-  shell.exec(shellEscape(['pullrequest', '--branch', branchName, '--dependencies-json', dependenciesJson]))
+  shell.exec(shellEscape(['deps', 'pullrequest', dependenciesJson]))
 }

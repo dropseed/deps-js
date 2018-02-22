@@ -8,7 +8,6 @@ import {
   userConstraintForDependency,
   getAvailableVersionsOfDependency,
 } from './dependency'
-import { pathInRepo } from './utils'
 
 export class Lockfile {
   constructor(dependencyPath) {

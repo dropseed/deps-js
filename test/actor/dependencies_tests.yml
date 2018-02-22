@@ -7,7 +7,7 @@ cases:
   output_data_path: test/actor/basic/output_dependencies.json
   tests:
     - |
-        git checkout deps/update-job-0 && \
+        git checkout deps/update-0 && \
         diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/final/ ./
 
 
@@ -53,5 +53,5 @@ cases:
       commit_message_prefix: "deps: "
   tests:
     - |
-        git checkout deps/update-job-0 && \
+        git checkout deps/update-0 && \
         diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/final/ ./

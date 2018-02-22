@@ -20,11 +20,6 @@ if (NPMRC) {
   console.log(NPMRC)
 }
 
-if (process.env.SETTING_BOOTSTRAP_COMMAND) {
-  console.log('Running bootstrap_command before acting on dependencies')
-  shell.exec(process.env.SETTING_BOOTSTRAP_COMMAND)
-}
-
 if (process.env.RUN_AS === 'collector') {
   console.log('Running as collector')
   const dependencyPath = process.argv[2]

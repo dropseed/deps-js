@@ -1,7 +1,8 @@
+import shell from 'shelljs'
+import shellEscape from 'shell-escape'
 import { Lockfile } from './lockfile'
 import { getAvailableVersionsOfDependency } from './dependency'
-import { outputDependencies } from './schema'
-import { getPackageJSONPath, pathInRepo } from './utils'
+import { getPackageJSONPath } from './utils'
 
 export const collect = dependencyPath => {
   const lockfile = new Lockfile(dependencyPath)
@@ -11,7 +12,7 @@ export const collect = dependencyPath => {
     // TODO still need to handle no dependencies scenario here
   }
 
-  const manifestPath = pathInRepo(getPackageJSONPath(dependencyPath))
+  const manifestPath = getPackageJSONPath(dependencyPath)
 
   let output = {
     manifests: {
@@ -21,10 +22,9 @@ export const collect = dependencyPath => {
 
   if (lockfile.existed) {
     const originalSchema = lockfile.convertToLockfileSchema()
-    const lockfilePath = pathInRepo(lockfile.path)
 
     output.lockfiles = {
-      [lockfilePath]: {
+      [lockfile.path]: {
         current: originalSchema,
       },
     }
@@ -40,5 +40,7 @@ export const collect = dependencyPath => {
     output.manifests[manifestPath].lockfile_path = lockfilePath
   }
 
-  outputDependencies(output)
+  const dependenciesJson = '/tmp/collected.json'
+  fs.writeFileSync(dependenciesJson, JSON.stringify(data))
+  shell.exec(shellEscape(['deps', 'collect', dependenciesJson]))
 }

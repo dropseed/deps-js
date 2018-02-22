@@ -5,8 +5,7 @@ import shellEscape from 'shell-escape'
 import detectIndent from 'detect-indent'
 
 import { Lockfile } from './lockfile'
-import { getPackageJSONPath, pushGitBranch, createGitBranch } from './utils'
-import { outputActions } from './schema'
+import { getPackageJSONPath } from './utils'
 
 const updatePackageJSONDependencyVersion = (packageJSONPath, name, constraint) => {
   const file = fs.readFileSync(packageJSONPath, 'utf8')
@@ -38,9 +37,7 @@ const updatePackageJSONDependencyVersion = (packageJSONPath, name, constraint) =
 }
 
 export const updateManifest = (manifestPath, manifest) => {
-  const COMMIT_MESSAGE_PREFIX = process.env.SETTING_COMMIT_MESSAGE_PREFIX || ''
-
-  const dependencyPath = path.join('/repo', path.dirname(manifestPath))
+  const dependencyPath = path.dirname(manifestPath)
   const lockfile = new Lockfile(dependencyPath)
 
   const packageJSONPath = getPackageJSONPath(dependencyPath)
@@ -52,7 +49,7 @@ export const updateManifest = (manifestPath, manifest) => {
     const installed = manifest.current.dependencies[name].constraint
     const updatedConstraint = dependency.constraint
 
-    const msg = `${COMMIT_MESSAGE_PREFIX}Update ${name} from ${installed} to ${updatedConstraint}`
+    const msg = `Update ${name} from ${installed} to ${updatedConstraint}`
 
     if (fs.existsSync(nodeModulesPath) && !fs.existsSync(tmpNodeModulesPath)) {
       // install everything the first time, then keep a copy of those node_modules
@@ -93,7 +90,6 @@ export const updateManifest = (manifestPath, manifest) => {
     // remove node_modules if they exist
     shell.rm('-rf', nodeModulesPath)
 
-    shell.exec(`git add ${packageJSONPath}`)
-    shell.exec(`git commit -m "${msg}"`)
+    shell.exec(`deps commit -m "${msg}" ${packageJSONPath}`)
   })
 }

@@ -4,195 +4,195 @@
       "lockfiles": {
         "package-lock.json": {
           "current": {
-            "dependencies": {},
+            "dependencies": {}, 
             "fingerprint": "test"
-          },
+          }, 
           "updated": {
             "dependencies": {
               "asap": {
                 "installed": {
                   "name": "https://registry.npmjs.org/asap/-/asap-2.0.5.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "core-js": {
                 "installed": {
                   "name": "https://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "create-react-class": {
                 "installed": {
                   "name": "https://registry.npmjs.org/create-react-class/-/create-react-class-15.5.3.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "encoding": {
                 "installed": {
                   "name": "https://registry.npmjs.org/encoding/-/encoding-0.1.12.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "fbjs": {
                 "installed": {
                   "name": "https://registry.npmjs.org/fbjs/-/fbjs-0.8.12.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "hoist-non-react-statics": {
                 "installed": {
                   "name": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "iconv-lite": {
                 "installed": {
                   "name": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.17.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "invariant": {
                 "installed": {
                   "name": "https://registry.npmjs.org/invariant/-/invariant-2.2.2.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "is-stream": {
                 "installed": {
                   "name": "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "isomorphic-fetch": {
                 "installed": {
                   "name": "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "js-tokens": {
                 "installed": {
                   "name": "https://registry.npmjs.org/js-tokens/-/js-tokens-3.0.1.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "lodash": {
                 "installed": {
                   "name": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "lodash-es": {
                 "installed": {
                   "name": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.4.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "loose-envify": {
                 "installed": {
                   "name": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.3.1.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "node-fetch": {
                 "installed": {
                   "name": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.7.1.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "object-assign": {
                 "installed": {
                   "name": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "promise": {
                 "installed": {
                   "name": "https://registry.npmjs.org/promise/-/promise-7.1.1.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "prop-types": {
                 "installed": {
                   "name": "https://registry.npmjs.org/prop-types/-/prop-types-15.5.10.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "react": {
                 "installed": {
                   "name": "15.6.2"
-                },
+                }, 
                 "source": "npm"
-              },
+              }, 
               "react-dom": {
                 "installed": {
                   "name": "15.6.2"
-                },
+                }, 
                 "source": "npm"
-              },
+              }, 
               "react-redux": {
                 "installed": {
                   "name": "https://registry.npmjs.org/react-redux/-/react-redux-5.0.4.tgz"
-                },
+                }, 
                 "source": "npm"
-              },
+              }, 
               "redux": {
                 "installed": {
                   "name": "https://registry.npmjs.org/redux/-/redux-3.5.0.tgz"
-                },
+                }, 
                 "source": "npm"
-              },
+              }, 
               "setimmediate": {
                 "installed": {
                   "name": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "symbol-observable": {
                 "installed": {
                   "name": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-0.2.4.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "ua-parser-js": {
                 "installed": {
                   "name": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.12.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
-              },
+              }, 
               "whatwg-fetch": {
                 "installed": {
                   "name": "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz"
-                },
-                "is_transitive": true,
+                }, 
+                "is_transitive": true, 
                 "source": "npm"
               }
-            },
+            }, 
             "fingerprint": "1e79581e5f5fce417fd59474a08ee958"
           }
         }
       }
-    },
+    }, 
     "metadata": {
       "foo": "bar"
     }
