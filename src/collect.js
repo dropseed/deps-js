@@ -34,11 +34,11 @@ export const collect = dependencyPath => {
     const updatedSchema = lockfile.convertToLockfileSchema()
     if (updatedSchema.fingerprint !== originalSchema.fingerprint) {
       // only include in output if the file actually changed
-      output.lockfiles[lockfilePath].updated = updatedSchema
+      output.lockfiles[lockfile.path].updated = updatedSchema
     }
 
     // point the manifest entry to this lockfile
-    output.manifests[manifestPath].lockfile_path = lockfilePath
+    output.manifests[manifestPath].lockfile_path = lockfile.path
   }
 
   const dependenciesJson = '/tmp/collected.json'
