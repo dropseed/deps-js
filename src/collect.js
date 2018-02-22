@@ -1,3 +1,4 @@
+import fs from 'fs'
 import shell from 'shelljs'
 import shellEscape from 'shell-escape'
 import { Lockfile } from './lockfile'
@@ -41,6 +42,6 @@ export const collect = dependencyPath => {
   }
 
   const dependenciesJson = '/tmp/collected.json'
-  fs.writeFileSync(dependenciesJson, JSON.stringify(data))
+  fs.writeFileSync(dependenciesJson, JSON.stringify(output))
   shell.exec(shellEscape(['deps', 'collect', dependenciesJson]))
 }
