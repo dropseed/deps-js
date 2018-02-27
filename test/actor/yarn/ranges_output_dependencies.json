@@ -132,7 +132,7 @@
               "prop-types": {
                 "constraint": "^15.5.10", 
                 "installed": {
-                  "name": "15.6.0"
+                  "name": "15.6.1"
                 }, 
                 "is_transitive": true, 
                 "source": "npm"
@@ -184,7 +184,7 @@
                 "source": "npm"
               }
             }, 
-            "fingerprint": "a7042138535690fa52d2609581fc7887"
+            "fingerprint": "fa1602575db4dfdbc0d5c41aaea2d0a5"
           }
         }
       }
