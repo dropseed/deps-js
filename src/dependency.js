@@ -39,7 +39,10 @@ export const getAvailableVersionsOfDependency = (name, constraint) => {
   }
 
   // only return versions greater than the current constraint covers
-  available = available.filter(v => semver.gtr(v, constraint))
+  // (if the 'constraint' isn't a git repo or something like that)
+  if (semver.validRange(constraint)) {
+    available = available.filter(v => semver.gtr(v, constraint))
+  }
 
   return available
 }
