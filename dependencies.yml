@@ -1,0 +1,4 @@
+version: 2
+collectors:
+- type: dependencies-component
+- type: js
