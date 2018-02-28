@@ -1,5 +1,5 @@
 cases:
-- name: package.json batch mode
+- name: package.json
   type: actor
   dockerfile: Dockerfile
   repo_contents: test/actor/basic/base
@@ -9,7 +9,6 @@ cases:
     - |
         git checkout deps/update-0 && \
         diff -x ".git*" -x "node_modules" ${CWD}/test/actor/basic/final/ ./
-
 
 - name: package-lock.json
   type: actor

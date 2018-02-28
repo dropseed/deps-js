@@ -3,93 +3,133 @@ import fs from 'fs'
 import shell from 'shelljs'
 import shellEscape from 'shell-escape'
 import detectIndent from 'detect-indent'
+import flatten from 'flatten'
+import glob from 'glob'
+import npa from 'npm-package-arg'
 
 import { Lockfile } from './lockfile'
-import { getPackageJSONPath } from './utils'
+import { dependencyTypesToCollect } from './settings'
+import { getAvailableVersionsOfDependency } from './dependency'
 
-const updatePackageJSONDependencyVersion = (packageJSONPath, name, constraint) => {
-  const file = fs.readFileSync(packageJSONPath, 'utf8')
-  // tries to detect the indentation and falls back to a default if it can't
-  const indent = detectIndent(file).indent || '  '
-  const packageJson = JSON.parse(file)
+export class Manifest {
 
-  const depTypes = [
-    'dependencies',
-    'devDependencies',
-    'peerDependencies',
-    'optionalDependencies',
-    'bundledDependencies',
-  ]
+  static manifestsInPath(dependencyPath) {
+    const rootManifest = new Manifest(dependencyPath)
+    return [rootManifest, ...rootManifest.getAdditionalManifests()]
+  }
 
-  depTypes.forEach(t => {
-    if (packageJson.hasOwnProperty(t) && packageJson[t].hasOwnProperty(name)) {
-      console.log(
-        `Updating ${name} to ${constraint} in ${t} of ${packageJSONPath}`
-      )
-      packageJson[t][name] = constraint
+  constructor(dependencyPath) {
+    console.log('Loading manifest from ' + dependencyPath)
+
+    if (fs.lstatSync(dependencyPath).isDirectory()) {
+      this.dirPath = dependencyPath
+      this.path = path.join(this.dirPath, 'package.json')
+    } else {
+      this.dirPath = path.dirname(dependencyPath)
+      this.path = dependencyPath
     }
-  })
 
-  fs.writeFileSync(
-    packageJSONPath,
-    JSON.stringify(packageJson, null, indent) + '\n'
-  )
-}
+    this.contents = require(path.resolve(this.path))
+    console.log(JSON.stringify(this.contents, null, 2))
+  }
 
-export const updateManifest = (manifestPath, manifest) => {
-  const dependencyPath = path.dirname(manifestPath)
-  const lockfile = new Lockfile(dependencyPath)
+  constraintForDependency(name) {
+    const types = dependencyTypesToCollect()
+    for (var i = 0; i < types.length; i++) {
+      if (types[i] in this.contents && name in this.contents[types[i]]) {
+        return this.contents[types[i]][name]
+      }
+    }
+  }
 
-  const packageJSONPath = getPackageJSONPath(dependencyPath)
+  convertToSchema() {
+    let dependencies = {}
 
-  const nodeModulesPath = path.join(dependencyPath, 'node_modules')
-  const tmpNodeModulesPath = path.join('/tmp', nodeModulesPath)
+    dependencyTypesToCollect().forEach(dt => {
+      if (dt in this.contents) {
+        Object.entries(this.contents[dt]).forEach(([name, constraint]) => {
 
-  Object.entries(manifest.updated.dependencies).forEach(([name, dependency]) => {
-    const installed = manifest.current.dependencies[name].constraint
-    const updatedConstraint = dependency.constraint
+          const availableVersions = getAvailableVersionsOfDependency(name, constraint).map(v => ({ name: v }))
+          const source = this.sourceForDependency(name, constraint)
 
-    const msg = `Update ${name} from ${installed} to ${updatedConstraint}`
+          dependencies[name] = {
+            'constraint': constraint,
+            'source': source,
+            'available': availableVersions,
+          }
+        })
+      }
+    })
 
-    if (fs.existsSync(nodeModulesPath) && !fs.existsSync(tmpNodeModulesPath)) {
-      // install everything the first time, then keep a copy of those node_modules
-      // so we can copy them back in before we work on each branch
-      lockfile.generate()
-      if (!lockfile.existed) {
-        shell.exec(`rm -rf ${lockfile.path}`)
+    return {
+      'current': {
+        'dependencies': dependencies
+      }
+    }
+  }
+
+  getAdditionalManifests() {
+    if ('workspaces' in this.contents) {
+      const root = this.dirPath
+      const arrays = this.contents.workspaces.map(ws => (
+        glob.sync(path.join(root, ws)).map(p => new Manifest(p))
+      ))
+      return flatten(arrays)
+    }
+
+    return []
+  }
+
+  updateFromData(manifestData) {
+    const lockfile = 'lockfile_path' in manifestData ? new Lockfile(manifestData.lockfile_path) : null
+
+    Object.entries(manifestData.updated.dependencies).forEach(([name, dependency]) => {
+      const installed = manifestData.current.dependencies[name].constraint
+      const updatedConstraint = dependency.constraint
+
+      this.updatePackageJSONDependency(name, updatedConstraint)
+
+      if (lockfile && lockfile.existed) {
+        lockfile.generate()
+        shell.exec(`git add ${lockfile.path}`)
       }
 
-      // save these in /tmp for future branches working on the same file
-      console.log(
-        `Copying node_modules from ${nodeModulesPath} into ${tmpNodeModulesPath} for future use...`
-      )
-      shell.mkdir('-p', tmpNodeModulesPath)
-      shell.cp('-R', nodeModulesPath, tmpNodeModulesPath)
-    } else if (fs.existsSync(tmpNodeModulesPath)) {
-      // copy our cached node_modules in
-      console.log(
-        `Copying node_modules from ${tmpNodeModulesPath} into ${nodeModulesPath}...`
-      )
-      shell.cp('-R', tmpNodeModulesPath, nodeModulesPath)
-    }
+      const msg = `Update ${name} from ${installed} to ${updatedConstraint}`
+      shell.exec(`deps commit -m "${msg}" ${this.dirPath}`)
+    })
+  }
 
-    updatePackageJSONDependencyVersion(packageJSONPath, name, updatedConstraint)
+  updatePackageJSONDependency(name, constraint) {
+    const file = fs.readFileSync(this.path, 'utf8')
+    // tries to detect the indentation and falls back to a default if it can't
+    const indent = detectIndent(file).indent || '  '
+    const packageJson = JSON.parse(file)
 
-    if (lockfile.existed) {
-      if (lockfile.isYarnLock()) {
-        shell.exec(`cd ${dependencyPath} && yarn install --ignore-scripts`)
-      } else if (lockfile.isPackageLock()) {
-        shell.exec(
-          `cd ${dependencyPath} && npm update ${name} --ignore-scripts --quiet`
+    dependencyTypesToCollect().forEach(t => {
+      if (packageJson.hasOwnProperty(t) && packageJson[t].hasOwnProperty(name)) {
+        console.log(
+          `Updating ${name} to ${constraint} in ${t} of ${this.path}`
         )
+        packageJson[t][name] = constraint
       }
+    })
 
-      shell.exec(`git add ${lockfile.path}`)
-    }
+    fs.writeFileSync(
+      this.path,
+      JSON.stringify(packageJson, null, indent) + '\n'
+    )
+  }
 
-    // remove node_modules if they exist
-    shell.rm('-rf', nodeModulesPath)
+  sourceForDependency(name, constraint) {
+    const parsed = npa.resolve(name, constraint, this.dirPath)
 
-    shell.exec(`deps commit -m "${msg}" ${packageJSONPath}`)
-  })
+    if (parsed.type === 'git') return 'git'
+    if (parsed.type === 'file') return 'file'
+    if (parsed.type === 'directory') return 'directory'
+
+    if (parsed.registry && !parsed.hosted) return 'npm'
+
+    return parsed.type
+  }
+
 }

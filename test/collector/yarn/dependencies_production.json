@@ -12446,6 +12446,9 @@
           "react": {
             "available": [
               {
+                "name": "15.6.0-rc.1"
+              }, 
+              {
                 "name": "16.0.0-alpha"
               }, 
               {
@@ -12538,6 +12541,9 @@
           }, 
           "react-dom": {
             "available": [
+              {
+                "name": "15.6.0-rc.1"
+              }, 
               {
                 "name": "16.0.0-alpha"
               }, 

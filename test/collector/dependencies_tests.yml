@@ -61,6 +61,14 @@ cases:
   user_config:
     path: /
 
+- name: yarn workspaces
+  type: collector
+  dockerfile: Dockerfile
+  repo_contents: test/collector/yarn/workspaces
+  output_data_path: test/collector/yarn/workspaces.json
+  user_config:
+    path: /
+
 - name: package.json with a github url for version
   type: collector
   dockerfile: Dockerfile
