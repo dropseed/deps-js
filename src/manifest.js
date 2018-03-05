@@ -49,8 +49,12 @@ export class Manifest {
       if (dt in this.contents) {
         Object.entries(this.contents[dt]).forEach(([name, constraint]) => {
 
-          const availableVersions = getAvailableVersionsOfDependency(name, constraint).map(v => ({ name: v }))
           const source = this.sourceForDependency(name, constraint)
+
+          let availableVersions = []
+          if (source !== 'file' && source !== 'directory') {
+            availableVersions = getAvailableVersionsOfDependency(name, constraint).map(v => ({ name: v }))
+          }
 
           dependencies[name] = {
             'constraint': constraint,

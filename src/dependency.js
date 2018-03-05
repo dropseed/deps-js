@@ -1,15 +1,14 @@
 import shell from 'shelljs'
 import semver from 'semver'
-
-let infoCache = {}
+import cache from 'memory-cache'
 
 export const getAvailableVersionsOfDependency = (name, constraint) => {
   console.log(`Finding available versions for ${name}`)
   let info = {}
+  const cached = cache.get(name)
 
-  if (infoCache.hasOwnProperty(name)) {
-    console.log(`Getting info for ${name} from cache`)
-    info = infoCache[name]
+  if (cached !== null) {
+    info = cached
   } else {
     try {
       info = JSON.parse(
@@ -19,6 +18,8 @@ export const getAvailableVersionsOfDependency = (name, constraint) => {
       console.log(e)
       return []
     }
+
+    cache.put(name, info)
   }
 
   let available = info.versions
