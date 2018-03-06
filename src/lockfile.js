@@ -121,7 +121,6 @@ export class Lockfile {
     const dependenciesForSchema = {}
 
     for (const dep in yarnLockfileResults.object) {
-      console.log(dep)
       const info = yarnLockfile.explodeEntry(
         dep,
         yarnLockfileResults.object[dep]
