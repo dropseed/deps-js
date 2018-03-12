@@ -86,7 +86,13 @@ export class Lockfile {
   }
 
   updateYarnLock() {
-    shell.exec(`cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`)
+    try {
+      shell.exec(`cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`)
+    } catch (e) {
+      // may throw an 'Outdated lockfile' error, meaning install has to be run first
+      this.generateYarnLock()
+      shell.exec(`cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`)
+    }
   }
 
   updatePackageLock() {
