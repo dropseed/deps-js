@@ -38,5 +38,7 @@ RUN mkdir build && yarn run babel
 
 WORKDIR /repo
 
-ENTRYPOINT ["node", "--optimize_for_size", "--max_old_space_size=460", "/usr/src/app/build/entrypoint.js"]
+ENV NODE_OPTIONS="--max_old_space_size=460"
+
+ENTRYPOINT ["node", "--optimize-for-size", "/usr/src/app/build/entrypoint.js"]
 CMD ["/"]
