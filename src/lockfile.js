@@ -120,7 +120,8 @@ export class Lockfile {
 
   convertYarnLockToSchema() {
     console.log('Converting yarn.lock to lockfile in dependencies-schema')
-    const file = fs.readFileSync(this.path, 'utf8')
+    // TODO windows line endings are currently broken: https://github.com/yarnpkg/yarn/issues/5214
+    const file = fs.readFileSync(this.path, 'utf8').replace(/\r/g, '')
     const yarnLockfileResults = yarnLockfile.parse(file)
 
     const dependenciesForSchema = {}
