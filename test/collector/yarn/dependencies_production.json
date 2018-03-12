@@ -6204,7 +6204,7 @@
             "source": "npm"
           },
           "accepts": {
-            "constraint": "~1.3.4",
+            "constraint": "~1.3.5",
             "installed": {
               "name": "1.3.5"
             },
@@ -6214,7 +6214,7 @@
           "acorn": {
             "constraint": "^5.5.0",
             "installed": {
-              "name": "5.5.0"
+              "name": "5.5.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7334,7 +7334,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000812"
+              "name": "1.0.30000813"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7390,7 +7390,7 @@
           "ci-info": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.1.2"
+              "name": "1.1.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7414,7 +7414,7 @@
           "clean-css": {
             "constraint": "4.1.x",
             "installed": {
-              "name": "4.1.9"
+              "name": "4.1.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7559,6 +7559,14 @@
             "constraint": "^1.0.1",
             "installed": {
               "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "compare-versions": {
+            "constraint": "^3.1.0",
+            "installed": {
+              "name": "3.1.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7924,7 +7932,7 @@
             "source": "npm"
           },
           "depd": {
-            "constraint": "~1.1.1",
+            "constraint": "~1.1.2",
             "installed": {
               "name": "1.1.2"
             },
@@ -8062,7 +8070,7 @@
           "electron-to-chromium": {
             "constraint": "^1.2.7",
             "installed": {
-              "name": "1.3.34"
+              "name": "1.3.37"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8084,7 +8092,7 @@
             "source": "npm"
           },
           "encodeurl": {
-            "constraint": "~1.0.1",
+            "constraint": "~1.0.2",
             "installed": {
               "name": "1.0.2"
             },
@@ -8134,7 +8142,7 @@
           "es5-ext": {
             "constraint": "~0.10.14",
             "installed": {
-              "name": "0.10.39"
+              "name": "0.10.40"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8398,7 +8406,7 @@
           "express": {
             "constraint": "^4.13.3",
             "installed": {
-              "name": "4.16.2"
+              "name": "4.16.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8548,9 +8556,9 @@
             "source": "npm"
           },
           "finalhandler": {
-            "constraint": "1.1.0",
+            "constraint": "1.1.1",
             "installed": {
-              "name": "1.1.0"
+              "name": "1.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8886,7 +8894,7 @@
           "hosted-git-info": {
             "constraint": "^2.1.4",
             "installed": {
-              "name": "2.5.0"
+              "name": "2.6.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8950,7 +8958,7 @@
           "http-parser-js": {
             "constraint": ">=0.4.0",
             "installed": {
-              "name": "0.4.10"
+              "name": "0.4.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9382,55 +9390,55 @@
           "istanbul-api": {
             "constraint": "^1.1.0-alpha.1",
             "installed": {
-              "name": "1.2.2"
+              "name": "1.3.1"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "istanbul-lib-coverage": {
-            "constraint": "^1.1.2",
+            "constraint": "^1.2.0",
             "installed": {
-              "name": "1.1.2"
+              "name": "1.2.0"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "istanbul-lib-hook": {
-            "constraint": "^1.1.0",
+            "constraint": "^1.2.0",
             "installed": {
-              "name": "1.1.0"
+              "name": "1.2.0"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "istanbul-lib-instrument": {
-            "constraint": "^1.9.2",
+            "constraint": "^1.4.2",
             "installed": {
-              "name": "1.9.2"
+              "name": "1.10.1"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "istanbul-lib-report": {
-            "constraint": "^1.1.3",
+            "constraint": "^1.1.4",
             "installed": {
-              "name": "1.1.3"
+              "name": "1.1.4"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "istanbul-lib-source-maps": {
-            "constraint": "^1.2.3",
+            "constraint": "^1.2.4",
             "installed": {
-              "name": "1.2.3"
+              "name": "1.2.4"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "istanbul-reports": {
-            "constraint": "^1.1.4",
+            "constraint": "^1.3.0",
             "installed": {
-              "name": "1.1.4"
+              "name": "1.3.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9790,7 +9798,7 @@
           "lodash-es": {
             "constraint": "^4.2.1",
             "installed": {
-              "name": "4.17.5"
+              "name": "4.17.7"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9974,7 +9982,7 @@
           "lru-cache": {
             "constraint": "^4.0.1",
             "installed": {
-              "name": "4.1.1"
+              "name": "4.1.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10987,7 +10995,7 @@
             "source": "npm"
           },
           "proxy-addr": {
-            "constraint": "~2.0.2",
+            "constraint": "~2.0.3",
             "installed": {
               "name": "2.0.3"
             },
@@ -11329,7 +11337,7 @@
           "request": {
             "constraint": "^2.79.0",
             "installed": {
-              "name": "2.83.0"
+              "name": "2.85.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11471,9 +11479,9 @@
             "source": "npm"
           },
           "send": {
-            "constraint": "0.16.1",
+            "constraint": "0.16.2",
             "installed": {
-              "name": "0.16.1"
+              "name": "0.16.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11487,9 +11495,9 @@
             "source": "npm"
           },
           "serve-static": {
-            "constraint": "1.13.1",
+            "constraint": "1.13.2",
             "installed": {
-              "name": "1.13.1"
+              "name": "1.13.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11679,9 +11687,9 @@
             "source": "npm"
           },
           "statuses": {
-            "constraint": "~1.3.1",
+            "constraint": "~1.4.0",
             "installed": {
-              "name": "1.3.1"
+              "name": "1.4.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11975,7 +11983,7 @@
             "source": "npm"
           },
           "type-is": {
-            "constraint": "~1.6.15",
+            "constraint": "~1.6.16",
             "installed": {
               "name": "1.6.16"
             },
@@ -12345,7 +12353,7 @@
           "worker-farm": {
             "constraint": "^1.3.1",
             "installed": {
-              "name": "1.5.4"
+              "name": "1.6.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12391,7 +12399,7 @@
             "source": "npm"
           },
           "xtend": {
-            "constraint": "~4.0.1",
+            "constraint": "^4.0.0",
             "installed": {
               "name": "4.0.1"
             },
@@ -12431,7 +12439,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "e7c239c03bf634c6597ec4cf97f4c9c5"
+        "fingerprint": "6ef93e3794a9ad734209eb97d2af422e"
       }
     }
   },
