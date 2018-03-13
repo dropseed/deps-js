@@ -95,11 +95,10 @@ export class Manifest {
 
       if (lockfile && lockfile.existed) {
         lockfile.generate()
-        shell.exec(`git add ${lockfile.path}`)
       }
 
       const msg = `Update ${name} from ${installed} to ${updatedConstraint}`
-      shell.exec(`deps commit -m "${msg}" ${this.dirPath}`)
+      shell.exec(`deps commit -m "${msg}" .`)
     })
   }
 
