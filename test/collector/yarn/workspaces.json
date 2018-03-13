@@ -175,7 +175,8 @@
     "package.json": {
       "current": {
         "dependencies": {}
-      }
+      },
+      "lockfile_path": "yarn.lock"
     },
     "workspace-a/package.json": {
       "current": {
@@ -202,7 +203,8 @@
             "source": "npm"
           }
         }
-      }
+      },
+      "lockfile_path": "yarn.lock"
     },
     "workspace-b/package.json": {
       "current": {
@@ -233,7 +235,8 @@
             "source": "npm"
           }
         }
-      }
+      },
+      "lockfile_path": "yarn.lock"
     }
   }
 }

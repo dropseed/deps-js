@@ -13981,7 +13981,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000813"
+              "name": "1.0.30000814"
             },
             "is_transitive": true,
             "source": "npm"
@@ -13989,7 +13989,7 @@
           "caniuse-lite": {
             "constraint": "^1.0.30000805",
             "installed": {
-              "name": "1.0.30000813"
+              "name": "1.0.30000814"
             },
             "is_transitive": true,
             "source": "npm"
@@ -16205,7 +16205,7 @@
           "gatsby": {
             "constraint": "^1.9.128",
             "installed": {
-              "name": "1.9.231"
+              "name": "1.9.232"
             },
             "source": "npm"
           },
@@ -20910,7 +20910,7 @@
           "rc": {
             "constraint": "^1.1.7",
             "installed": {
-              "name": "1.2.5"
+              "name": "1.2.6"
             },
             "is_transitive": true,
             "source": "npm"
@@ -21026,7 +21026,7 @@
           "react-modal": {
             "constraint": "^3.1.10",
             "installed": {
-              "name": "3.3.1"
+              "name": "3.3.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -22311,7 +22311,7 @@
           "sshpk": {
             "constraint": "^1.7.0",
             "installed": {
-              "name": "1.13.1"
+              "name": "1.14.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -22319,7 +22319,7 @@
           "ssri": {
             "constraint": "^5.2.4",
             "installed": {
-              "name": "5.2.4"
+              "name": "5.3.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -24029,7 +24029,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "f6706e5df522a7eb433433cebbf88618"
+        "fingerprint": "acea4d41bbd6298e85787dcdeb25cfe9"
       }
     }
   },
@@ -24529,7 +24529,8 @@
             "source": "npm"
           }
         }
-      }
+      },
+      "lockfile_path": "yarn.lock"
     }
   }
 }

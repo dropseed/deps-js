@@ -7333,7 +7333,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000813"
+              "name": "1.0.30000814"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11100,7 +11100,7 @@
           "rc": {
             "constraint": "^1.1.7",
             "installed": {
-              "name": "1.2.5"
+              "name": "1.2.6"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11679,7 +11679,7 @@
           "sshpk": {
             "constraint": "^1.7.0",
             "installed": {
-              "name": "1.13.1"
+              "name": "1.14.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12437,7 +12437,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "6ef93e3794a9ad734209eb97d2af422e"
+        "fingerprint": "b3a68d2af327deffeb8b0933f071680a"
       }
     }
   },
@@ -12746,7 +12746,8 @@
             "source": "npm"
           }
         }
-      }
+      },
+      "lockfile_path": "yarn.lock"
     }
   }
 }

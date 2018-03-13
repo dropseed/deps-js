@@ -10806,7 +10806,8 @@
             "source": "npm"
           }
         }
-      }
+      },
+      "lockfile_path": "package-lock.json"
     }
   }
 }
