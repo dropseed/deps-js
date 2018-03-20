@@ -1,4 +1,11 @@
 version: 2
 dependencies:
 - type: dependencies-component
+  settings:
+    github_labels:
+    - automerge
 - type: js
+  lockfile_updates:
+    settings:
+      github_labels:
+      - automerge
