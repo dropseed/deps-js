@@ -1852,8 +1852,8 @@ libcipm@^1.6.0:
     worker-farm "^1.5.4"
 
 libnpx@^10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/libnpx/-/libnpx-10.0.1.tgz#a0104a1336e7621e52172d7970dc1b97fa17ae89"
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/libnpx/-/libnpx-10.1.1.tgz#69f7c3bcde6090f26a18d0d730632d4cbcd26007"
   dependencies:
     dotenv "^5.0.1"
     npm-package-arg "^6.0.0"
