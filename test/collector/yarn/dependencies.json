@@ -6509,7 +6509,7 @@
           "aws4": {
             "constraint": "^1.6.0",
             "installed": {
-              "name": "1.6.0"
+              "name": "1.7.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -6525,7 +6525,7 @@
           "babel-core": {
             "constraint": "^6.26.0",
             "installed": {
-              "name": "6.26.0"
+              "name": "6.26.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -6861,7 +6861,7 @@
           "babel-plugin-transform-es2015-modules-commonjs": {
             "constraint": "^6.6.0",
             "installed": {
-              "name": "6.26.0"
+              "name": "6.26.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7125,7 +7125,7 @@
           "base64-js": {
             "constraint": "^1.0.2",
             "installed": {
-              "name": "1.2.3"
+              "name": "1.3.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7266,6 +7266,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "buffer-from": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "builtin-modules": {
             "constraint": "^1.1.1",
             "installed": {
@@ -7333,7 +7341,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000814"
+              "name": "1.0.30000832"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7371,9 +7379,9 @@
             "source": "npm"
           },
           "chalk": {
-            "constraint": "^2.3.1",
+            "constraint": "^2.4.1",
             "installed": {
-              "name": "2.3.2"
+              "name": "2.4.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7382,6 +7390,14 @@
             "constraint": "^1.0.0",
             "installed": {
               "name": "1.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "chownr": {
+            "constraint": "^1.0.1",
+            "installed": {
+              "name": "1.0.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7461,7 +7477,7 @@
           "clone": {
             "constraint": "^1.0.2",
             "installed": {
-              "name": "1.0.3"
+              "name": "1.0.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7547,9 +7563,9 @@
             "source": "npm"
           },
           "commander": {
-            "constraint": "~2.14.1",
+            "constraint": "~2.15.0",
             "installed": {
-              "name": "2.14.1"
+              "name": "2.15.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7597,7 +7613,7 @@
           "concat-stream": {
             "constraint": "^1.4.6",
             "installed": {
-              "name": "1.6.1"
+              "name": "1.6.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7667,7 +7683,7 @@
             "source": "npm"
           },
           "convert-source-map": {
-            "constraint": "^1.5.0",
+            "constraint": "^1.5.1",
             "installed": {
               "name": "1.5.1"
             },
@@ -7693,7 +7709,7 @@
           "core-js": {
             "constraint": "^2.5.0",
             "installed": {
-              "name": "2.5.3"
+              "name": "2.5.5"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7875,9 +7891,9 @@
             "source": "npm"
           },
           "deep-extend": {
-            "constraint": "~0.4.0",
+            "constraint": "^0.5.1",
             "installed": {
-              "name": "0.4.2"
+              "name": "0.5.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8069,7 +8085,7 @@
           "electron-to-chromium": {
             "constraint": "^1.2.7",
             "installed": {
-              "name": "1.3.37"
+              "name": "1.3.44"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8141,7 +8157,7 @@
           "es5-ext": {
             "constraint": "~0.10.14",
             "installed": {
-              "name": "0.10.40"
+              "name": "0.10.42"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8347,9 +8363,9 @@
             "source": "npm"
           },
           "eventemitter3": {
-            "constraint": "1.x.x",
+            "constraint": "^3.0.0",
             "installed": {
-              "name": "1.2.0"
+              "name": "3.1.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8594,6 +8610,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "follow-redirects": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "for-in": {
             "constraint": "^1.0.1",
             "installed": {
@@ -8650,6 +8674,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "fs-minipass": {
+            "constraint": "^1.2.5",
+            "installed": {
+              "name": "1.2.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "fs.realpath": {
             "constraint": "^1.0.0",
             "installed": {
@@ -8661,7 +8693,7 @@
           "fsevents": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.1.3"
+              "name": "1.2.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8925,7 +8957,7 @@
           "html-minifier": {
             "constraint": "^3.1.0",
             "installed": {
-              "name": "3.5.10"
+              "name": "3.5.15"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8949,7 +8981,7 @@
           "http-errors": {
             "constraint": "~1.6.2",
             "installed": {
-              "name": "1.6.2"
+              "name": "1.6.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8957,7 +8989,7 @@
           "http-parser-js": {
             "constraint": ">=0.4.0",
             "installed": {
-              "name": "0.4.11"
+              "name": "0.4.12"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8965,7 +8997,7 @@
           "http-proxy": {
             "constraint": "^1.16.2",
             "installed": {
-              "name": "1.16.2"
+              "name": "1.17.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8997,7 +9029,7 @@
           "iconv-lite": {
             "constraint": "~0.4.13",
             "installed": {
-              "name": "0.4.19"
+              "name": "0.4.21"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9013,7 +9045,7 @@
           "ieee754": {
             "constraint": "^1.1.4",
             "installed": {
-              "name": "1.1.8"
+              "name": "1.1.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9021,7 +9053,15 @@
           "ignore": {
             "constraint": "^3.2.0",
             "installed": {
-              "name": "3.3.7"
+              "name": "3.3.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ignore-walk": {
+            "constraint": "^3.0.1",
+            "installed": {
+              "name": "3.0.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9093,7 +9133,7 @@
           "invariant": {
             "constraint": "^2.2.2",
             "installed": {
-              "name": "2.2.3"
+              "name": "2.2.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9261,7 +9301,7 @@
           "is-path-in-cwd": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.0.0"
+              "name": "1.0.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9789,7 +9829,7 @@
           "lodash": {
             "constraint": "^4.3.0",
             "installed": {
-              "name": "4.17.5"
+              "name": "4.17.10"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9797,7 +9837,7 @@
           "lodash-es": {
             "constraint": "^4.2.1",
             "installed": {
-              "name": "4.17.7"
+              "name": "4.17.10"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10005,7 +10045,7 @@
           "marked": {
             "constraint": "^0.3.12",
             "installed": {
-              "name": "0.3.17"
+              "name": "0.3.19"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10114,6 +10154,22 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "minipass": {
+            "constraint": "^2.2.4",
+            "installed": {
+              "name": "2.2.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "minizlib": {
+            "constraint": "^1.1.0",
+            "installed": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "mkdirp": {
             "constraint": "~0.5.1",
             "installed": {
@@ -10139,9 +10195,9 @@
             "source": "npm"
           },
           "nan": {
-            "constraint": "^2.3.0",
+            "constraint": "^2.9.2",
             "installed": {
-              "name": "2.9.2"
+              "name": "2.10.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10154,10 +10210,10 @@
             "is_transitive": true,
             "source": "npm"
           },
-          "ncname": {
-            "constraint": "1.0.x",
+          "needle": {
+            "constraint": "^2.2.0",
             "installed": {
-              "name": "1.0.0"
+              "name": "2.2.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10166,6 +10222,14 @@
             "constraint": "0.6.1",
             "installed": {
               "name": "0.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "next-tick": {
+            "constraint": "1",
+            "installed": {
+              "name": "1.0.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10219,9 +10283,9 @@
             "source": "npm"
           },
           "node-pre-gyp": {
-            "constraint": "^0.6.39",
+            "constraint": "^0.9.0",
             "installed": {
-              "name": "0.6.39"
+              "name": "0.9.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10266,6 +10330,22 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "npm-bundled": {
+            "constraint": "^1.0.1",
+            "installed": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "npm-packlist": {
+            "constraint": "^1.1.6",
+            "installed": {
+              "name": "1.1.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "npmlog": {
             "constraint": "^4.0.2",
             "installed": {
@@ -10301,7 +10381,7 @@
           "nwmatcher": {
             "constraint": ">= 1.3.9 < 2.0.0",
             "installed": {
-              "name": "1.4.3"
+              "name": "1.4.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10613,7 +10693,7 @@
           "postcss": {
             "constraint": "^6.0.1",
             "installed": {
-              "name": "6.0.19"
+              "name": "6.0.22"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10947,7 +11027,7 @@
             "source": "npm"
           },
           "private": {
-            "constraint": "^0.1.7",
+            "constraint": "^0.1.8",
             "installed": {
               "name": "0.1.8"
             },
@@ -11066,9 +11146,9 @@
             "source": "npm"
           },
           "querystringify": {
-            "constraint": "~1.0.0",
+            "constraint": "^2.0.0",
             "installed": {
-              "name": "1.0.0"
+              "name": "2.0.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11100,7 +11180,7 @@
           "rc": {
             "constraint": "^1.1.7",
             "installed": {
-              "name": "1.2.6"
+              "name": "1.2.7"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11160,7 +11240,7 @@
           "readable-stream": {
             "constraint": "^2.3.3",
             "installed": {
-              "name": "2.3.5"
+              "name": "2.3.6"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11373,7 +11453,7 @@
             "source": "npm"
           },
           "requires-port": {
-            "constraint": "~1.0.0",
+            "constraint": "^1.0.0",
             "installed": {
               "name": "1.0.0"
             },
@@ -11383,7 +11463,7 @@
           "resolve": {
             "constraint": "^1.2.0",
             "installed": {
-              "name": "1.5.0"
+              "name": "1.7.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11447,7 +11527,15 @@
           "safe-buffer": {
             "constraint": "~5.1.1",
             "installed": {
-              "name": "5.1.1"
+              "name": "5.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "safer-buffer": {
+            "constraint": "^2.1.0",
+            "installed": {
+              "name": "2.1.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11711,7 +11799,7 @@
           "stream-http": {
             "constraint": "^2.3.1",
             "installed": {
-              "name": "2.8.0"
+              "name": "2.8.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11733,9 +11821,9 @@
             "source": "npm"
           },
           "string_decoder": {
-            "constraint": "~1.0.3",
+            "constraint": "~1.1.1",
             "installed": {
-              "name": "1.0.3"
+              "name": "1.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11781,9 +11869,9 @@
             "source": "npm"
           },
           "supports-color": {
-            "constraint": "^5.3.0",
+            "constraint": "^5.4.0",
             "installed": {
-              "name": "5.3.0"
+              "name": "5.4.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11829,9 +11917,9 @@
             "source": "npm"
           },
           "tar": {
-            "constraint": "^2.2.1",
+            "constraint": "^4",
             "installed": {
-              "name": "2.2.1"
+              "name": "4.4.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11887,7 +11975,7 @@
           "timers-browserify": {
             "constraint": "^2.0.2",
             "installed": {
-              "name": "2.0.6"
+              "name": "2.0.10"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11919,7 +12007,7 @@
           "toposort": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.0.6"
+              "name": "1.0.7"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12087,7 +12175,7 @@
           "url-parse": {
             "constraint": "^1.1.8",
             "installed": {
-              "name": "1.2.0"
+              "name": "1.4.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12159,7 +12247,7 @@
           "vendors": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.0.1"
+              "name": "1.0.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12287,7 +12375,7 @@
           "whatwg-fetch": {
             "constraint": ">=0.10.0",
             "installed": {
-              "name": "2.0.3"
+              "name": "2.0.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12380,14 +12468,6 @@
             "is_transitive": true,
             "source": "npm"
           },
-          "xml-char-classes": {
-            "constraint": "^1.0.0",
-            "installed": {
-              "name": "1.0.0"
-            },
-            "is_transitive": true,
-            "source": "npm"
-          },
           "xml-name-validator": {
             "constraint": "^2.0.1",
             "installed": {
@@ -12413,9 +12493,9 @@
             "source": "npm"
           },
           "yallist": {
-            "constraint": "^2.1.2",
+            "constraint": "^3.0.2",
             "installed": {
-              "name": "2.1.2"
+              "name": "3.0.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12437,7 +12517,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "b3a68d2af327deffeb8b0933f071680a"
+        "fingerprint": "33f91b05254c2f378532ea9af7d8b209"
       }
     }
   },
@@ -12540,6 +12620,30 @@
               },
               {
                 "name": "16.2.0"
+              },
+              {
+                "name": "16.3.0-alpha.0"
+              },
+              {
+                "name": "16.3.0-alpha.1"
+              },
+              {
+                "name": "16.3.0-alpha.2"
+              },
+              {
+                "name": "16.3.0-alpha.3"
+              },
+              {
+                "name": "16.3.0-rc.0"
+              },
+              {
+                "name": "16.3.0"
+              },
+              {
+                "name": "16.3.1"
+              },
+              {
+                "name": "16.3.2"
               }
             ],
             "constraint": "^15.5.4",
@@ -12636,6 +12740,30 @@
               },
               {
                 "name": "16.2.0"
+              },
+              {
+                "name": "16.3.0-alpha.0"
+              },
+              {
+                "name": "16.3.0-alpha.1"
+              },
+              {
+                "name": "16.3.0-alpha.2"
+              },
+              {
+                "name": "16.3.0-alpha.3"
+              },
+              {
+                "name": "16.3.0-rc.0"
+              },
+              {
+                "name": "16.3.0"
+              },
+              {
+                "name": "16.3.1"
+              },
+              {
+                "name": "16.3.2"
               }
             ],
             "constraint": "^15.5.4",
@@ -12736,12 +12864,35 @@
               },
               {
                 "name": "1.1.1"
+              },
+              {
+                "name": "1.1.2"
+              },
+              {
+                "name": "1.1.3"
+              },
+              {
+                "name": "1.1.4"
               }
             ],
             "constraint": "^0.9.5",
             "source": "npm"
           },
           "redux": {
+            "available": [
+              {
+                "name": "4.0.0-beta.1"
+              },
+              {
+                "name": "4.0.0-beta.2"
+              },
+              {
+                "name": "4.0.0-rc.1"
+              },
+              {
+                "name": "4.0.0"
+              }
+            ],
             "constraint": "^3.6.0",
             "source": "npm"
           }

@@ -60,7 +60,7 @@
               "iconv-lite": {
                 "constraint": "~0.4.13",
                 "installed": {
-                  "name": "0.4.19"
+                  "name": "0.4.21"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -68,7 +68,7 @@
               "invariant": {
                 "constraint": "^2.0.0",
                 "installed": {
-                  "name": "2.2.3"
+                  "name": "2.2.4"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -100,7 +100,7 @@
               "lodash": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.5"
+                  "name": "4.17.10"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -108,7 +108,7 @@
               "lodash-es": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.7"
+                  "name": "4.17.10"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -181,6 +181,14 @@
                 },
                 "source": "npm"
               },
+              "safer-buffer": {
+                "constraint": "^2.1.0",
+                "installed": {
+                  "name": "2.1.2"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
               "setimmediate": {
                 "constraint": "^1.0.5",
                 "installed": {
@@ -208,13 +216,13 @@
               "whatwg-fetch": {
                 "constraint": ">=0.10.0",
                 "installed": {
-                  "name": "2.0.3"
+                  "name": "2.0.4"
                 },
                 "is_transitive": true,
                 "source": "npm"
               }
             },
-            "fingerprint": "f664a13fa3b203bd2a9ec21b5fecac8d"
+            "fingerprint": "473f8821d9ad09bb2551d7fc35391829"
           }
         }
       },
