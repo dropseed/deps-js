@@ -6,6 +6,9 @@ import { Manifest } from './manifest'
 
 
 export const collect = dependencyPath => {
+
+  shell.exec("deps hook before_update")
+
   let output = {manifests: {}}
 
   // find the manifest(s)
