@@ -44,7 +44,7 @@
               "fbjs": {
                 "constraint": "^0.8.9",
                 "installed": {
-                  "name": "0.8.16"
+                  "name": "0.8.17"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -52,7 +52,7 @@
               "iconv-lite": {
                 "constraint": "~0.4.13",
                 "installed": {
-                  "name": "0.4.21"
+                  "name": "0.4.23"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -152,7 +152,7 @@
                 "source": "npm"
               },
               "safer-buffer": {
-                "constraint": "^2.1.0",
+                "constraint": ">= 2.1.2 < 3",
                 "installed": {
                   "name": "2.1.2"
                 },
@@ -176,9 +176,9 @@
                 "source": "npm"
               },
               "ua-parser-js": {
-                "constraint": "^0.7.9",
+                "constraint": "^0.7.18",
                 "installed": {
-                  "name": "0.7.17"
+                  "name": "0.7.18"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -192,7 +192,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "0d843fced76f37ab7eaa9128221df26d"
+            "fingerprint": "be3ecd8229a0ddc969ff3eb1c5c10f65"
           }
         }
       }
