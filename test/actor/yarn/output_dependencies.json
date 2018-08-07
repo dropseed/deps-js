@@ -90,9 +90,9 @@
                 "source": "npm"
               },
               "js-tokens": {
-                "constraint": "^3.0.0",
+                "constraint": "^3.0.0 || ^4.0.0",
                 "installed": {
-                  "name": "3.0.2"
+                  "name": "4.0.0"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -116,7 +116,7 @@
               "loose-envify": {
                 "constraint": "^1.3.1",
                 "installed": {
-                  "name": "1.3.1"
+                  "name": "1.4.0"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -222,7 +222,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "6486cf811aca78b22b1aaa72934e29d1"
+            "fingerprint": "9c385c6fa608a6d457b98eabbba48e3e"
           }
         }
       },
