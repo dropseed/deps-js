@@ -2257,8 +2257,8 @@ npm-registry-fetch@^1.1.0:
     safe-buffer "^5.1.1"
 
 npm-registry-fetch@^3.0.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-3.2.1.tgz#e25f306dbe7f0a1e388f04a51086f09f3dec57af"
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-3.3.0.tgz#1310e71cfb439cb4a8f597ab886e40c080fb2a2d"
   dependencies:
     bluebird "^3.5.1"
     figgy-pudding "^3.2.0"
