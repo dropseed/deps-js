@@ -60,7 +60,7 @@
               "iconv-lite": {
                 "constraint": "~0.4.13",
                 "installed": {
-                  "name": "0.4.23"
+                  "name": "0.4.24"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -216,13 +216,13 @@
               "whatwg-fetch": {
                 "constraint": ">=0.10.0",
                 "installed": {
-                  "name": "2.0.4"
+                  "name": "3.0.0"
                 },
                 "is_transitive": true,
                 "source": "npm"
               }
             },
-            "fingerprint": "9c385c6fa608a6d457b98eabbba48e3e"
+            "fingerprint": "1d44f216fbf3344ea10e1c214ec3d6ff"
           }
         }
       },
