@@ -1,0 +1,203 @@
+{
+  "PR #0": {
+    "dependencies": {
+      "lockfiles": {
+        "yarn.lock": {
+          "current": {
+            "dependencies": {},
+            "fingerprint": "test"
+          },
+          "updated": {
+            "dependencies": {
+              "asap": {
+                "constraint": "~2.0.3",
+                "installed": {
+                  "name": "2.0.6"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "core-js": {
+                "constraint": "^1.0.0",
+                "installed": {
+                  "name": "1.2.7"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "create-react-class": {
+                "constraint": "^15.6.0",
+                "installed": {
+                  "name": "15.6.3"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "encoding": {
+                "constraint": "^0.1.11",
+                "installed": {
+                  "name": "0.1.12"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "fbjs": {
+                "constraint": "^0.8.9",
+                "installed": {
+                  "name": "0.8.17"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "iconv-lite": {
+                "constraint": "~0.4.13",
+                "installed": {
+                  "name": "0.4.24"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "is-stream": {
+                "constraint": "^1.0.1",
+                "installed": {
+                  "name": "1.1.0"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "isomorphic-fetch": {
+                "constraint": "^2.1.1",
+                "installed": {
+                  "name": "2.2.1"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "js-tokens": {
+                "constraint": "^3.0.0 || ^4.0.0",
+                "installed": {
+                  "name": "4.0.0"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "lodash": {
+                "constraint": "^4.2.1",
+                "installed": {
+                  "name": "4.17.10"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "lodash-es": {
+                "constraint": "^4.2.1",
+                "installed": {
+                  "name": "4.17.10"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "loose-envify": {
+                "constraint": "^1.3.1",
+                "installed": {
+                  "name": "1.4.0"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "node-fetch": {
+                "constraint": "^1.0.1",
+                "installed": {
+                  "name": "1.7.3"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "object-assign": {
+                "constraint": "^4.1.1",
+                "installed": {
+                  "name": "4.1.1"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "promise": {
+                "constraint": "^7.1.1",
+                "installed": {
+                  "name": "7.3.1"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "prop-types": {
+                "constraint": "15.6.0",
+                "installed": {
+                  "name": "15.6.0"
+                },
+                "source": "npm"
+              },
+              "react": {
+                "constraint": "^15.5.3",
+                "installed": {
+                  "name": "15.6.2"
+                },
+                "source": "npm"
+              },
+              "redux": {
+                "constraint": "~3.5.0",
+                "installed": {
+                  "name": "3.5.2"
+                },
+                "source": "npm"
+              },
+              "safer-buffer": {
+                "constraint": ">= 2.1.2 < 3",
+                "installed": {
+                  "name": "2.1.2"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "setimmediate": {
+                "constraint": "^1.0.5",
+                "installed": {
+                  "name": "1.0.5"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "symbol-observable": {
+                "constraint": "^0.2.3",
+                "installed": {
+                  "name": "0.2.4"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "ua-parser-js": {
+                "constraint": "^0.7.18",
+                "installed": {
+                  "name": "0.7.18"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              },
+              "whatwg-fetch": {
+                "constraint": ">=0.10.0",
+                "installed": {
+                  "name": "3.0.0"
+                },
+                "is_transitive": true,
+                "source": "npm"
+              }
+            },
+            "fingerprint": "5383f145599c7374a86551bd48975406"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "foo": "bar"
+    }
+  }
+}

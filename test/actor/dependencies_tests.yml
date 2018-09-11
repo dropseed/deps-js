@@ -31,6 +31,20 @@ cases:
   input_data_path: test/actor/yarn/ranges_input_dependencies.json
   output_data_path: test/actor/yarn/ranges_output_dependencies.json
 
+- name: yarn.lock with bounds update
+  type: actor
+  dockerfile: Dockerfile
+  repo_contents: test/actor/yarn/ranges_and_bounds
+  input_data_path: test/actor/yarn/ranges_input_dependencies.json
+  output_data_path: test/actor/yarn/ranges_and_bounds_output_dependencies.json
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff ./package.json ./final-package.json
+  user_config:
+    settings:
+      update_package_json_lower_bounds: true
+
 - name: package.json subdirectory
   type: actor
   dockerfile: Dockerfile

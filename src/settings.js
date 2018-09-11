@@ -29,3 +29,7 @@ export const setNPMRC = () => {
     console.log(NPMRC)
   }
 }
+
+export const updatePackageJSONLowerBounds = () => {
+  return process.env.SETTING_UPDATE_PACKAGE_JSON_LOWER_BOUNDS === 'true'
+}

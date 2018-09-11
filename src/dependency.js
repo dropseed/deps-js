@@ -48,6 +48,18 @@ export const getAvailableVersionsOfDependency = (name, constraint) => {
   return available
 }
 
+export const getInstalledVersionOfDependency = (name) => {
+  try {
+    const data = JSON.parse(
+      shell.exec(`npm ls ${name} --depth=0 --json`, { silent: true }).stdout.trim()
+    )
+    return data.dependencies[name].version
+  } catch (e) {
+    console.log(e)
+    return null
+  }
+}
+
 const filterVersionsForDistTag = (name, versions, distTags, constraint) => {
   let distTagInUse = 'latest'
 
