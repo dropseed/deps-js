@@ -22,7 +22,7 @@ export const act = () => {
 
       lockfileData.updated = lockfile.convertToSchema()
 
-      if (updatePackageJSONLowerBounds) {
+      if (updatePackageJSONLowerBounds()) {
         // we don't bother reporting these as manifest updates because there won't
         // be a collision with the normal manifest updates since these are in-range changes
         // which are excluded from manifest updates
