@@ -4,7 +4,6 @@ import shell from 'shelljs'
 import shellEscape from 'shell-escape'
 import detectIndent from 'detect-indent'
 import flatten from 'flatten'
-import glob from 'glob'
 import npa from 'npm-package-arg'
 
 import { Lockfile } from './lockfile'
@@ -73,15 +72,18 @@ export class Manifest {
   }
 
   getAdditionalManifests() {
-    if ('workspaces' in this.contents) {
-      const root = this.dirPath
-      const arrays = this.contents.workspaces.map(ws => (
-        glob.sync(path.join(root, ws)).map(p => new Manifest(p))
-      ))
-      return flatten(arrays)
+    try {
+      // the command outputs {"type":"log","data":jsonstring}
+      const output = JSON.parse(
+        shell.exec(`cd ${this.dirPath} && yarn workspaces info --json`, { silent: true }).stdout.trim()
+      )
+    } catch(e) {
+      console.log('Unable to find additional manifests')
+      console.log(e)
+      return []
     }
-
-    return []
+    const workspaces = JSON.parse(output.data)
+    return Object.values(workspaces).map(ws => new Manifest(path.join(this.dirPath, ws.location)))
   }
 
   updateFromData(manifestData) {
