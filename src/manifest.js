@@ -72,9 +72,10 @@ export class Manifest {
   }
 
   getAdditionalManifests() {
+    let output = {}
     try {
       // the command outputs {"type":"log","data":jsonstring}
-      const output = JSON.parse(
+      output = JSON.parse(
         shell.exec(`cd ${this.dirPath} && yarn workspaces info --json`, { silent: true }).stdout.trim()
       )
     } catch(e) {
