@@ -11673,60 +11673,60 @@
           "@storybook/addon-actions": {
             "constraint": "^3.2.16",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "source": "npm"
           },
           "@storybook/addon-links": {
             "constraint": "^3.2.16",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "source": "npm"
           },
           "@storybook/addons": {
             "constraint": "^3.2.16",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "source": "npm"
           },
           "@storybook/channel-postmessage": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "@storybook/channels": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "@storybook/client-logger": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "@storybook/components": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "@storybook/core": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11740,9 +11740,9 @@
             "source": "npm"
           },
           "@storybook/node-logger": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11758,7 +11758,7 @@
           "@storybook/react": {
             "constraint": "^3.2.16",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "source": "npm"
           },
@@ -11787,9 +11787,9 @@
             "source": "npm"
           },
           "@storybook/ui": {
-            "constraint": "3.4.10",
+            "constraint": "3.4.11",
             "installed": {
-              "name": "3.4.10"
+              "name": "3.4.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11893,7 +11893,7 @@
           "@types/react-router": {
             "constraint": "*",
             "installed": {
-              "name": "4.0.30"
+              "name": "4.0.31"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11901,7 +11901,7 @@
           "@types/react-router-dom": {
             "constraint": "^4.2.2",
             "installed": {
-              "name": "4.3.0"
+              "name": "4.3.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11971,9 +11971,9 @@
             "source": "npm"
           },
           "airbnb-js-shims": {
-            "constraint": "^1.4.1",
+            "constraint": "^1 || ^2",
             "installed": {
-              "name": "1.7.1"
+              "name": "2.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12291,14 +12291,6 @@
             "source": "npm"
           },
           "array.prototype.flatmap": {
-            "constraint": "^1.2.1",
-            "installed": {
-              "name": "1.2.1"
-            },
-            "is_transitive": true,
-            "source": "npm"
-          },
-          "array.prototype.flatten": {
             "constraint": "^1.2.1",
             "installed": {
               "name": "1.2.1"
@@ -13694,7 +13686,7 @@
           "binary-extensions": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.11.0"
+              "name": "1.12.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -14189,7 +14181,7 @@
           "chownr": {
             "constraint": "^1.0.1",
             "installed": {
-              "name": "1.0.1"
+              "name": "1.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -14477,7 +14469,7 @@
           "compressible": {
             "constraint": "~2.0.14",
             "installed": {
-              "name": "2.0.14"
+              "name": "2.0.15"
             },
             "is_transitive": true,
             "source": "npm"
@@ -14821,7 +14813,7 @@
           "csstype": {
             "constraint": "^2.2.0",
             "installed": {
-              "name": "2.5.6"
+              "name": "2.5.7"
             },
             "is_transitive": true,
             "source": "npm"
@@ -14899,9 +14891,9 @@
             "source": "npm"
           },
           "debug": {
-            "constraint": "~3.1.0",
+            "constraint": "^3.1.0",
             "installed": {
-              "name": "3.1.0"
+              "name": "3.2.5"
             },
             "is_transitive": true,
             "source": "npm"
@@ -15309,7 +15301,7 @@
           "electron-to-chromium": {
             "constraint": "^1.3.47",
             "installed": {
-              "name": "1.3.65"
+              "name": "1.3.68"
             },
             "is_transitive": true,
             "source": "npm"
@@ -16109,7 +16101,7 @@
           "follow-redirects": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.5.7"
+              "name": "1.5.8"
             },
             "is_transitive": true,
             "source": "npm"
@@ -18305,14 +18297,14 @@
           "lodash": {
             "constraint": "^4.17.2",
             "installed": {
-              "name": "4.17.10"
+              "name": "4.17.11"
             },
             "source": "npm"
           },
           "lodash-es": {
             "constraint": "^4.2.1",
             "installed": {
-              "name": "4.17.10"
+              "name": "4.17.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -21368,7 +21360,7 @@
           "readdirp": {
             "constraint": "^2.0.0",
             "installed": {
-              "name": "2.1.0"
+              "name": "2.2.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -21968,7 +21960,7 @@
           "sanitize-html": {
             "constraint": "^1.14.1",
             "installed": {
-              "name": "1.18.5"
+              "name": "1.19.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -22126,7 +22118,7 @@
             "source": "npm"
           },
           "set-immediate-shim": {
-            "constraint": "^1.0.1",
+            "constraint": "^1.0.0",
             "installed": {
               "name": "1.0.1"
             },
@@ -22423,7 +22415,7 @@
           "sourcemapped-stacktrace": {
             "constraint": "^1.1.6",
             "installed": {
-              "name": "1.1.8"
+              "name": "1.1.9"
             },
             "is_transitive": true,
             "source": "npm"
@@ -22671,7 +22663,7 @@
           "string-similarity": {
             "constraint": "^1.2.0",
             "installed": {
-              "name": "1.2.1"
+              "name": "1.2.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -23919,7 +23911,7 @@
           "webpack-hot-middleware": {
             "constraint": "^2.22.1",
             "installed": {
-              "name": "2.23.1"
+              "name": "2.24.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -24245,7 +24237,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "dd7b98404978abe2e776b53bf2105e08"
+        "fingerprint": "48cc27774033e15ef21ed461d35f1977"
       }
     }
   },
@@ -24621,6 +24613,716 @@
             "source": "npm"
           },
           "gatsby": {
+            "available": [
+              {
+                "name": "1.10.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.10.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.10.0-alpha.76b32701"
+              },
+              {
+                "name": "1.10.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "2.0.0-alpha.0"
+              },
+              {
+                "name": "2.0.0-alpha.1"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.4"
+              },
+              {
+                "name": "2.0.0-alpha.5"
+              },
+              {
+                "name": "2.0.0-alpha.6"
+              },
+              {
+                "name": "2.0.0-alpha.7"
+              },
+              {
+                "name": "2.0.0-alpha.8"
+              },
+              {
+                "name": "2.0.0-alpha.9"
+              },
+              {
+                "name": "2.0.0-alpha.10"
+              },
+              {
+                "name": "2.0.0-alpha.11"
+              },
+              {
+                "name": "2.0.0-alpha.12"
+              },
+              {
+                "name": "2.0.0-alpha.13"
+              },
+              {
+                "name": "2.0.0-alpha.16"
+              },
+              {
+                "name": "2.0.0-alpha.17"
+              },
+              {
+                "name": "2.0.0-alpha.18"
+              },
+              {
+                "name": "2.0.0-alpha.19"
+              },
+              {
+                "name": "2.0.0-alpha.20"
+              },
+              {
+                "name": "2.0.0-alpha.21"
+              },
+              {
+                "name": "2.0.0-alpha.22"
+              },
+              {
+                "name": "2.0.0-alpha.23"
+              },
+              {
+                "name": "2.0.0-alpha.24"
+              },
+              {
+                "name": "2.0.0-alpha.25"
+              },
+              {
+                "name": "2.0.0-alpha.26"
+              },
+              {
+                "name": "2.0.0-alpha.27"
+              },
+              {
+                "name": "2.0.0-alpha.28"
+              },
+              {
+                "name": "2.0.0-alpha.29"
+              },
+              {
+                "name": "2.0.0-alpha.30"
+              },
+              {
+                "name": "2.0.0-alpha.31"
+              },
+              {
+                "name": "2.0.0-alpha.32"
+              },
+              {
+                "name": "2.0.0-alpha.36"
+              },
+              {
+                "name": "2.0.0-alpha.38"
+              },
+              {
+                "name": "2.0.0-alpha.39"
+              },
+              {
+                "name": "2.0.0-alpha.40"
+              },
+              {
+                "name": "2.0.0-alpha.41"
+              },
+              {
+                "name": "2.0.0-alpha.42"
+              },
+              {
+                "name": "2.0.0-alpha.43"
+              },
+              {
+                "name": "2.0.0-alpha.44"
+              },
+              {
+                "name": "2.0.0-alpha.45"
+              },
+              {
+                "name": "2.0.0-alpha.46"
+              },
+              {
+                "name": "2.0.0-alpha.48"
+              },
+              {
+                "name": "2.0.0-alpha.49"
+              },
+              {
+                "name": "2.0.0-alpha.50"
+              },
+              {
+                "name": "2.0.0-alpha.51"
+              },
+              {
+                "name": "2.0.0-alpha.52"
+              },
+              {
+                "name": "2.0.0-alpha.53"
+              },
+              {
+                "name": "2.0.0-alpha.54"
+              },
+              {
+                "name": "2.0.0-alpha.55"
+              },
+              {
+                "name": "2.0.0-alpha.56"
+              },
+              {
+                "name": "2.0.0-alpha.57"
+              },
+              {
+                "name": "2.0.0-alpha.59"
+              },
+              {
+                "name": "2.0.0-alpha.60"
+              },
+              {
+                "name": "2.0.0-alpha.61"
+              },
+              {
+                "name": "2.0.0-alpha.62"
+              },
+              {
+                "name": "2.0.0-alpha.03b9df85"
+              },
+              {
+                "name": "2.0.0-alpha.067e672c"
+              },
+              {
+                "name": "2.0.0-alpha.12622d64"
+              },
+              {
+                "name": "2.0.0-alpha.20252dc3"
+              },
+              {
+                "name": "2.0.0-alpha.2b695217"
+              },
+              {
+                "name": "2.0.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "2.0.0-alpha.32ef58da"
+              },
+              {
+                "name": "2.0.0-alpha.34eda94b"
+              },
+              {
+                "name": "2.0.0-alpha.3f307d61"
+              },
+              {
+                "name": "2.0.0-alpha.4a09f745"
+              },
+              {
+                "name": "2.0.0-alpha.5182142b"
+              },
+              {
+                "name": "2.0.0-alpha.523a4286"
+              },
+              {
+                "name": "2.0.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "2.0.0-alpha.5421f383"
+              },
+              {
+                "name": "2.0.0-alpha.5c9569c0"
+              },
+              {
+                "name": "2.0.0-alpha.5f47082e"
+              },
+              {
+                "name": "2.0.0-alpha.6ab84875"
+              },
+              {
+                "name": "2.0.0-alpha.6ad61a13"
+              },
+              {
+                "name": "2.0.0-alpha.76793cd8"
+              },
+              {
+                "name": "2.0.0-alpha.7b47e00d"
+              },
+              {
+                "name": "2.0.0-alpha.80a21f04"
+              },
+              {
+                "name": "2.0.0-alpha.84bd71b4"
+              },
+              {
+                "name": "2.0.0-alpha.8c822451"
+              },
+              {
+                "name": "2.0.0-alpha.926cb6da"
+              },
+              {
+                "name": "2.0.0-alpha.95fcd4af"
+              },
+              {
+                "name": "2.0.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "2.0.0-alpha.9da1bca1"
+              },
+              {
+                "name": "2.0.0-alpha.9fe50b00"
+              },
+              {
+                "name": "2.0.0-alpha.a0a09c94"
+              },
+              {
+                "name": "2.0.0-alpha.aeb05561"
+              },
+              {
+                "name": "2.0.0-alpha.b50f2063"
+              },
+              {
+                "name": "2.0.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "2.0.0-alpha.bb258cb5"
+              },
+              {
+                "name": "2.0.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "2.0.0-alpha.d1544e1b"
+              },
+              {
+                "name": "2.0.0-alpha.dd504153"
+              },
+              {
+                "name": "2.0.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "2.0.0-alpha.e5586916"
+              },
+              {
+                "name": "2.0.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "2.0.0-alpha.e9c3027b"
+              },
+              {
+                "name": "2.0.0-alpha.e9df8e57"
+              },
+              {
+                "name": "2.0.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "2.0.0-alpha.f5c1df61"
+              },
+              {
+                "name": "2.0.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.0-beta.0"
+              },
+              {
+                "name": "2.0.0-beta.1"
+              },
+              {
+                "name": "2.0.0-beta.2"
+              },
+              {
+                "name": "2.0.0-beta.3"
+              },
+              {
+                "name": "2.0.0-beta.4"
+              },
+              {
+                "name": "2.0.0-beta.5"
+              },
+              {
+                "name": "2.0.0-beta.6"
+              },
+              {
+                "name": "2.0.0-beta.7"
+              },
+              {
+                "name": "2.0.0-beta.8"
+              },
+              {
+                "name": "2.0.0-beta.9"
+              },
+              {
+                "name": "2.0.0-beta.10"
+              },
+              {
+                "name": "2.0.0-beta.11"
+              },
+              {
+                "name": "2.0.0-beta.12"
+              },
+              {
+                "name": "2.0.0-beta.13"
+              },
+              {
+                "name": "2.0.0-beta.14"
+              },
+              {
+                "name": "2.0.0-beta.15"
+              },
+              {
+                "name": "2.0.0-beta.16"
+              },
+              {
+                "name": "2.0.0-beta.17"
+              },
+              {
+                "name": "2.0.0-beta.18"
+              },
+              {
+                "name": "2.0.0-beta.19"
+              },
+              {
+                "name": "2.0.0-beta.20"
+              },
+              {
+                "name": "2.0.0-beta.21"
+              },
+              {
+                "name": "2.0.0-beta.22"
+              },
+              {
+                "name": "2.0.0-beta.23"
+              },
+              {
+                "name": "2.0.0-beta.24"
+              },
+              {
+                "name": "2.0.0-beta.25"
+              },
+              {
+                "name": "2.0.0-beta.26"
+              },
+              {
+                "name": "2.0.0-beta.27"
+              },
+              {
+                "name": "2.0.0-beta.28"
+              },
+              {
+                "name": "2.0.0-beta.29"
+              },
+              {
+                "name": "2.0.0-beta.31"
+              },
+              {
+                "name": "2.0.0-beta.32"
+              },
+              {
+                "name": "2.0.0-beta.33"
+              },
+              {
+                "name": "2.0.0-beta.34"
+              },
+              {
+                "name": "2.0.0-beta.35"
+              },
+              {
+                "name": "2.0.0-beta.36"
+              },
+              {
+                "name": "2.0.0-beta.37"
+              },
+              {
+                "name": "2.0.0-beta.38"
+              },
+              {
+                "name": "2.0.0-beta.39"
+              },
+              {
+                "name": "2.0.0-beta.40"
+              },
+              {
+                "name": "2.0.0-beta.41"
+              },
+              {
+                "name": "2.0.0-beta.42"
+              },
+              {
+                "name": "2.0.0-beta.43"
+              },
+              {
+                "name": "2.0.0-beta.44"
+              },
+              {
+                "name": "2.0.0-beta.45"
+              },
+              {
+                "name": "2.0.0-beta.46"
+              },
+              {
+                "name": "2.0.0-beta.47"
+              },
+              {
+                "name": "2.0.0-beta.48"
+              },
+              {
+                "name": "2.0.0-beta.49"
+              },
+              {
+                "name": "2.0.0-beta.50"
+              },
+              {
+                "name": "2.0.0-beta.51"
+              },
+              {
+                "name": "2.0.0-beta.53"
+              },
+              {
+                "name": "2.0.0-beta.54"
+              },
+              {
+                "name": "2.0.0-beta.55"
+              },
+              {
+                "name": "2.0.0-beta.56"
+              },
+              {
+                "name": "2.0.0-beta.57"
+              },
+              {
+                "name": "2.0.0-beta.58"
+              },
+              {
+                "name": "2.0.0-beta.59"
+              },
+              {
+                "name": "2.0.0-beta.60"
+              },
+              {
+                "name": "2.0.0-beta.61"
+              },
+              {
+                "name": "2.0.0-beta.62"
+              },
+              {
+                "name": "2.0.0-beta.63"
+              },
+              {
+                "name": "2.0.0-beta.64"
+              },
+              {
+                "name": "2.0.0-beta.65"
+              },
+              {
+                "name": "2.0.0-beta.66"
+              },
+              {
+                "name": "2.0.0-beta.67"
+              },
+              {
+                "name": "2.0.0-beta.69"
+              },
+              {
+                "name": "2.0.0-beta.70"
+              },
+              {
+                "name": "2.0.0-beta.71"
+              },
+              {
+                "name": "2.0.0-beta.72"
+              },
+              {
+                "name": "2.0.0-beta.73"
+              },
+              {
+                "name": "2.0.0-beta.74"
+              },
+              {
+                "name": "2.0.0-beta.75"
+              },
+              {
+                "name": "2.0.0-beta.76"
+              },
+              {
+                "name": "2.0.0-beta.80"
+              },
+              {
+                "name": "2.0.0-beta.81"
+              },
+              {
+                "name": "2.0.0-beta.83"
+              },
+              {
+                "name": "2.0.0-beta.84"
+              },
+              {
+                "name": "2.0.0-beta.85"
+              },
+              {
+                "name": "2.0.0-beta.86"
+              },
+              {
+                "name": "2.0.0-beta.87"
+              },
+              {
+                "name": "2.0.0-beta.88"
+              },
+              {
+                "name": "2.0.0-beta.89"
+              },
+              {
+                "name": "2.0.0-beta.90"
+              },
+              {
+                "name": "2.0.0-beta.91"
+              },
+              {
+                "name": "2.0.0-beta.92"
+              },
+              {
+                "name": "2.0.0-beta.93"
+              },
+              {
+                "name": "2.0.0-beta.94"
+              },
+              {
+                "name": "2.0.0-beta.95"
+              },
+              {
+                "name": "2.0.0-beta.96"
+              },
+              {
+                "name": "2.0.0-beta.97"
+              },
+              {
+                "name": "2.0.0-beta.98"
+              },
+              {
+                "name": "2.0.0-beta.99"
+              },
+              {
+                "name": "2.0.0-beta.100"
+              },
+              {
+                "name": "2.0.0-beta.101"
+              },
+              {
+                "name": "2.0.0-beta.102"
+              },
+              {
+                "name": "2.0.0-beta.103"
+              },
+              {
+                "name": "2.0.0-beta.104"
+              },
+              {
+                "name": "2.0.0-beta.105"
+              },
+              {
+                "name": "2.0.0-beta.106"
+              },
+              {
+                "name": "2.0.0-beta.107"
+              },
+              {
+                "name": "2.0.0-beta.108"
+              },
+              {
+                "name": "2.0.0-beta.109"
+              },
+              {
+                "name": "2.0.0-beta.110"
+              },
+              {
+                "name": "2.0.0-beta.111"
+              },
+              {
+                "name": "2.0.0-beta.112"
+              },
+              {
+                "name": "2.0.0-beta.113"
+              },
+              {
+                "name": "2.0.0-rc.0"
+              },
+              {
+                "name": "2.0.0-rc.1"
+              },
+              {
+                "name": "2.0.0-rc.2"
+              },
+              {
+                "name": "2.0.0-rc.3"
+              },
+              {
+                "name": "2.0.0-rc.4"
+              },
+              {
+                "name": "2.0.0-rc.5"
+              },
+              {
+                "name": "2.0.0-rc.6"
+              },
+              {
+                "name": "2.0.0-rc.7"
+              },
+              {
+                "name": "2.0.0-rc.8"
+              },
+              {
+                "name": "2.0.0-rc.9"
+              },
+              {
+                "name": "2.0.0-rc.10"
+              },
+              {
+                "name": "2.0.0-rc.11"
+              },
+              {
+                "name": "2.0.0-rc.12"
+              },
+              {
+                "name": "2.0.0-rc.13"
+              },
+              {
+                "name": "2.0.0-rc.14"
+              },
+              {
+                "name": "2.0.0-rc.15"
+              },
+              {
+                "name": "2.0.0-rc.19"
+              },
+              {
+                "name": "2.0.0-rc.20"
+              },
+              {
+                "name": "2.0.0-rc.21"
+              },
+              {
+                "name": "2.0.0-rc.22"
+              },
+              {
+                "name": "2.0.0-rc.23"
+              },
+              {
+                "name": "2.0.0-rc.24"
+              },
+              {
+                "name": "2.0.0-rc.25"
+              },
+              {
+                "name": "2.0.0-rc.27"
+              },
+              {
+                "name": "2.0.0-rc.28"
+              },
+              {
+                "name": "2.0.0"
+              },
+              {
+                "name": "2.0.1"
+              }
+            ],
             "constraint": "^1.9.128",
             "source": "npm"
           },
@@ -24670,6 +25372,258 @@
               },
               {
                 "name": "1.6.38-15"
+              },
+              {
+                "name": "1.7.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.7.0-alpha.067e672c"
+              },
+              {
+                "name": "1.7.0-alpha.12622d64"
+              },
+              {
+                "name": "1.7.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.7.0-alpha.1a8f691e"
+              },
+              {
+                "name": "1.7.0-alpha.20252dc3"
+              },
+              {
+                "name": "1.7.0-alpha.22c8a6f1"
+              },
+              {
+                "name": "1.7.0-alpha.2b695217"
+              },
+              {
+                "name": "1.7.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "1.7.0-alpha.2e1e7782"
+              },
+              {
+                "name": "1.7.0-alpha.32ef58da"
+              },
+              {
+                "name": "1.7.0-alpha.34eda94b"
+              },
+              {
+                "name": "1.7.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.7.0-alpha.4a09f745"
+              },
+              {
+                "name": "1.7.0-alpha.5182142b"
+              },
+              {
+                "name": "1.7.0-alpha.523a4286"
+              },
+              {
+                "name": "1.7.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "1.7.0-alpha.5421f383"
+              },
+              {
+                "name": "1.7.0-alpha.5c9569c0"
+              },
+              {
+                "name": "1.7.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.7.0-alpha.5f47082e"
+              },
+              {
+                "name": "1.7.0-alpha.6ab84875"
+              },
+              {
+                "name": "1.7.0-alpha.6ad61a13"
+              },
+              {
+                "name": "1.7.0-alpha.76793cd8"
+              },
+              {
+                "name": "1.7.0-alpha.76b32701"
+              },
+              {
+                "name": "1.7.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.7.0-alpha.84bd71b4"
+              },
+              {
+                "name": "1.7.0-alpha.8c822451"
+              },
+              {
+                "name": "1.7.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.7.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.7.0-alpha.95fcd4af"
+              },
+              {
+                "name": "1.7.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "1.7.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.7.0-alpha.9e381f74"
+              },
+              {
+                "name": "1.7.0-alpha.9fe50b00"
+              },
+              {
+                "name": "1.7.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.7.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.7.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.7.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "1.7.0-alpha.bb258cb5"
+              },
+              {
+                "name": "1.7.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "1.7.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.7.0-alpha.dd504153"
+              },
+              {
+                "name": "1.7.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "1.7.0-alpha.e5586916"
+              },
+              {
+                "name": "1.7.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "1.7.0-alpha.e9c3027b"
+              },
+              {
+                "name": "1.7.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.7.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.7.0-alpha.f5c1df61"
+              },
+              {
+                "name": "1.7.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.0-alpha.1"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.3"
+              },
+              {
+                "name": "2.0.0-alpha.4"
+              },
+              {
+                "name": "2.0.0-alpha.80a21f04"
+              },
+              {
+                "name": "2.0.0-alpha.8ac171a1"
+              },
+              {
+                "name": "2.0.0-alpha.e328d33f"
+              },
+              {
+                "name": "2.0.0-beta.0"
+              },
+              {
+                "name": "2.0.0-beta.1"
+              },
+              {
+                "name": "2.0.0-beta.2"
+              },
+              {
+                "name": "2.0.0-beta.3"
+              },
+              {
+                "name": "2.0.0-beta.4"
+              },
+              {
+                "name": "2.0.0-beta.5"
+              },
+              {
+                "name": "2.0.0-beta.6"
+              },
+              {
+                "name": "2.0.0-beta.7"
+              },
+              {
+                "name": "2.0.0-beta.8"
+              },
+              {
+                "name": "2.0.0-beta.9"
+              },
+              {
+                "name": "2.0.0-beta.10"
+              },
+              {
+                "name": "2.0.0-beta.11"
+              },
+              {
+                "name": "2.0.0-beta.12"
+              },
+              {
+                "name": "2.0.0-beta.15"
+              },
+              {
+                "name": "2.0.0-beta.17"
+              },
+              {
+                "name": "2.0.0-beta.18"
+              },
+              {
+                "name": "2.0.0-beta.19"
+              },
+              {
+                "name": "2.0.0-beta.20"
+              },
+              {
+                "name": "2.0.0-beta.21"
+              },
+              {
+                "name": "2.0.0-beta.22"
+              },
+              {
+                "name": "2.0.0-rc.0"
+              },
+              {
+                "name": "2.0.0-rc.1"
+              },
+              {
+                "name": "2.0.0-rc.2"
+              },
+              {
+                "name": "2.0.0-rc.3"
+              },
+              {
+                "name": "2.0.0-rc.4"
+              },
+              {
+                "name": "2.0.1"
               }
             ],
             "constraint": "^1.6.30",
@@ -24679,6 +25633,279 @@
             "available": [
               {
                 "name": "1.6.29-0"
+              },
+              {
+                "name": "1.7.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.7.0-alpha.067e672c"
+              },
+              {
+                "name": "1.7.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.7.0-alpha.22c8a6f1"
+              },
+              {
+                "name": "1.7.0-alpha.2b695217"
+              },
+              {
+                "name": "1.7.0-alpha.2e1e7782"
+              },
+              {
+                "name": "1.7.0-alpha.32ef58da"
+              },
+              {
+                "name": "1.7.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.7.0-alpha.5182142b"
+              },
+              {
+                "name": "1.7.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "1.7.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.7.0-alpha.6ab84875"
+              },
+              {
+                "name": "1.7.0-alpha.76b32701"
+              },
+              {
+                "name": "1.7.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.7.0-alpha.8c822451"
+              },
+              {
+                "name": "1.7.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.7.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.7.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "1.7.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.7.0-alpha.9e381f74"
+              },
+              {
+                "name": "1.7.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.7.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.7.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.7.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "1.7.0-alpha.bb258cb5"
+              },
+              {
+                "name": "1.7.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "1.7.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.7.0-alpha.dd504153"
+              },
+              {
+                "name": "1.7.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "1.7.0-alpha.e5586916"
+              },
+              {
+                "name": "1.7.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.7.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.7.0-alpha.f5c1df61"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.3"
+              },
+              {
+                "name": "2.0.0-alpha.4"
+              },
+              {
+                "name": "2.0.0-alpha.5"
+              },
+              {
+                "name": "2.0.0-alpha.6"
+              },
+              {
+                "name": "2.0.0-alpha.7"
+              },
+              {
+                "name": "2.0.0-alpha.8"
+              },
+              {
+                "name": "2.0.0-alpha.9"
+              },
+              {
+                "name": "2.0.0-alpha.10"
+              },
+              {
+                "name": "2.0.0-alpha.11"
+              },
+              {
+                "name": "2.0.0-alpha.12"
+              },
+              {
+                "name": "2.0.0-alpha.13"
+              },
+              {
+                "name": "2.0.0-alpha.15"
+              },
+              {
+                "name": "2.0.0-alpha.16"
+              },
+              {
+                "name": "2.0.0-alpha.17"
+              },
+              {
+                "name": "2.0.0-alpha.18"
+              },
+              {
+                "name": "2.0.0-alpha.19"
+              },
+              {
+                "name": "2.0.0-alpha.20"
+              },
+              {
+                "name": "2.0.0-alpha.21"
+              },
+              {
+                "name": "2.0.0-alpha.22"
+              },
+              {
+                "name": "2.0.0-alpha.23"
+              },
+              {
+                "name": "2.0.0-alpha.12622d64"
+              },
+              {
+                "name": "2.0.0-alpha.20252dc3"
+              },
+              {
+                "name": "2.0.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "2.0.0-alpha.34eda94b"
+              },
+              {
+                "name": "2.0.0-alpha.4a09f745"
+              },
+              {
+                "name": "2.0.0-alpha.523a4286"
+              },
+              {
+                "name": "2.0.0-alpha.5421f383"
+              },
+              {
+                "name": "2.0.0-alpha.5c9569c0"
+              },
+              {
+                "name": "2.0.0-alpha.5f47082e"
+              },
+              {
+                "name": "2.0.0-alpha.6ad61a13"
+              },
+              {
+                "name": "2.0.0-alpha.76793cd8"
+              },
+              {
+                "name": "2.0.0-alpha.80a21f04"
+              },
+              {
+                "name": "2.0.0-alpha.84bd71b4"
+              },
+              {
+                "name": "2.0.0-alpha.8ac171a1"
+              },
+              {
+                "name": "2.0.0-alpha.95fcd4af"
+              },
+              {
+                "name": "2.0.0-alpha.9fe50b00"
+              },
+              {
+                "name": "2.0.0-alpha.e328d33f"
+              },
+              {
+                "name": "2.0.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "2.0.0-alpha.e9c3027b"
+              },
+              {
+                "name": "2.0.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.0-beta.0"
+              },
+              {
+                "name": "2.0.0-beta.1"
+              },
+              {
+                "name": "2.0.0-beta.2"
+              },
+              {
+                "name": "2.0.0-beta.3"
+              },
+              {
+                "name": "2.0.0-beta.5"
+              },
+              {
+                "name": "2.0.0-beta.6"
+              },
+              {
+                "name": "2.0.0-beta.7"
+              },
+              {
+                "name": "2.0.0-beta.8"
+              },
+              {
+                "name": "2.0.0-beta.9"
+              },
+              {
+                "name": "2.0.0-rc.0"
+              },
+              {
+                "name": "2.0.0-rc.1"
+              },
+              {
+                "name": "2.0.0-rc.2"
+              },
+              {
+                "name": "2.0.0-rc.3"
+              },
+              {
+                "name": "2.0.0-rc.5"
+              },
+              {
+                "name": "2.0.0-rc.6"
+              },
+              {
+                "name": "2.0.0-rc.7"
+              },
+              {
+                "name": "2.0.5"
               }
             ],
             "constraint": "^1.6.22",
@@ -24724,6 +25951,192 @@
               },
               {
                 "name": "1.4.13-13"
+              },
+              {
+                "name": "1.5.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.5.0-alpha.067e672c"
+              },
+              {
+                "name": "1.5.0-alpha.12622d64"
+              },
+              {
+                "name": "1.5.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.5.0-alpha.20252dc3"
+              },
+              {
+                "name": "1.5.0-alpha.22c8a6f1"
+              },
+              {
+                "name": "1.5.0-alpha.2b695217"
+              },
+              {
+                "name": "1.5.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "1.5.0-alpha.32ef58da"
+              },
+              {
+                "name": "1.5.0-alpha.34eda94b"
+              },
+              {
+                "name": "1.5.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.5.0-alpha.4a09f745"
+              },
+              {
+                "name": "1.5.0-alpha.5182142b"
+              },
+              {
+                "name": "1.5.0-alpha.523a4286"
+              },
+              {
+                "name": "1.5.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "1.5.0-alpha.5421f383"
+              },
+              {
+                "name": "1.5.0-alpha.5c9569c0"
+              },
+              {
+                "name": "1.5.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.5.0-alpha.5f47082e"
+              },
+              {
+                "name": "1.5.0-alpha.6ab84875"
+              },
+              {
+                "name": "1.5.0-alpha.6ad61a13"
+              },
+              {
+                "name": "1.5.0-alpha.76793cd8"
+              },
+              {
+                "name": "1.5.0-alpha.76b32701"
+              },
+              {
+                "name": "1.5.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.5.0-alpha.84bd71b4"
+              },
+              {
+                "name": "1.5.0-alpha.8c822451"
+              },
+              {
+                "name": "1.5.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.5.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.5.0-alpha.95fcd4af"
+              },
+              {
+                "name": "1.5.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "1.5.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.5.0-alpha.9e381f74"
+              },
+              {
+                "name": "1.5.0-alpha.9fe50b00"
+              },
+              {
+                "name": "1.5.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.5.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.5.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.5.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "1.5.0-alpha.bb258cb5"
+              },
+              {
+                "name": "1.5.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "1.5.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.5.0-alpha.dd504153"
+              },
+              {
+                "name": "1.5.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "1.5.0-alpha.e5586916"
+              },
+              {
+                "name": "1.5.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "1.5.0-alpha.e9c3027b"
+              },
+              {
+                "name": "1.5.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.5.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.5.0-alpha.f5c1df61"
+              },
+              {
+                "name": "1.5.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.80a21f04"
+              },
+              {
+                "name": "2.0.0-alpha.e328d33f"
+              },
+              {
+                "name": "2.0.0-beta.0"
+              },
+              {
+                "name": "2.0.0-beta.1"
+              },
+              {
+                "name": "2.0.0-beta.2"
+              },
+              {
+                "name": "2.0.0-beta.3"
+              },
+              {
+                "name": "2.0.0-beta.4"
+              },
+              {
+                "name": "2.0.0-beta.5"
+              },
+              {
+                "name": "2.0.0-rc.0"
+              },
+              {
+                "name": "2.0.0-rc.1"
+              },
+              {
+                "name": "2.0.0-rc.2"
+              },
+              {
+                "name": "2.0.5"
               }
             ],
             "constraint": "^1.4.9",
@@ -24769,6 +26182,192 @@
               },
               {
                 "name": "1.5.28-13"
+              },
+              {
+                "name": "1.6.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.6.0-alpha.067e672c"
+              },
+              {
+                "name": "1.6.0-alpha.12622d64"
+              },
+              {
+                "name": "1.6.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.6.0-alpha.20252dc3"
+              },
+              {
+                "name": "1.6.0-alpha.22c8a6f1"
+              },
+              {
+                "name": "1.6.0-alpha.2b695217"
+              },
+              {
+                "name": "1.6.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "1.6.0-alpha.32ef58da"
+              },
+              {
+                "name": "1.6.0-alpha.34eda94b"
+              },
+              {
+                "name": "1.6.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.6.0-alpha.4a09f745"
+              },
+              {
+                "name": "1.6.0-alpha.5182142b"
+              },
+              {
+                "name": "1.6.0-alpha.523a4286"
+              },
+              {
+                "name": "1.6.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "1.6.0-alpha.5421f383"
+              },
+              {
+                "name": "1.6.0-alpha.5c9569c0"
+              },
+              {
+                "name": "1.6.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.6.0-alpha.5f47082e"
+              },
+              {
+                "name": "1.6.0-alpha.6ab84875"
+              },
+              {
+                "name": "1.6.0-alpha.6ad61a13"
+              },
+              {
+                "name": "1.6.0-alpha.76793cd8"
+              },
+              {
+                "name": "1.6.0-alpha.76b32701"
+              },
+              {
+                "name": "1.6.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.6.0-alpha.84bd71b4"
+              },
+              {
+                "name": "1.6.0-alpha.8c822451"
+              },
+              {
+                "name": "1.6.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.6.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.6.0-alpha.95fcd4af"
+              },
+              {
+                "name": "1.6.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "1.6.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.6.0-alpha.9e381f74"
+              },
+              {
+                "name": "1.6.0-alpha.9fe50b00"
+              },
+              {
+                "name": "1.6.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.6.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.6.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.6.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "1.6.0-alpha.bb258cb5"
+              },
+              {
+                "name": "1.6.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "1.6.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.6.0-alpha.dd504153"
+              },
+              {
+                "name": "1.6.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "1.6.0-alpha.e5586916"
+              },
+              {
+                "name": "1.6.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "1.6.0-alpha.e9c3027b"
+              },
+              {
+                "name": "1.6.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.6.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.6.0-alpha.f5c1df61"
+              },
+              {
+                "name": "1.6.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.80a21f04"
+              },
+              {
+                "name": "2.0.0-alpha.e328d33f"
+              },
+              {
+                "name": "2.0.0-beta.0"
+              },
+              {
+                "name": "2.0.0-beta.1"
+              },
+              {
+                "name": "2.0.0-beta.2"
+              },
+              {
+                "name": "2.0.0-beta.3"
+              },
+              {
+                "name": "2.0.0-rc.0"
+              },
+              {
+                "name": "2.0.0-rc.1"
+              },
+              {
+                "name": "2.0.0-rc.3"
+              },
+              {
+                "name": "2.0.0-rc.4"
+              },
+              {
+                "name": "2.0.0-rc.5"
+              },
+              {
+                "name": "2.0.5"
               }
             ],
             "constraint": "^1.5.22",
@@ -24778,6 +26377,258 @@
             "available": [
               {
                 "name": "1.5.45-0"
+              },
+              {
+                "name": "1.6.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.6.0-alpha.067e672c"
+              },
+              {
+                "name": "1.6.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.6.0-alpha.2b695217"
+              },
+              {
+                "name": "1.6.0-alpha.32ef58da"
+              },
+              {
+                "name": "1.6.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.6.0-alpha.5182142b"
+              },
+              {
+                "name": "1.6.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "1.6.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.6.0-alpha.6ab84875"
+              },
+              {
+                "name": "1.6.0-alpha.76b32701"
+              },
+              {
+                "name": "1.6.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.6.0-alpha.8c822451"
+              },
+              {
+                "name": "1.6.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.6.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.6.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "1.6.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.6.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.6.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.6.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.6.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "1.6.0-alpha.bb258cb5"
+              },
+              {
+                "name": "1.6.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "1.6.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.6.0-alpha.dd504153"
+              },
+              {
+                "name": "1.6.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "1.6.0-alpha.e5586916"
+              },
+              {
+                "name": "1.6.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.6.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.6.0-alpha.f5c1df61"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.3"
+              },
+              {
+                "name": "2.0.0-alpha.4"
+              },
+              {
+                "name": "2.0.0-alpha.5"
+              },
+              {
+                "name": "2.0.0-alpha.6"
+              },
+              {
+                "name": "2.0.0-alpha.7"
+              },
+              {
+                "name": "2.0.0-alpha.8"
+              },
+              {
+                "name": "2.0.0-alpha.9"
+              },
+              {
+                "name": "2.0.0-alpha.10"
+              },
+              {
+                "name": "2.0.0-alpha.11"
+              },
+              {
+                "name": "2.0.0-alpha.12"
+              },
+              {
+                "name": "2.0.0-alpha.13"
+              },
+              {
+                "name": "2.0.0-alpha.16"
+              },
+              {
+                "name": "2.0.0-alpha.17"
+              },
+              {
+                "name": "2.0.0-alpha.18"
+              },
+              {
+                "name": "2.0.0-alpha.19"
+              },
+              {
+                "name": "2.0.0-alpha.20"
+              },
+              {
+                "name": "2.0.0-alpha.21"
+              },
+              {
+                "name": "2.0.0-alpha.22"
+              },
+              {
+                "name": "2.0.0-alpha.23"
+              },
+              {
+                "name": "2.0.0-alpha.12622d64"
+              },
+              {
+                "name": "2.0.0-alpha.20252dc3"
+              },
+              {
+                "name": "2.0.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "2.0.0-alpha.34eda94b"
+              },
+              {
+                "name": "2.0.0-alpha.4a09f745"
+              },
+              {
+                "name": "2.0.0-alpha.523a4286"
+              },
+              {
+                "name": "2.0.0-alpha.5421f383"
+              },
+              {
+                "name": "2.0.0-alpha.5c9569c0"
+              },
+              {
+                "name": "2.0.0-alpha.5f47082e"
+              },
+              {
+                "name": "2.0.0-alpha.6ad61a13"
+              },
+              {
+                "name": "2.0.0-alpha.76793cd8"
+              },
+              {
+                "name": "2.0.0-alpha.84bd71b4"
+              },
+              {
+                "name": "2.0.0-alpha.95fcd4af"
+              },
+              {
+                "name": "2.0.0-alpha.9fe50b00"
+              },
+              {
+                "name": "2.0.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "2.0.0-alpha.e9c3027b"
+              },
+              {
+                "name": "2.0.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.1-alpha.2"
+              },
+              {
+                "name": "2.0.1-beta.0"
+              },
+              {
+                "name": "2.0.1-beta.1"
+              },
+              {
+                "name": "2.0.1-beta.2"
+              },
+              {
+                "name": "2.0.1-beta.3"
+              },
+              {
+                "name": "2.0.1-beta.4"
+              },
+              {
+                "name": "2.0.1-beta.6"
+              },
+              {
+                "name": "2.0.1-beta.7"
+              },
+              {
+                "name": "2.0.1-beta.8"
+              },
+              {
+                "name": "2.0.1-beta.9"
+              },
+              {
+                "name": "2.0.1-beta.10"
+              },
+              {
+                "name": "2.0.1-beta.11"
+              },
+              {
+                "name": "2.0.1-beta.12"
+              },
+              {
+                "name": "2.0.1-rc.0"
+              },
+              {
+                "name": "2.0.1-rc.1"
+              },
+              {
+                "name": "2.0.1-rc.5"
+              },
+              {
+                "name": "2.0.1"
               }
             ],
             "constraint": "^1.5.33",
@@ -24823,20 +26674,680 @@
               },
               {
                 "name": "1.4.12-13"
+              },
+              {
+                "name": "1.5.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.5.0-alpha.067e672c"
+              },
+              {
+                "name": "1.5.0-alpha.12622d64"
+              },
+              {
+                "name": "1.5.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.5.0-alpha.20252dc3"
+              },
+              {
+                "name": "1.5.0-alpha.22c8a6f1"
+              },
+              {
+                "name": "1.5.0-alpha.2b695217"
+              },
+              {
+                "name": "1.5.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "1.5.0-alpha.32ef58da"
+              },
+              {
+                "name": "1.5.0-alpha.34eda94b"
+              },
+              {
+                "name": "1.5.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.5.0-alpha.4a09f745"
+              },
+              {
+                "name": "1.5.0-alpha.5182142b"
+              },
+              {
+                "name": "1.5.0-alpha.523a4286"
+              },
+              {
+                "name": "1.5.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "1.5.0-alpha.5421f383"
+              },
+              {
+                "name": "1.5.0-alpha.5c9569c0"
+              },
+              {
+                "name": "1.5.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.5.0-alpha.5f47082e"
+              },
+              {
+                "name": "1.5.0-alpha.6ab84875"
+              },
+              {
+                "name": "1.5.0-alpha.6ad61a13"
+              },
+              {
+                "name": "1.5.0-alpha.76793cd8"
+              },
+              {
+                "name": "1.5.0-alpha.76b32701"
+              },
+              {
+                "name": "1.5.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.5.0-alpha.84bd71b4"
+              },
+              {
+                "name": "1.5.0-alpha.8c822451"
+              },
+              {
+                "name": "1.5.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.5.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.5.0-alpha.95fcd4af"
+              },
+              {
+                "name": "1.5.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "1.5.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.5.0-alpha.9e381f74"
+              },
+              {
+                "name": "1.5.0-alpha.9fe50b00"
+              },
+              {
+                "name": "1.5.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.5.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.5.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.5.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "1.5.0-alpha.bb258cb5"
+              },
+              {
+                "name": "1.5.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "1.5.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.5.0-alpha.dd504153"
+              },
+              {
+                "name": "1.5.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "1.5.0-alpha.e5586916"
+              },
+              {
+                "name": "1.5.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "1.5.0-alpha.e9c3027b"
+              },
+              {
+                "name": "1.5.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.5.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.5.0-alpha.f5c1df61"
+              },
+              {
+                "name": "1.5.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.80a21f04"
+              },
+              {
+                "name": "2.0.0-alpha.e328d33f"
+              },
+              {
+                "name": "2.0.0-beta.0"
+              },
+              {
+                "name": "2.0.0-beta.1"
+              },
+              {
+                "name": "2.0.0-beta.2"
+              },
+              {
+                "name": "2.0.0-beta.3"
+              },
+              {
+                "name": "2.0.0-rc.0"
+              },
+              {
+                "name": "2.0.0-rc.1"
+              },
+              {
+                "name": "2.0.5"
               }
             ],
             "constraint": "^1.4.9",
             "source": "npm"
           },
           "gatsby-source-filesystem": {
+            "available": [
+              {
+                "name": "2.0.0-alpha.0"
+              },
+              {
+                "name": "2.0.0-alpha.1"
+              },
+              {
+                "name": "2.0.0-alpha.2"
+              },
+              {
+                "name": "2.0.0-alpha.3"
+              },
+              {
+                "name": "2.0.0-alpha.4"
+              },
+              {
+                "name": "2.0.0-alpha.5"
+              },
+              {
+                "name": "2.0.0-alpha.6"
+              },
+              {
+                "name": "2.0.0-alpha.7"
+              },
+              {
+                "name": "2.0.0-alpha.8"
+              },
+              {
+                "name": "2.0.0-alpha.9"
+              },
+              {
+                "name": "2.0.0-alpha.12"
+              },
+              {
+                "name": "2.0.0-alpha.13"
+              },
+              {
+                "name": "2.0.0-alpha.14"
+              },
+              {
+                "name": "2.0.0-alpha.15"
+              },
+              {
+                "name": "2.0.0-alpha.16"
+              },
+              {
+                "name": "2.0.0-alpha.17"
+              },
+              {
+                "name": "2.0.0-alpha.18"
+              },
+              {
+                "name": "2.0.0-alpha.03b9df85"
+              },
+              {
+                "name": "2.0.0-alpha.067e672c"
+              },
+              {
+                "name": "2.0.0-alpha.12622d64"
+              },
+              {
+                "name": "2.0.0-alpha.20252dc3"
+              },
+              {
+                "name": "2.0.0-alpha.2b695217"
+              },
+              {
+                "name": "2.0.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "2.0.0-alpha.32ef58da"
+              },
+              {
+                "name": "2.0.0-alpha.34eda94b"
+              },
+              {
+                "name": "2.0.0-alpha.3f307d61"
+              },
+              {
+                "name": "2.0.0-alpha.4a09f745"
+              },
+              {
+                "name": "2.0.0-alpha.5182142b"
+              },
+              {
+                "name": "2.0.0-alpha.523a4286"
+              },
+              {
+                "name": "2.0.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "2.0.0-alpha.5421f383"
+              },
+              {
+                "name": "2.0.0-alpha.5c9569c0"
+              },
+              {
+                "name": "2.0.0-alpha.5f47082e"
+              },
+              {
+                "name": "2.0.0-alpha.6ab84875"
+              },
+              {
+                "name": "2.0.0-alpha.6ad61a13"
+              },
+              {
+                "name": "2.0.0-alpha.76793cd8"
+              },
+              {
+                "name": "2.0.0-alpha.7b47e00d"
+              },
+              {
+                "name": "2.0.0-alpha.84bd71b4"
+              },
+              {
+                "name": "2.0.0-alpha.8c822451"
+              },
+              {
+                "name": "2.0.0-alpha.926cb6da"
+              },
+              {
+                "name": "2.0.0-alpha.95fcd4af"
+              },
+              {
+                "name": "2.0.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "2.0.0-alpha.9da1bca1"
+              },
+              {
+                "name": "2.0.0-alpha.9e381f74"
+              },
+              {
+                "name": "2.0.0-alpha.9fe50b00"
+              },
+              {
+                "name": "2.0.0-alpha.a0a09c94"
+              },
+              {
+                "name": "2.0.0-alpha.aeb05561"
+              },
+              {
+                "name": "2.0.0-alpha.b50f2063"
+              },
+              {
+                "name": "2.0.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "2.0.0-alpha.bb258cb5"
+              },
+              {
+                "name": "2.0.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "2.0.0-alpha.d1544e1b"
+              },
+              {
+                "name": "2.0.0-alpha.dd504153"
+              },
+              {
+                "name": "2.0.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "2.0.0-alpha.e5586916"
+              },
+              {
+                "name": "2.0.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "2.0.0-alpha.e9c3027b"
+              },
+              {
+                "name": "2.0.0-alpha.e9df8e57"
+              },
+              {
+                "name": "2.0.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "2.0.0-alpha.f5c1df61"
+              },
+              {
+                "name": "2.0.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.0.1-alpha.2"
+              },
+              {
+                "name": "2.0.1-beta.0"
+              },
+              {
+                "name": "2.0.1-beta.1"
+              },
+              {
+                "name": "2.0.1-beta.2"
+              },
+              {
+                "name": "2.0.1-beta.3"
+              },
+              {
+                "name": "2.0.1-beta.4"
+              },
+              {
+                "name": "2.0.1-beta.5"
+              },
+              {
+                "name": "2.0.1-beta.6"
+              },
+              {
+                "name": "2.0.1-beta.7"
+              },
+              {
+                "name": "2.0.1-beta.8"
+              },
+              {
+                "name": "2.0.1-beta.9"
+              },
+              {
+                "name": "2.0.1-beta.10"
+              },
+              {
+                "name": "2.0.1-beta.11"
+              },
+              {
+                "name": "2.0.1-rc.0"
+              },
+              {
+                "name": "2.0.1-rc.1"
+              },
+              {
+                "name": "2.0.1-rc.2"
+              },
+              {
+                "name": "2.0.1-rc.6"
+              },
+              {
+                "name": "2.0.1"
+              }
+            ],
             "constraint": "^1.5.9",
             "source": "npm"
           },
           "gatsby-transformer-remark": {
+            "available": [
+              {
+                "name": "1.8.0-alpha.03b9df85"
+              },
+              {
+                "name": "1.8.0-alpha.1460dad9"
+              },
+              {
+                "name": "1.8.0-alpha.22c8a6f1"
+              },
+              {
+                "name": "1.8.0-alpha.3f307d61"
+              },
+              {
+                "name": "1.8.0-alpha.5db7a275"
+              },
+              {
+                "name": "1.8.0-alpha.76b32701"
+              },
+              {
+                "name": "1.8.0-alpha.7b47e00d"
+              },
+              {
+                "name": "1.8.0-alpha.8c822451"
+              },
+              {
+                "name": "1.8.0-alpha.926cb6da"
+              },
+              {
+                "name": "1.8.0-alpha.93f2e2a2"
+              },
+              {
+                "name": "1.8.0-alpha.9da1bca1"
+              },
+              {
+                "name": "1.8.0-alpha.a0a09c94"
+              },
+              {
+                "name": "1.8.0-alpha.aeb05561"
+              },
+              {
+                "name": "1.8.0-alpha.b50f2063"
+              },
+              {
+                "name": "1.8.0-alpha.d1544e1b"
+              },
+              {
+                "name": "1.8.0-alpha.e5586916"
+              },
+              {
+                "name": "1.8.0-alpha.e9df8e57"
+              },
+              {
+                "name": "1.8.0-alpha.f20ac0ed"
+              },
+              {
+                "name": "1.8.0-alpha.f5c1df61"
+              },
+              {
+                "name": "2.0.1-0"
+              },
+              {
+                "name": "2.0.1-1"
+              },
+              {
+                "name": "2.0.1-2"
+              },
+              {
+                "name": "2.0.1-3"
+              },
+              {
+                "name": "2.0.1-4"
+              },
+              {
+                "name": "2.0.1-5"
+              },
+              {
+                "name": "2.0.1-6"
+              },
+              {
+                "name": "2.0.1-7"
+              },
+              {
+                "name": "2.0.1-10"
+              },
+              {
+                "name": "2.0.1-11"
+              },
+              {
+                "name": "2.0.1-12"
+              },
+              {
+                "name": "2.0.1-13"
+              },
+              {
+                "name": "2.0.1-14"
+              },
+              {
+                "name": "2.0.1-15"
+              },
+              {
+                "name": "2.0.1-16"
+              },
+              {
+                "name": "2.0.1-17"
+              },
+              {
+                "name": "2.1.0-alpha.067e672c"
+              },
+              {
+                "name": "2.1.0-alpha.12622d64"
+              },
+              {
+                "name": "2.1.0-alpha.20252dc3"
+              },
+              {
+                "name": "2.1.0-alpha.2b695217"
+              },
+              {
+                "name": "2.1.0-alpha.2cbec6d6"
+              },
+              {
+                "name": "2.1.0-alpha.32ef58da"
+              },
+              {
+                "name": "2.1.0-alpha.34eda94b"
+              },
+              {
+                "name": "2.1.0-alpha.4a09f745"
+              },
+              {
+                "name": "2.1.0-alpha.5182142b"
+              },
+              {
+                "name": "2.1.0-alpha.523a4286"
+              },
+              {
+                "name": "2.1.0-alpha.53bbd4cd"
+              },
+              {
+                "name": "2.1.0-alpha.5421f383"
+              },
+              {
+                "name": "2.1.0-alpha.5c9569c0"
+              },
+              {
+                "name": "2.1.0-alpha.5f47082e"
+              },
+              {
+                "name": "2.1.0-alpha.6ab84875"
+              },
+              {
+                "name": "2.1.0-alpha.6ad61a13"
+              },
+              {
+                "name": "2.1.0-alpha.76793cd8"
+              },
+              {
+                "name": "2.1.0-alpha.84bd71b4"
+              },
+              {
+                "name": "2.1.0-alpha.95fcd4af"
+              },
+              {
+                "name": "2.1.0-alpha.9d4de2a6"
+              },
+              {
+                "name": "2.1.0-alpha.9fe50b00"
+              },
+              {
+                "name": "2.1.0-alpha.b68b7f5c"
+              },
+              {
+                "name": "2.1.0-alpha.bb258cb5"
+              },
+              {
+                "name": "2.1.0-alpha.d0b8dd9e"
+              },
+              {
+                "name": "2.1.0-alpha.dd504153"
+              },
+              {
+                "name": "2.1.0-alpha.e28a1c8e"
+              },
+              {
+                "name": "2.1.0-alpha.e66c6c9c"
+              },
+              {
+                "name": "2.1.0-alpha.e9c3027b"
+              },
+              {
+                "name": "2.1.0-alpha.f98688ee"
+              },
+              {
+                "name": "2.1.1-alpha.2"
+              },
+              {
+                "name": "2.1.1-beta.0"
+              },
+              {
+                "name": "2.1.1-beta.1"
+              },
+              {
+                "name": "2.1.1-beta.2"
+              },
+              {
+                "name": "2.1.1-beta.3"
+              },
+              {
+                "name": "2.1.1-beta.4"
+              },
+              {
+                "name": "2.1.1-beta.5"
+              },
+              {
+                "name": "2.1.1-beta.6"
+              },
+              {
+                "name": "2.1.1-beta.7"
+              },
+              {
+                "name": "2.1.1-beta.8"
+              },
+              {
+                "name": "2.1.1-rc.0"
+              },
+              {
+                "name": "2.1.1-rc.1"
+              },
+              {
+                "name": "2.1.1-rc.5"
+              },
+              {
+                "name": "2.1.1"
+              },
+              {
+                "name": "2.1.2"
+              }
+            ],
             "constraint": "^1.7.23",
             "source": "npm"
           },
           "gh-pages": {
+            "available": [
+              {
+                "name": "2.0.0"
+              }
+            ],
             "constraint": "^1.1.0",
             "source": "npm"
           },
@@ -25001,6 +27512,9 @@
               },
               {
                 "name": "16.5.0"
+              },
+              {
+                "name": "16.5.1"
               }
             ],
             "constraint": "^15.6.1",
@@ -25155,6 +27669,9 @@
               },
               {
                 "name": "16.5.0"
+              },
+              {
+                "name": "16.5.1"
               }
             ],
             "constraint": "^15.6.1",

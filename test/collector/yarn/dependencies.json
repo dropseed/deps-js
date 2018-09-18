@@ -6363,17 +6363,25 @@
             "source": "npm"
           },
           "arr-diff": {
-            "constraint": "^2.0.0",
+            "constraint": "^4.0.0",
             "installed": {
-              "name": "2.0.0"
+              "name": "4.0.0"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "arr-flatten": {
-            "constraint": "^1.0.1",
+            "constraint": "^1.1.0",
             "installed": {
               "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "arr-union": {
+            "constraint": "^3.1.0",
+            "installed": {
+              "name": "3.1.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -6411,9 +6419,9 @@
             "source": "npm"
           },
           "array-unique": {
-            "constraint": "^0.2.1",
+            "constraint": "^0.3.2",
             "installed": {
-              "name": "0.2.1"
+              "name": "0.3.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -6458,6 +6466,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "assign-symbols": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "ast-types-flow": {
             "constraint": "0.0.7",
             "installed": {
@@ -6486,6 +6502,14 @@
             "constraint": "^0.4.0",
             "installed": {
               "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "atob": {
+            "constraint": "^2.1.1",
+            "installed": {
+              "name": "2.1.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7122,6 +7146,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "base": {
+            "constraint": "^0.11.1",
+            "installed": {
+              "name": "0.11.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "base64-js": {
             "constraint": "^1.0.2",
             "installed": {
@@ -7157,7 +7189,7 @@
           "binary-extensions": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.11.0"
+              "name": "1.12.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7211,9 +7243,9 @@
             "source": "npm"
           },
           "braces": {
-            "constraint": "^1.8.2",
+            "constraint": "^2.3.1",
             "installed": {
-              "name": "1.8.5"
+              "name": "2.3.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7294,6 +7326,14 @@
             "constraint": "3.0.0",
             "installed": {
               "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cache-base": {
+            "constraint": "^1.0.1",
+            "installed": {
+              "name": "1.0.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7397,7 +7437,7 @@
           "chownr": {
             "constraint": "^1.0.1",
             "installed": {
-              "name": "1.0.1"
+              "name": "1.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7422,6 +7462,14 @@
             "constraint": "^1.0.9",
             "installed": {
               "name": "1.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "class-utils": {
+            "constraint": "^0.3.5",
+            "installed": {
+              "name": "0.3.6"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7506,6 +7554,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "collection-visit": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "color": {
             "constraint": "^0.11.0",
             "installed": {
@@ -7578,10 +7634,18 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "component-emitter": {
+            "constraint": "^1.2.1",
+            "installed": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "compressible": {
             "constraint": "~2.0.14",
             "installed": {
-              "name": "2.0.14"
+              "name": "2.0.15"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7694,6 +7758,14 @@
             "constraint": "1.0.6",
             "installed": {
               "name": "1.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "copy-descriptor": {
+            "constraint": "^0.1.0",
+            "installed": {
+              "name": "0.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7869,7 +7941,7 @@
           "debug": {
             "constraint": "^3.1.0",
             "installed": {
-              "name": "3.2.4"
+              "name": "3.2.5"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7878,6 +7950,14 @@
             "constraint": "^1.1.2",
             "installed": {
               "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "decode-uri-component": {
+            "constraint": "^0.2.0",
+            "installed": {
+              "name": "0.2.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7902,6 +7982,14 @@
             "constraint": "^1.0.0",
             "installed": {
               "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "define-property": {
+            "constraint": "^2.0.2",
+            "installed": {
+              "name": "2.0.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8077,7 +8165,7 @@
           "electron-to-chromium": {
             "constraint": "^1.2.7",
             "installed": {
-              "name": "1.3.65"
+              "name": "1.3.68"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8395,9 +8483,9 @@
             "source": "npm"
           },
           "expand-brackets": {
-            "constraint": "^0.1.4",
+            "constraint": "^2.1.4",
             "installed": {
-              "name": "0.1.5"
+              "name": "2.1.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8426,10 +8514,18 @@
             "is_transitive": true,
             "source": "npm"
           },
-          "extglob": {
-            "constraint": "^0.3.1",
+          "extend-shallow": {
+            "constraint": "^3.0.2",
             "installed": {
-              "name": "0.3.2"
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "extglob": {
+            "constraint": "^2.0.4",
+            "installed": {
+              "name": "2.0.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8555,9 +8651,9 @@
             "source": "npm"
           },
           "fill-range": {
-            "constraint": "^2.1.0",
+            "constraint": "^4.0.0",
             "installed": {
-              "name": "2.2.4"
+              "name": "4.0.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8605,13 +8701,13 @@
           "follow-redirects": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.5.7"
+              "name": "1.5.8"
             },
             "is_transitive": true,
             "source": "npm"
           },
           "for-in": {
-            "constraint": "^1.0.1",
+            "constraint": "^1.0.2",
             "installed": {
               "name": "1.0.2"
             },
@@ -8646,6 +8742,14 @@
             "constraint": "~0.1.2",
             "installed": {
               "name": "0.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fragment-cache": {
+            "constraint": "^0.2.1",
+            "installed": {
+              "name": "0.2.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8742,6 +8846,14 @@
             "constraint": "^1.0.1",
             "installed": {
               "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "get-value": {
+            "constraint": "^2.0.6",
+            "installed": {
+              "name": "2.0.6"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8870,6 +8982,22 @@
             "constraint": "^2.0.0",
             "installed": {
               "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-value": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-values": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9154,6 +9282,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "is-accessor-descriptor": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "is-arrayish": {
             "constraint": "^0.2.1",
             "installed": {
@@ -9194,6 +9330,22 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "is-data-descriptor": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-descriptor": {
+            "constraint": "^1.0.2",
+            "installed": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "is-directory": {
             "constraint": "^0.3.1",
             "installed": {
@@ -9219,9 +9371,9 @@
             "source": "npm"
           },
           "is-extendable": {
-            "constraint": "^0.1.1",
+            "constraint": "^1.0.1",
             "installed": {
-              "name": "0.1.1"
+              "name": "1.0.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9314,6 +9466,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "is-plain-object": {
+            "constraint": "^2.0.4",
+            "installed": {
+              "name": "2.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "is-posix-bracket": {
             "constraint": "^0.1.0",
             "installed": {
@@ -9378,6 +9538,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "is-windows": {
+            "constraint": "^1.0.2",
+            "installed": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "isarray": {
             "constraint": "~1.0.0",
             "installed": {
@@ -9395,9 +9563,9 @@
             "source": "npm"
           },
           "isobject": {
-            "constraint": "^2.0.0",
+            "constraint": "^3.0.1",
             "installed": {
-              "name": "2.1.0"
+              "name": "3.0.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9763,7 +9931,7 @@
             "source": "npm"
           },
           "kind-of": {
-            "constraint": "^6.0.0",
+            "constraint": "^6.0.2",
             "installed": {
               "name": "6.0.2"
             },
@@ -9821,7 +9989,7 @@
           "lodash": {
             "constraint": "^4.3.0",
             "installed": {
-              "name": "4.17.10"
+              "name": "4.17.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9829,7 +9997,7 @@
           "lodash-es": {
             "constraint": "^4.2.1",
             "installed": {
-              "name": "4.17.10"
+              "name": "4.17.11"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10026,6 +10194,22 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "map-cache": {
+            "constraint": "^0.2.2",
+            "installed": {
+              "name": "0.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "map-visit": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "marked": {
             "constraint": "^0.5.0",
             "installed": {
@@ -10099,9 +10283,9 @@
             "source": "npm"
           },
           "micromatch": {
-            "constraint": "^2.3.11",
+            "constraint": "^3.1.10",
             "installed": {
-              "name": "2.3.11"
+              "name": "3.1.10"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10162,6 +10346,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "mixin-deep": {
+            "constraint": "^1.2.0",
+            "installed": {
+              "name": "1.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "mkdirp": {
             "constraint": "~0.5.1",
             "installed": {
@@ -10190,6 +10382,14 @@
             "constraint": "^2.9.2",
             "installed": {
               "name": "2.11.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "nanomatch": {
+            "constraint": "^1.2.9",
+            "installed": {
+              "name": "1.2.13"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10394,10 +10594,34 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "object-copy": {
+            "constraint": "^0.1.0",
+            "installed": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object-visit": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "object.omit": {
             "constraint": "^2.0.0",
             "installed": {
               "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object.pick": {
+            "constraint": "^1.3.0",
+            "installed": {
+              "name": "1.3.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10562,6 +10786,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "pascalcase": {
+            "constraint": "^0.1.1",
+            "installed": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "path-browserify": {
             "constraint": "0.0.0",
             "installed": {
@@ -10678,6 +10910,14 @@
             "constraint": "^1.2.1",
             "installed": {
               "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "posix-character-classes": {
+            "constraint": "^0.1.0",
+            "installed": {
+              "name": "0.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11248,7 +11488,7 @@
           "readdirp": {
             "constraint": "^2.0.0",
             "installed": {
-              "name": "2.1.0"
+              "name": "2.2.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11340,6 +11580,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "regex-not": {
+            "constraint": "^1.0.2",
+            "installed": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "regexpu-core": {
             "constraint": "^2.0.0",
             "installed": {
@@ -11397,7 +11645,7 @@
             "source": "npm"
           },
           "repeat-string": {
-            "constraint": "^1.5.2",
+            "constraint": "^1.6.1",
             "installed": {
               "name": "1.6.1"
             },
@@ -11476,10 +11724,26 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "resolve-url": {
+            "constraint": "^0.2.1",
+            "installed": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "restore-cursor": {
             "constraint": "^1.0.1",
             "installed": {
               "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ret": {
+            "constraint": "~0.1.10",
+            "installed": {
+              "name": "0.1.15"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11528,6 +11792,14 @@
             "constraint": "~5.1.1",
             "installed": {
               "name": "5.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "safe-regex": {
+            "constraint": "^1.1.0",
+            "installed": {
+              "name": "1.1.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11596,10 +11868,10 @@
             "is_transitive": true,
             "source": "npm"
           },
-          "set-immediate-shim": {
-            "constraint": "^1.0.1",
+          "set-value": {
+            "constraint": "^2.0.0",
             "installed": {
-              "name": "1.0.1"
+              "name": "2.0.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11668,6 +11940,30 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "snapdragon": {
+            "constraint": "^0.8.1",
+            "installed": {
+              "name": "0.8.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "snapdragon-node": {
+            "constraint": "^2.0.1",
+            "installed": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "snapdragon-util": {
+            "constraint": "^3.0.1",
+            "installed": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "sntp": {
             "constraint": "1.x.x",
             "installed": {
@@ -11716,10 +12012,26 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "source-map-resolve": {
+            "constraint": "^0.5.0",
+            "installed": {
+              "name": "0.5.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "source-map-support": {
             "constraint": "^0.4.15",
             "installed": {
               "name": "0.4.18"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "source-map-url": {
+            "constraint": "^0.4.0",
+            "installed": {
+              "name": "0.4.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11756,6 +12068,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "split-string": {
+            "constraint": "^3.0.2",
+            "installed": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "sprintf-js": {
             "constraint": "~1.0.2",
             "installed": {
@@ -11768,6 +12088,14 @@
             "constraint": "^1.7.0",
             "installed": {
               "name": "1.14.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "static-extend": {
+            "constraint": "^0.1.1",
+            "installed": {
+              "name": "0.1.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12004,6 +12332,30 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "to-object-path": {
+            "constraint": "^0.3.0",
+            "installed": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-regex": {
+            "constraint": "^3.0.2",
+            "installed": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-regex-range": {
+            "constraint": "^2.1.0",
+            "installed": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "toposort": {
             "constraint": "^1.0.0",
             "installed": {
@@ -12116,6 +12468,14 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "union-value": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "uniq": {
             "constraint": "^1.0.1",
             "installed": {
@@ -12140,10 +12500,26 @@
             "is_transitive": true,
             "source": "npm"
           },
+          "unset-value": {
+            "constraint": "^1.0.0",
+            "installed": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
           "upper-case": {
             "constraint": "^1.1.1",
             "installed": {
               "name": "1.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "urix": {
+            "constraint": "^0.1.0",
+            "installed": {
+              "name": "0.1.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12168,6 +12544,14 @@
             "constraint": "^1.4.3",
             "installed": {
               "name": "1.4.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "use": {
+            "constraint": "^3.1.0",
+            "installed": {
+              "name": "3.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12509,7 +12893,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "a7c2b39ead2dc5891f14d611a32cd9b5"
+        "fingerprint": "f6fd8f50a471ea286bb237cb0331a9d7"
       }
     }
   },
@@ -12657,6 +13041,9 @@
               },
               {
                 "name": "16.5.0"
+              },
+              {
+                "name": "16.5.1"
               }
             ],
             "constraint": "^15.5.4",
@@ -12810,6 +13197,9 @@
               },
               {
                 "name": "16.5.0"
+              },
+              {
+                "name": "16.5.1"
               }
             ],
             "constraint": "^15.5.4",

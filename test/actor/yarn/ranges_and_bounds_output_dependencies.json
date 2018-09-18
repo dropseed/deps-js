@@ -84,7 +84,7 @@
               "lodash": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.10"
+                  "name": "4.17.11"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -92,7 +92,7 @@
               "lodash-es": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.10"
+                  "name": "4.17.11"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -191,7 +191,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "5383f145599c7374a86551bd48975406"
+            "fingerprint": "17136496802d5e6a9e38979b2db2f9c1"
           }
         }
       }

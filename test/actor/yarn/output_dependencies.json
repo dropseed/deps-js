@@ -100,7 +100,7 @@
               "lodash": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.10"
+                  "name": "4.17.11"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -108,7 +108,7 @@
               "lodash-es": {
                 "constraint": "^4.2.1",
                 "installed": {
-                  "name": "4.17.10"
+                  "name": "4.17.11"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -222,7 +222,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "1d44f216fbf3344ea10e1c214ec3d6ff"
+            "fingerprint": "cb194d7f6e08fc2d7e1f52e7cd259c41"
           }
         }
       },
