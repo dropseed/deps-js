@@ -44,7 +44,7 @@ export class RangeUpdater {
       const lockfile = new Lockfile(this.dir)
       if (lockfile.existed) {
         console.log('Updating lockfile with new package.json range changes')
-        lockfile.update()
+        lockfile.generate()
       }
     }
   }
