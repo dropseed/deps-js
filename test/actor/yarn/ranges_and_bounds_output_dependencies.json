@@ -177,7 +177,7 @@
               "ua-parser-js": {
                 "constraint": "^0.7.18",
                 "installed": {
-                  "name": "0.7.18"
+                  "name": "0.7.19"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -191,7 +191,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "17136496802d5e6a9e38979b2db2f9c1"
+            "fingerprint": "ec2116dd075d34fd4865ba7af1169c59"
           }
         }
       }

@@ -10499,7 +10499,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "d4bf29a730b511b264df946eee086b5d"
+        "fingerprint": "619f51f5677adfa8431f1256f53a2a85"
       }
     }
   },
@@ -10650,6 +10650,24 @@
               },
               {
                 "name": "16.5.1"
+              },
+              {
+                "name": "16.5.2"
+              },
+              {
+                "name": "16.6.0-alpha.0"
+              },
+              {
+                "name": "16.6.0-alpha.400d197"
+              },
+              {
+                "name": "16.6.0-alpha.8af6728"
+              },
+              {
+                "name": "16.6.0-alpha.f47a958"
+              },
+              {
+                "name": "16.6.0"
               }
             ],
             "constraint": "^15.5.4",
@@ -10806,12 +10824,32 @@
               },
               {
                 "name": "16.5.1"
+              },
+              {
+                "name": "16.5.2"
+              },
+              {
+                "name": "16.6.0-alpha.0"
+              },
+              {
+                "name": "16.6.0-alpha.400d197"
+              },
+              {
+                "name": "16.6.0-alpha.8af6728"
+              },
+              {
+                "name": "16.6.0"
               }
             ],
             "constraint": "^15.5.4",
             "source": "npm"
           },
           "react-redux": {
+            "available": [
+              {
+                "name": "5.1.0-test.1"
+              }
+            ],
             "constraint": "^5.0.4",
             "source": "npm"
           },
@@ -10828,6 +10866,9 @@
               },
               {
                 "name": "4.0.0"
+              },
+              {
+                "name": "4.0.1"
               }
             ],
             "constraint": "^3.6.0",
