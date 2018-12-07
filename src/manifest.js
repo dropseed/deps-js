@@ -80,7 +80,6 @@ export class Manifest {
       )
     } catch(e) {
       console.log('Unable to find additional manifests')
-      console.log(e)
       return []
     }
     const workspaces = JSON.parse(output.data)
