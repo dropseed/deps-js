@@ -932,9 +932,9 @@ camelcase@^4.0.0, camelcase@^4.1.0:
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
 caniuse-lite@^1.0.30000844:
-  version "1.0.30000923"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000923.tgz#148f9bda508024b5ce957b463ae2e8302b451bb2"
-  integrity sha512-j5ur7eeluOFjjPUkydtXP4KFAsmH3XaQNch5tvWSO+dLHYt5PE+VgJZLWtbVOodfWij6m6zas28T4gB/cLYq1w==
+  version "1.0.30000925"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000925.tgz#f1a3b9aae2a83071b1eccfa39959d72440409b08"
+  integrity sha512-zcYupoUxtW46rOikuDF7vfL9N1Qe9ZuUBTz3n3q8fFsoJIs/h9UN6Vg/0QpjsmvImXw9mVc3g+ZBfqvUz/iALA==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -1978,9 +1978,9 @@ init-package-json@^1.10.3:
     validate-npm-package-name "^3.0.0"
 
 interpret@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
-  integrity sha1-ftGxQQxqDg94z5XTuEQMY/eLhhQ=
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
+  integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
 
 invariant@^2.2.2:
   version "2.2.4"
@@ -2763,9 +2763,9 @@ ms@^2.0.0, ms@^2.1.1:
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
 mute-stream@~0.0.4:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
-  integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
+  integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
 nan@^2.9.2:
   version "2.12.1"
