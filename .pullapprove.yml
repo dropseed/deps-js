@@ -3,6 +3,7 @@ groups:
   general:
     conditions:
     - "'*travis*' in statuses.failed"
+    - "author != 'davegaeddert'"
     reviewers:
       users:
       - davegaeddert
