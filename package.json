@@ -11,7 +11,7 @@
     "detect-indent": "^5.0.0",
     "flatten": "^1.0.2",
     "memory-cache": "^0.2.0",
-    "npm": "6.5.0",
+    "npm": "6.6.0",
     "npm-package-arg": "^6.1.0",
     "shell-escape": "^0.2.0",
     "shelljs": "^0.8.2",
