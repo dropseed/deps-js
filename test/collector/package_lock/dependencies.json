@@ -10497,7 +10497,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "e6eba8bdeb0bfd0e6de379b029044817"
+        "fingerprint": "fd3f45d99ff09cc4524c04b538c6de94"
       }
     }
   },
@@ -10708,6 +10708,9 @@
               },
               {
                 "name": "16.8.4"
+              },
+              {
+                "name": "16.8.5"
               }
             ],
             "constraint": "^15.5.4",
@@ -10921,6 +10924,9 @@
               },
               {
                 "name": "16.8.4"
+              },
+              {
+                "name": "16.8.5"
               }
             ],
             "constraint": "^15.5.4",

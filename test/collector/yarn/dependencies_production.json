@@ -6190,7 +6190,7 @@
           "@babel/runtime": {
             "constraint": "^7.1.2",
             "installed": {
-              "name": "7.3.4"
+              "name": "7.4.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -6486,7 +6486,7 @@
           "async-each": {
             "constraint": "^1.0.0",
             "installed": {
-              "name": "1.0.1"
+              "name": "1.0.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7374,7 +7374,7 @@
           "caniuse-db": {
             "constraint": "^1.0.30000639",
             "installed": {
-              "name": "1.0.30000943"
+              "name": "1.0.30000953"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7612,9 +7612,9 @@
             "source": "npm"
           },
           "commander": {
-            "constraint": "~2.17.1",
+            "constraint": "~2.19.0",
             "installed": {
-              "name": "2.17.1"
+              "name": "2.19.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7636,7 +7636,7 @@
             "source": "npm"
           },
           "compressible": {
-            "constraint": "~2.0.14",
+            "constraint": "~2.0.16",
             "installed": {
               "name": "2.0.16"
             },
@@ -7646,7 +7646,7 @@
           "compression": {
             "constraint": "^1.5.2",
             "installed": {
-              "name": "1.7.3"
+              "name": "1.7.4"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8150,7 +8150,7 @@
           "electron-to-chromium": {
             "constraint": "^1.2.7",
             "installed": {
-              "name": "1.3.114"
+              "name": "1.3.119"
             },
             "is_transitive": true,
             "source": "npm"
@@ -8910,7 +8910,7 @@
           "handlebars": {
             "constraint": "^4.0.3",
             "installed": {
-              "name": "4.1.0"
+              "name": "4.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9142,7 +9142,7 @@
           "ieee754": {
             "constraint": "^1.1.4",
             "installed": {
-              "name": "1.1.12"
+              "name": "1.1.13"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10318,7 +10318,7 @@
           "nan": {
             "constraint": "^2.9.2",
             "installed": {
-              "name": "2.12.1"
+              "name": "2.13.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10351,6 +10351,14 @@
             "constraint": "0.6.1",
             "installed": {
               "name": "0.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "neo-async": {
+            "constraint": "^2.6.0",
+            "installed": {
+              "name": "2.6.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10572,7 +10580,7 @@
             "source": "npm"
           },
           "on-headers": {
-            "constraint": "~1.0.1",
+            "constraint": "~1.0.2",
             "installed": {
               "name": "1.0.2"
             },
@@ -11325,7 +11333,7 @@
           "querystringify": {
             "constraint": "^2.0.0",
             "installed": {
-              "name": "2.1.0"
+              "name": "2.1.1"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11387,7 +11395,7 @@
           "react-is": {
             "constraint": "^16.8.1",
             "installed": {
-              "name": "16.8.4"
+              "name": "16.8.5"
             },
             "is_transitive": true,
             "source": "npm"
@@ -11511,9 +11519,9 @@
             "source": "npm"
           },
           "regenerator-runtime": {
-            "constraint": "^0.12.0",
+            "constraint": "^0.13.2",
             "installed": {
-              "name": "0.12.1"
+              "name": "0.13.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -12863,7 +12871,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "24b7b46fc4aa54f91fca9d7c4074e25b"
+        "fingerprint": "04542e06b44ac33f5f2b56a0bcdfaf1a"
       }
     }
   },
@@ -13074,6 +13082,9 @@
               },
               {
                 "name": "16.8.4"
+              },
+              {
+                "name": "16.8.5"
               }
             ],
             "constraint": "^15.5.4",
@@ -13287,6 +13298,9 @@
               },
               {
                 "name": "16.8.4"
+              },
+              {
+                "name": "16.8.5"
               }
             ],
             "constraint": "^15.5.4",
