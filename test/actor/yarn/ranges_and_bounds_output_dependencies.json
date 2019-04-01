@@ -146,7 +146,7 @@
               "react-is": {
                 "constraint": "^16.8.1",
                 "installed": {
-                  "name": "16.8.5"
+                  "name": "16.8.6"
                 },
                 "is_transitive": true,
                 "source": "npm"
@@ -199,7 +199,7 @@
                 "source": "npm"
               }
             },
-            "fingerprint": "fa14ed60a8833b7aa09b3100a7b8c809"
+            "fingerprint": "52273bab6d8abd7cde64181c6d9cc7a0"
           }
         }
       }
