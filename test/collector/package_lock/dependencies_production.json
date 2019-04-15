@@ -10499,7 +10499,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "a42a1b5015b78e6b7859438607a172ca"
+        "fingerprint": "ff928bc101efc34d5155c7ca0b80b0cf"
       }
     }
   },
@@ -10968,6 +10968,21 @@
               },
               {
                 "name": "6.0.1"
+              },
+              {
+                "name": "7.0.0-beta.0"
+              },
+              {
+                "name": "7.0.0-beta.1"
+              },
+              {
+                "name": "7.0.0"
+              },
+              {
+                "name": "7.0.1"
+              },
+              {
+                "name": "7.0.2"
               }
             ],
             "constraint": "^5.0.4",
