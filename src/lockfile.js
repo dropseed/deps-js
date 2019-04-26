@@ -1,6 +1,7 @@
 import path from 'path'
 import fs from 'fs'
 import shell from 'shelljs'
+import md5File from 'md5-file'
 import * as yarnLockfile from '@yarnpkg/lockfile'
 
 import { Manifest } from './manifest'
@@ -36,10 +37,7 @@ export class Lockfile {
   }
 
   getFingerprint() {
-    return shell
-      .exec(`md5sum ${this.path}`, { silent: true })
-      .stdout.trim()
-      .split(' ')[0]
+    return md5File.sync(this.path)
   }
 
   isYarnLock() {

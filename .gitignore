@@ -1,5 +1,7 @@
 node_modules
 .DS_Store
 
+/build
+
 # dependencies-cli test cache
 .pytest_cache

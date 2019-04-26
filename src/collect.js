@@ -5,10 +5,8 @@ import { Lockfile } from './lockfile'
 import { Manifest } from './manifest'
 
 
-export const collect = dependencyPath => {
-
-  shell.exec("deps hook before_update")
-
+export const collect = (dependencyPath, outputPath) => {
+  console.log(dependencyPath)
   let output = {manifests: {}}
 
   // find the manifest(s)
@@ -40,7 +38,5 @@ export const collect = dependencyPath => {
   }
 
   // report the reuslts
-  const dependenciesJson = '/tmp/collected.json'
-  fs.writeFileSync(dependenciesJson, JSON.stringify(output))
-  shell.exec(shellEscape(['deps', 'collect', dependenciesJson]))
+  fs.writeFileSync(outputPath, JSON.stringify(output))
 }

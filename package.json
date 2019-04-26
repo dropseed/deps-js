@@ -10,6 +10,7 @@
     "babel-preset-env": "^1.7.0",
     "detect-indent": "^5.0.0",
     "flatten": "^1.0.2",
+    "md5-file": "^4.0.0",
     "memory-cache": "^0.2.0",
     "npm": "6.9.0",
     "npm-package-arg": "^6.1.0",
