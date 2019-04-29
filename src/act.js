@@ -7,18 +7,13 @@ import { Lockfile } from './lockfile'
 import { updatePackageJSONLowerBounds } from './settings'
 import { RangeUpdater } from './range-updater'
 
-export const act = () => {
-  const data = JSON.parse(fs.readFileSync('/dependencies/input_data.json', 'utf8'))
-
-  shell.exec("deps branch")
+export const act = (inputPath, outputPath) => {
+  const data = JSON.parse(fs.readFileSync(inputPath, 'utf8'))
 
   if (data.lockfiles) {
     Object.entries(data.lockfiles).forEach(([lockfilePath, lockfileData]) => {
       const lockfile = new Lockfile(lockfilePath)
       lockfile.update()
-
-      // commit everything that was changed (scripts may have updated other files)
-      shell.exec(`deps commit -m "Update ${lockfile.path}" .`)
 
       lockfileData.updated = lockfile.convertToSchema()
 
@@ -30,11 +25,6 @@ export const act = () => {
           const ru = new RangeUpdater(path.dirname(manifest.path))
           ru.update()
         })
-        try {
-          shell.exec(`deps commit -m "Update lower bounds in package.json ranges" .`)
-        } catch (e) {
-          console.log('Failed to commit any changes to lower bounds. Probably wasn\'t anything to commit.')
-        }
       }
     })
   }
@@ -45,7 +35,5 @@ export const act = () => {
     })
   }
 
-  const dependenciesJson = '/tmp/dependencies.json'
-  fs.writeFileSync(dependenciesJson, JSON.stringify(data))
-  shell.exec(shellEscape(['deps', 'pullrequest', dependenciesJson]))
+  fs.writeFileSync(outputPath, JSON.stringify(data))
 }

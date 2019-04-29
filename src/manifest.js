@@ -98,9 +98,6 @@ export class Manifest {
       if (lockfile && lockfile.existed) {
         lockfile.generate()
       }
-
-      const msg = `Update ${name} from ${installed} to ${updatedConstraint}`
-      shell.exec(`deps commit -m "${msg}" .`)
     })
   }
 
