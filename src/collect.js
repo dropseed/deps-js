@@ -39,4 +39,7 @@ export const collect = (dependencyPath, outputPath) => {
 
   // report the reuslts
   fs.writeFileSync(outputPath, JSON.stringify(output))
+
+  // TODO need to put the yarn.lock or package-lock.json back when finished...
+  // right?
 }

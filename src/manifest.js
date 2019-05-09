@@ -44,21 +44,30 @@ export class Manifest {
   convertToSchema() {
     let dependencies = {}
 
+    shell.config.fatal = false
+    const outdated = JSON.parse(
+      shell.exec(`cd ${this.dirPath} && npm outdated --json`, { silent: true }).stdout.trim()
+    )
+    const npmList = JSON.parse(
+      shell.exec(`cd ${this.dirPath} && npm ls --json --depth=0`, { silent: true }).stdout.trim()
+    )
+    shell.config.fatal = true
+
     dependencyTypesToCollect().forEach(dt => {
       if (dt in this.contents) {
         Object.entries(this.contents[dt]).forEach(([name, constraint]) => {
 
           const source = this.sourceForDependency(name, constraint)
+          let latest = npmList.dependencies[name].version  // assume this is the latest
 
-          let availableVersions = []
-          if (source !== 'file' && source !== 'directory') {
-            availableVersions = getAvailableVersionsOfDependency(name, constraint).map(v => ({ name: v }))
+          if (name in outdated) {
+            latest = outdated[name].latest
           }
 
           dependencies[name] = {
             'constraint': constraint,
             'source': source,
-            'available': availableVersions,
+            'latest': { name: latest},
           }
         })
       }
