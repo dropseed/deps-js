@@ -144,8 +144,8 @@ export class Lockfile {
       }
 
       dependenciesForSchema[info.name] = {
-        installed: { name: info.version },
-        constraint: dep.replace(`${info.name}@`, ''), // simply keep the comma separated ranges without the name@ parts
+        version: { name: info.version },
+        // constraint: dep.replace(`${info.name}@`, ''), // simply keep the comma separated ranges without the name@ parts
         is_transitive: manifestConstraint === undefined,
         source: info.registry,
       }

@@ -1,6 +1,4 @@
 import fs from 'fs'
-import shell from 'shelljs'
-import shellEscape from 'shell-escape'
 import { Lockfile } from './lockfile'
 import { Manifest } from './manifest'
 

@@ -1,14 +1,11 @@
 import path from 'path'
 import fs from 'fs'
 import shell from 'shelljs'
-import shellEscape from 'shell-escape'
 import detectIndent from 'detect-indent'
-import flatten from 'flatten'
 import npa from 'npm-package-arg'
 
 import { Lockfile } from './lockfile'
 import { dependencyTypesToCollect } from './settings'
-import { getAvailableVersionsOfDependency } from './dependency'
 
 export class Manifest {
 
@@ -29,7 +26,6 @@ export class Manifest {
     }
 
     this.contents = require(path.resolve(this.path))
-    console.log(JSON.stringify(this.contents, null, 2))
   }
 
   constraintForDependency(name) {
@@ -42,7 +38,14 @@ export class Manifest {
   }
 
   convertToSchema() {
-    let dependencies = {}
+    let output = {
+      current: {
+        dependencies: {}
+      },
+      updated: {
+        dependencies: {}
+      },
+    }
 
     shell.config.fatal = false
     const outdated = JSON.parse(
@@ -64,20 +67,28 @@ export class Manifest {
             latest = outdated[name].latest
           }
 
-          dependencies[name] = {
+          let latestConstraint = latest
+          if (constraint.indexOf('^') !== -1) {
+            latestConstraint = '^' + latest
+          }
+          if (constraint.indexOf('~') !== -1) {
+            latestConstraint = '~' + latest
+          }
+
+          output.current.dependencies[name] = {
             'constraint': constraint,
             'source': source,
-            'latest': { name: latest},
+          }
+
+          output.updated.dependencies[name] = {
+            'constraint': latestConstraint,
+            'source': source,
           }
         })
       }
     })
 
-    return {
-      'current': {
-        'dependencies': dependencies
-      }
-    }
+    return output
   }
 
   getAdditionalManifests() {
