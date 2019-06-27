@@ -49,11 +49,8 @@ export class Manifest {
     }
 
     shell.config.fatal = false
-    const outdated = JSON.parse(
+    const npmOutdated = JSON.parse(
       shell.exec(`cd ${this.dirPath} && npm outdated --json`, { silent: true }).stdout.trim()
-    )
-    const npmList = JSON.parse(
-      shell.exec(`cd ${this.dirPath} && npm ls --json --depth=0`, { silent: true }).stdout.trim()
     )
     shell.config.fatal = true
 
@@ -68,12 +65,11 @@ export class Manifest {
             'source': source,
           }
 
-          let latest = npmList.dependencies[name].version  // assume this is the latest
-
-          if (name in outdated && !semver.satisfies(latest, constraint)) {
-            latest = outdated[name].latest
-
+          const outdated = npmOutdated[name]
+          if (outdated && !semver.satisfies(outdated.latest, constraint)) {
+            const latest = outdated.latest
             let latestConstraint = latest
+
             if (constraint.indexOf('^') !== -1) {
               latestConstraint = '^' + latest
             }
