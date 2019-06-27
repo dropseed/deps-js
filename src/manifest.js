@@ -3,6 +3,7 @@ import fs from 'fs'
 import shell from 'shelljs'
 import detectIndent from 'detect-indent'
 import npa from 'npm-package-arg'
+import semver from 'semver'
 
 import { Lockfile } from './lockfile'
 import { dependencyTypesToCollect } from './settings'
@@ -61,28 +62,29 @@ export class Manifest {
         Object.entries(this.contents[dt]).forEach(([name, constraint]) => {
 
           const source = this.sourceForDependency(name, constraint)
-          let latest = npmList.dependencies[name].version  // assume this is the latest
-
-          if (name in outdated) {
-            latest = outdated[name].latest
-          }
-
-          let latestConstraint = latest
-          if (constraint.indexOf('^') !== -1) {
-            latestConstraint = '^' + latest
-          }
-          if (constraint.indexOf('~') !== -1) {
-            latestConstraint = '~' + latest
-          }
 
           output.current.dependencies[name] = {
             'constraint': constraint,
             'source': source,
           }
 
-          output.updated.dependencies[name] = {
-            'constraint': latestConstraint,
-            'source': source,
+          let latest = npmList.dependencies[name].version  // assume this is the latest
+
+          if (name in outdated && !semver.satisfies(latest, constraint)) {
+            latest = outdated[name].latest
+
+            let latestConstraint = latest
+            if (constraint.indexOf('^') !== -1) {
+              latestConstraint = '^' + latest
+            }
+            if (constraint.indexOf('~') !== -1) {
+              latestConstraint = '~' + latest
+            }
+
+            output.updated.dependencies[name] = {
+              'constraint': latestConstraint,
+              'source': source,
+            }
           }
         })
       }
