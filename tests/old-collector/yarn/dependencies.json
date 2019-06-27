@@ -1,0 +1,5928 @@
+{
+  "lockfiles": {
+    "yarn.lock": {
+      "current": {
+        "dependencies": {
+          "@babel/runtime": {
+            "version": {
+              "name": "7.4.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "abab": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "abbrev": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "accepts": {
+            "version": {
+              "name": "1.3.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "acorn": {
+            "version": {
+              "name": "5.7.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "acorn-globals": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "acorn-jsx": {
+            "version": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ajv": {
+            "version": {
+              "name": "6.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ajv-keywords": {
+            "version": {
+              "name": "1.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "align-text": {
+            "version": {
+              "name": "0.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "alphanum-sort": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "amdefine": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ansi-escapes": {
+            "version": {
+              "name": "3.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ansi-html": {
+            "version": {
+              "name": "0.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ansi-regex": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ansi-styles": {
+            "version": {
+              "name": "3.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ansicolors": {
+            "version": {
+              "name": "0.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "anymatch": {
+            "version": {
+              "name": "1.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "append-transform": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "aproba": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "are-we-there-yet": {
+            "version": {
+              "name": "1.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "argparse": {
+            "version": {
+              "name": "1.0.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "aria-query": {
+            "version": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "arr-diff": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "arr-flatten": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "arr-union": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "array-equal": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "array-flatten": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "array-unique": {
+            "version": {
+              "name": "0.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "arrify": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "asap": {
+            "version": {
+              "name": "2.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "asn1": {
+            "version": {
+              "name": "0.2.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "assert": {
+            "version": {
+              "name": "1.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "assert-plus": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "assign-symbols": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ast-types-flow": {
+            "version": {
+              "name": "0.0.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "async": {
+            "version": {
+              "name": "0.2.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "async-each": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "asynckit": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "atob": {
+            "version": {
+              "name": "2.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "autoprefixer": {
+            "version": {
+              "name": "6.7.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "aws-sign2": {
+            "version": {
+              "name": "0.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "aws4": {
+            "version": {
+              "name": "1.8.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-code-frame": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-core": {
+            "version": {
+              "name": "6.26.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-eslint": {
+            "version": {
+              "name": "7.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-generator": {
+            "version": {
+              "name": "6.26.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-builder-binary-assignment-operator-visitor": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-builder-react-jsx": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-call-delegate": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-define-map": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-explode-assignable-expression": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-function-name": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-get-function-arity": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-hoist-variables": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-optimise-call-expression": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-regex": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-remap-async-to-generator": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helper-replace-supers": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-helpers": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-jest": {
+            "version": {
+              "name": "18.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-loader": {
+            "version": {
+              "name": "6.2.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-messages": {
+            "version": {
+              "name": "6.23.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-check-es2015-constants": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-istanbul": {
+            "version": {
+              "name": "3.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-jest-hoist": {
+            "version": {
+              "name": "18.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-async-functions": {
+            "version": {
+              "name": "6.13.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-class-properties": {
+            "version": {
+              "name": "6.13.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-exponentiation-operator": {
+            "version": {
+              "name": "6.13.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-flow": {
+            "version": {
+              "name": "6.18.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-jsx": {
+            "version": {
+              "name": "6.18.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-object-rest-spread": {
+            "version": {
+              "name": "6.13.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-syntax-trailing-function-commas": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-async-to-generator": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-class-properties": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-arrow-functions": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-block-scoped-functions": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-block-scoping": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-classes": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-computed-properties": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-destructuring": {
+            "version": {
+              "name": "6.23.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-duplicate-keys": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-for-of": {
+            "version": {
+              "name": "6.23.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-function-name": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-literals": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-modules-amd": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-modules-commonjs": {
+            "version": {
+              "name": "6.26.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-modules-systemjs": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-modules-umd": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-object-super": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-parameters": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-shorthand-properties": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-spread": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-sticky-regex": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-template-literals": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-typeof-symbol": {
+            "version": {
+              "name": "6.23.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-es2015-unicode-regex": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-exponentiation-operator": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-flow-strip-types": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-object-rest-spread": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-react-constant-elements": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-react-display-name": {
+            "version": {
+              "name": "6.25.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-react-jsx": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-react-jsx-self": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-react-jsx-source": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-regenerator": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-runtime": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-plugin-transform-strict-mode": {
+            "version": {
+              "name": "6.24.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-preset-env": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-preset-jest": {
+            "version": {
+              "name": "18.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-preset-react": {
+            "version": {
+              "name": "6.22.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-preset-react-app": {
+            "version": {
+              "name": "2.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-register": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-runtime": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-template": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-traverse": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babel-types": {
+            "version": {
+              "name": "6.26.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "babylon": {
+            "version": {
+              "name": "6.18.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "balanced-match": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "base": {
+            "version": {
+              "name": "0.11.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "base64-js": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "batch": {
+            "version": {
+              "name": "0.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "bcrypt-pbkdf": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "big.js": {
+            "version": {
+              "name": "3.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "binary-extensions": {
+            "version": {
+              "name": "1.13.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "block-stream": {
+            "version": {
+              "name": "0.0.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "bluebird": {
+            "version": {
+              "name": "3.5.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "body-parser": {
+            "version": {
+              "name": "1.19.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "boolbase": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "boom": {
+            "version": {
+              "name": "2.10.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "brace-expansion": {
+            "version": {
+              "name": "1.1.11"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "braces": {
+            "version": {
+              "name": "2.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "browser-resolve": {
+            "version": {
+              "name": "1.11.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "browserify-aes": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "browserify-zlib": {
+            "version": {
+              "name": "0.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "browserslist": {
+            "version": {
+              "name": "1.7.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "bser": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "buffer": {
+            "version": {
+              "name": "4.9.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "buffer-from": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "builtin-modules": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "builtin-status-codes": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "bytes": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cache-base": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "caller-path": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "callsites": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "camel-case": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "camelcase": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "caniuse-api": {
+            "version": {
+              "name": "1.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "caniuse-db": {
+            "version": {
+              "name": "1.0.30000978"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cardinal": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "case-sensitive-paths-webpack-plugin": {
+            "version": {
+              "name": "1.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "caseless": {
+            "version": {
+              "name": "0.12.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "center-align": {
+            "version": {
+              "name": "0.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "chalk": {
+            "version": {
+              "name": "2.4.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "chokidar": {
+            "version": {
+              "name": "1.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "chownr": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ci-info": {
+            "version": {
+              "name": "1.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "circular-json": {
+            "version": {
+              "name": "0.3.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "clap": {
+            "version": {
+              "name": "1.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "class-utils": {
+            "version": {
+              "name": "0.3.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "clean-css": {
+            "version": {
+              "name": "4.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cli-cursor": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cli-table": {
+            "version": {
+              "name": "0.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cli-usage": {
+            "version": {
+              "name": "0.1.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cli-width": {
+            "version": {
+              "name": "2.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cliui": {
+            "version": {
+              "name": "3.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "clone": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "co": {
+            "version": {
+              "name": "4.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "coa": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "code-point-at": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "collection-visit": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "color": {
+            "version": {
+              "name": "0.11.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "color-convert": {
+            "version": {
+              "name": "1.9.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "color-name": {
+            "version": {
+              "name": "1.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "color-string": {
+            "version": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "colormin": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "colors": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "combined-stream": {
+            "version": {
+              "name": "1.0.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "commander": {
+            "version": {
+              "name": "2.20.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "commondir": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "component-emitter": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "compressible": {
+            "version": {
+              "name": "2.0.17"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "compression": {
+            "version": {
+              "name": "1.7.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "concat-map": {
+            "version": {
+              "name": "0.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "concat-stream": {
+            "version": {
+              "name": "1.6.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "connect-history-api-fallback": {
+            "version": {
+              "name": "1.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "console-browserify": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "console-control-strings": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "constants-browserify": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "contains-path": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "content-disposition": {
+            "version": {
+              "name": "0.5.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "content-type": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "content-type-parser": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "convert-source-map": {
+            "version": {
+              "name": "1.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cookie": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cookie-signature": {
+            "version": {
+              "name": "1.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "copy-descriptor": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "core-js": {
+            "version": {
+              "name": "2.6.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "core-util-is": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cosmiconfig": {
+            "version": {
+              "name": "2.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "create-react-class": {
+            "version": {
+              "name": "15.6.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cross-spawn": {
+            "version": {
+              "name": "4.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cryptiles": {
+            "version": {
+              "name": "2.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "crypto-browserify": {
+            "version": {
+              "name": "3.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "css-color-names": {
+            "version": {
+              "name": "0.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "css-loader": {
+            "version": {
+              "name": "0.26.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "css-select": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "css-selector-tokenizer": {
+            "version": {
+              "name": "0.7.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "css-what": {
+            "version": {
+              "name": "2.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cssesc": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cssnano": {
+            "version": {
+              "name": "3.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "csso": {
+            "version": {
+              "name": "2.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cssom": {
+            "version": {
+              "name": "0.3.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "cssstyle": {
+            "version": {
+              "name": "0.2.37"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "d": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "damerau-levenshtein": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "dashdash": {
+            "version": {
+              "name": "1.14.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "date-now": {
+            "version": {
+              "name": "0.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "debug": {
+            "version": {
+              "name": "3.2.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "decamelize": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "decode-uri-component": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "deep-extend": {
+            "version": {
+              "name": "0.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "deep-is": {
+            "version": {
+              "name": "0.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "default-require-extensions": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "define-property": {
+            "version": {
+              "name": "2.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "defined": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "delayed-stream": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "delegates": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "depd": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "destroy": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "detect-indent": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "detect-libc": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "detect-port": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "diff": {
+            "version": {
+              "name": "3.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "doctrine": {
+            "version": {
+              "name": "1.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "dom-converter": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "dom-serializer": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "domain-browser": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "domelementtype": {
+            "version": {
+              "name": "1.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "domhandler": {
+            "version": {
+              "name": "2.4.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "domutils": {
+            "version": {
+              "name": "1.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "dotenv": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "duplexer": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ecc-jsbn": {
+            "version": {
+              "name": "0.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ee-first": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "electron-to-chromium": {
+            "version": {
+              "name": "1.3.175"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "emoji-regex": {
+            "version": {
+              "name": "6.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "emojis-list": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "encodeurl": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "encoding": {
+            "version": {
+              "name": "0.1.12"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "enhanced-resolve": {
+            "version": {
+              "name": "0.9.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "entities": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "errno": {
+            "version": {
+              "name": "0.1.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "error-ex": {
+            "version": {
+              "name": "1.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "es5-ext": {
+            "version": {
+              "name": "0.10.50"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "es6-iterator": {
+            "version": {
+              "name": "2.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "es6-map": {
+            "version": {
+              "name": "0.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "es6-set": {
+            "version": {
+              "name": "0.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "es6-symbol": {
+            "version": {
+              "name": "3.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "es6-weak-map": {
+            "version": {
+              "name": "2.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "escape-html": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "escape-string-regexp": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "escodegen": {
+            "version": {
+              "name": "1.11.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "escope": {
+            "version": {
+              "name": "3.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint": {
+            "version": {
+              "name": "3.16.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-config-react-app": {
+            "version": {
+              "name": "0.6.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-import-resolver-node": {
+            "version": {
+              "name": "0.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-loader": {
+            "version": {
+              "name": "1.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-module-utils": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-plugin-flowtype": {
+            "version": {
+              "name": "2.21.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-plugin-import": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-plugin-jsx-a11y": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eslint-plugin-react": {
+            "version": {
+              "name": "6.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "espree": {
+            "version": {
+              "name": "3.5.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "esprima": {
+            "version": {
+              "name": "4.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "esrecurse": {
+            "version": {
+              "name": "4.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "estraverse": {
+            "version": {
+              "name": "4.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "esutils": {
+            "version": {
+              "name": "2.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "etag": {
+            "version": {
+              "name": "1.8.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "event-emitter": {
+            "version": {
+              "name": "0.3.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eventemitter3": {
+            "version": {
+              "name": "3.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "events": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "eventsource": {
+            "version": {
+              "name": "1.0.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "exec-sh": {
+            "version": {
+              "name": "0.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "exit-hook": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "expand-brackets": {
+            "version": {
+              "name": "2.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "expand-range": {
+            "version": {
+              "name": "1.8.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "express": {
+            "version": {
+              "name": "4.17.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "extend": {
+            "version": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "extend-shallow": {
+            "version": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "extglob": {
+            "version": {
+              "name": "2.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "extract-text-webpack-plugin": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "extsprintf": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fast-deep-equal": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fast-json-stable-stringify": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fast-levenshtein": {
+            "version": {
+              "name": "2.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fastparse": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "faye-websocket": {
+            "version": {
+              "name": "0.7.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fb-watchman": {
+            "version": {
+              "name": "1.9.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fbjs": {
+            "version": {
+              "name": "0.8.17"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "figures": {
+            "version": {
+              "name": "1.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "file-entry-cache": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "file-loader": {
+            "version": {
+              "name": "0.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "filename-regex": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fileset": {
+            "version": {
+              "name": "2.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "filesize": {
+            "version": {
+              "name": "3.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fill-range": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "finalhandler": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "find-cache-dir": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "find-up": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "flat-cache": {
+            "version": {
+              "name": "1.3.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "flatten": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "follow-redirects": {
+            "version": {
+              "name": "1.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "for-in": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "for-own": {
+            "version": {
+              "name": "0.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "forever-agent": {
+            "version": {
+              "name": "0.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "form-data": {
+            "version": {
+              "name": "2.3.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "forwarded": {
+            "version": {
+              "name": "0.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fragment-cache": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fresh": {
+            "version": {
+              "name": "0.5.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fs-extra": {
+            "version": {
+              "name": "0.30.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fs-minipass": {
+            "version": {
+              "name": "1.2.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fs.realpath": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fsevents": {
+            "version": {
+              "name": "1.2.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fstream": {
+            "version": {
+              "name": "1.0.12"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "fstream-ignore": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "function-bind": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "gauge": {
+            "version": {
+              "name": "2.7.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "generate-function": {
+            "version": {
+              "name": "2.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "generate-object-property": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "get-caller-file": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "get-value": {
+            "version": {
+              "name": "2.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "getpass": {
+            "version": {
+              "name": "0.1.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "glob": {
+            "version": {
+              "name": "7.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "glob-base": {
+            "version": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "glob-parent": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "globals": {
+            "version": {
+              "name": "9.18.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "graceful-fs": {
+            "version": {
+              "name": "4.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "growly": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "gzip-size": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "handlebars": {
+            "version": {
+              "name": "4.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "har-schema": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "har-validator": {
+            "version": {
+              "name": "5.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-ansi": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-flag": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-unicode": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-value": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "has-values": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "hawk": {
+            "version": {
+              "name": "3.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "he": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "hoek": {
+            "version": {
+              "name": "2.16.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "hoist-non-react-statics": {
+            "version": {
+              "name": "3.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "home-or-tmp": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "hosted-git-info": {
+            "version": {
+              "name": "2.7.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "html-comment-regex": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "html-encoding-sniffer": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "html-entities": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "html-minifier": {
+            "version": {
+              "name": "3.5.21"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "html-webpack-plugin": {
+            "version": {
+              "name": "2.24.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "htmlparser2": {
+            "version": {
+              "name": "3.10.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "http-errors": {
+            "version": {
+              "name": "1.7.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "http-parser-js": {
+            "version": {
+              "name": "0.4.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "http-proxy": {
+            "version": {
+              "name": "1.17.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "http-proxy-middleware": {
+            "version": {
+              "name": "0.17.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "http-signature": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "https-browserify": {
+            "version": {
+              "name": "0.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "iconv-lite": {
+            "version": {
+              "name": "0.4.24"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "icss-replace-symbols": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ieee754": {
+            "version": {
+              "name": "1.1.13"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ignore": {
+            "version": {
+              "name": "3.3.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ignore-walk": {
+            "version": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "imurmurhash": {
+            "version": {
+              "name": "0.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "indexes-of": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "indexof": {
+            "version": {
+              "name": "0.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "inflight": {
+            "version": {
+              "name": "1.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "inherits": {
+            "version": {
+              "name": "2.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ini": {
+            "version": {
+              "name": "1.3.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "inquirer": {
+            "version": {
+              "name": "0.12.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "interpret": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "invariant": {
+            "version": {
+              "name": "2.2.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "invert-kv": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ipaddr.js": {
+            "version": {
+              "name": "1.9.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-absolute-url": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-accessor-descriptor": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-arrayish": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-binary-path": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-buffer": {
+            "version": {
+              "name": "1.1.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-ci": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-data-descriptor": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-descriptor": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-directory": {
+            "version": {
+              "name": "0.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-dotfile": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-equal-shallow": {
+            "version": {
+              "name": "0.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-extendable": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-extglob": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-finite": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-fullwidth-code-point": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-glob": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-my-ip-valid": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-my-json-valid": {
+            "version": {
+              "name": "2.20.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-number": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-plain-obj": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-plain-object": {
+            "version": {
+              "name": "2.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-posix-bracket": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-primitive": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-property": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-resolvable": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-stream": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-svg": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-typedarray": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-utf8": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "is-windows": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "isarray": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "isexe": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "isobject": {
+            "version": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "isomorphic-fetch": {
+            "version": {
+              "name": "2.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "isstream": {
+            "version": {
+              "name": "0.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-api": {
+            "version": {
+              "name": "1.3.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-lib-coverage": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-lib-hook": {
+            "version": {
+              "name": "1.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-lib-instrument": {
+            "version": {
+              "name": "1.10.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-lib-report": {
+            "version": {
+              "name": "1.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-lib-source-maps": {
+            "version": {
+              "name": "1.2.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "istanbul-reports": {
+            "version": {
+              "name": "1.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-changed-files": {
+            "version": {
+              "name": "17.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-cli": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-config": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-diff": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-environment-jsdom": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-environment-node": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-file-exists": {
+            "version": {
+              "name": "17.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-haste-map": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-jasmine2": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-matcher-utils": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-matchers": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-mock": {
+            "version": {
+              "name": "18.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-resolve": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-resolve-dependencies": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-runtime": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-snapshot": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jest-util": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "js-base64": {
+            "version": {
+              "name": "2.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "js-tokens": {
+            "version": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "js-yaml": {
+            "version": {
+              "name": "3.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsbn": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsdom": {
+            "version": {
+              "name": "9.12.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsesc": {
+            "version": {
+              "name": "0.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json-loader": {
+            "version": {
+              "name": "0.5.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json-schema": {
+            "version": {
+              "name": "0.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json-schema-traverse": {
+            "version": {
+              "name": "0.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json-stable-stringify": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json-stringify-safe": {
+            "version": {
+              "name": "5.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json3": {
+            "version": {
+              "name": "3.3.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "json5": {
+            "version": {
+              "name": "0.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsonfile": {
+            "version": {
+              "name": "2.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsonify": {
+            "version": {
+              "name": "0.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsonpointer": {
+            "version": {
+              "name": "4.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsprim": {
+            "version": {
+              "name": "1.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "jsx-ast-utils": {
+            "version": {
+              "name": "1.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "kind-of": {
+            "version": {
+              "name": "6.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "klaw": {
+            "version": {
+              "name": "1.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lazy-cache": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lcid": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "levn": {
+            "version": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "load-json-file": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "loader-utils": {
+            "version": {
+              "name": "0.2.17"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash": {
+            "version": {
+              "name": "4.17.11"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash-es": {
+            "version": {
+              "name": "4.17.11"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._arraycopy": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._arrayeach": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._baseassign": {
+            "version": {
+              "name": "3.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._baseclone": {
+            "version": {
+              "name": "3.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._basecopy": {
+            "version": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._basefor": {
+            "version": {
+              "name": "3.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._bindcallback": {
+            "version": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash._getnative": {
+            "version": {
+              "name": "3.9.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.camelcase": {
+            "version": {
+              "name": "4.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.clonedeep": {
+            "version": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.cond": {
+            "version": {
+              "name": "4.5.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.isarguments": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.isarray": {
+            "version": {
+              "name": "3.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.keys": {
+            "version": {
+              "name": "3.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.memoize": {
+            "version": {
+              "name": "4.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.pickby": {
+            "version": {
+              "name": "4.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.toarray": {
+            "version": {
+              "name": "4.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lodash.uniq": {
+            "version": {
+              "name": "4.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "longest": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "loose-envify": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lower-case": {
+            "version": {
+              "name": "1.1.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "lru-cache": {
+            "version": {
+              "name": "4.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "makeerror": {
+            "version": {
+              "name": "1.0.11"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "map-cache": {
+            "version": {
+              "name": "0.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "map-visit": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "marked": {
+            "version": {
+              "name": "0.6.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "marked-terminal": {
+            "version": {
+              "name": "3.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "math-expression-evaluator": {
+            "version": {
+              "name": "1.2.17"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "math-random": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "media-typer": {
+            "version": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "memory-fs": {
+            "version": {
+              "name": "0.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "merge": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "merge-descriptors": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "methods": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "micromatch": {
+            "version": {
+              "name": "3.1.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "mime": {
+            "version": {
+              "name": "1.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "mime-db": {
+            "version": {
+              "name": "1.40.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "mime-types": {
+            "version": {
+              "name": "2.1.24"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "minimatch": {
+            "version": {
+              "name": "3.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "minimist": {
+            "version": {
+              "name": "0.0.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "minipass": {
+            "version": {
+              "name": "2.3.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "minizlib": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "mixin-deep": {
+            "version": {
+              "name": "1.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "mkdirp": {
+            "version": {
+              "name": "0.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ms": {
+            "version": {
+              "name": "2.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "mute-stream": {
+            "version": {
+              "name": "0.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "nan": {
+            "version": {
+              "name": "2.14.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "nanomatch": {
+            "version": {
+              "name": "1.2.13"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "natural-compare": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "needle": {
+            "version": {
+              "name": "2.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "negotiator": {
+            "version": {
+              "name": "0.6.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "neo-async": {
+            "version": {
+              "name": "2.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "next-tick": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "no-case": {
+            "version": {
+              "name": "2.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "node-emoji": {
+            "version": {
+              "name": "1.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "node-fetch": {
+            "version": {
+              "name": "1.7.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "node-int64": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "node-libs-browser": {
+            "version": {
+              "name": "0.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "node-notifier": {
+            "version": {
+              "name": "4.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "node-pre-gyp": {
+            "version": {
+              "name": "0.6.39"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "nopt": {
+            "version": {
+              "name": "4.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "normalize-package-data": {
+            "version": {
+              "name": "2.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "normalize-path": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "normalize-range": {
+            "version": {
+              "name": "0.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "normalize-url": {
+            "version": {
+              "name": "1.9.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "npm-bundled": {
+            "version": {
+              "name": "1.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "npm-packlist": {
+            "version": {
+              "name": "1.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "npmlog": {
+            "version": {
+              "name": "4.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "nth-check": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "num2fraction": {
+            "version": {
+              "name": "1.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "number-is-nan": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "nwmatcher": {
+            "version": {
+              "name": "1.4.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "oauth-sign": {
+            "version": {
+              "name": "0.9.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object-assign": {
+            "version": {
+              "name": "4.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object-copy": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object-visit": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object.omit": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "object.pick": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "on-finished": {
+            "version": {
+              "name": "2.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "on-headers": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "once": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "onetime": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "open": {
+            "version": {
+              "name": "0.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "opn": {
+            "version": {
+              "name": "4.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "optimist": {
+            "version": {
+              "name": "0.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "optionator": {
+            "version": {
+              "name": "0.8.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "original": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "os-browserify": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "os-homedir": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "os-locale": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "os-tmpdir": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "osenv": {
+            "version": {
+              "name": "0.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pako": {
+            "version": {
+              "name": "0.2.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "param-case": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "parse-glob": {
+            "version": {
+              "name": "3.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "parse-json": {
+            "version": {
+              "name": "2.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "parse5": {
+            "version": {
+              "name": "1.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "parseurl": {
+            "version": {
+              "name": "1.3.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pascalcase": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-browserify": {
+            "version": {
+              "name": "0.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-exists": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-is-absolute": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-is-inside": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-parse": {
+            "version": {
+              "name": "1.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-to-regexp": {
+            "version": {
+              "name": "0.1.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "path-type": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pbkdf2-compat": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "performance-now": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pify": {
+            "version": {
+              "name": "2.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pinkie": {
+            "version": {
+              "name": "2.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pinkie-promise": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pkg-dir": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pkg-up": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pluralize": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "posix-character-classes": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss": {
+            "version": {
+              "name": "6.0.23"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-calc": {
+            "version": {
+              "name": "5.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-colormin": {
+            "version": {
+              "name": "2.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-convert-values": {
+            "version": {
+              "name": "2.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-discard-comments": {
+            "version": {
+              "name": "2.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-discard-duplicates": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-discard-empty": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-discard-overridden": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-discard-unused": {
+            "version": {
+              "name": "2.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-filter-plugins": {
+            "version": {
+              "name": "2.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-load-config": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-load-options": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-load-plugins": {
+            "version": {
+              "name": "2.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-loader": {
+            "version": {
+              "name": "1.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-merge-idents": {
+            "version": {
+              "name": "2.1.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-merge-longhand": {
+            "version": {
+              "name": "2.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-merge-rules": {
+            "version": {
+              "name": "2.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-message-helpers": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-minify-font-values": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-minify-gradients": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-minify-params": {
+            "version": {
+              "name": "1.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-minify-selectors": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-modules-extract-imports": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-modules-local-by-default": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-modules-scope": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-modules-values": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-normalize-charset": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-normalize-url": {
+            "version": {
+              "name": "3.0.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-ordered-values": {
+            "version": {
+              "name": "2.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-reduce-idents": {
+            "version": {
+              "name": "2.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-reduce-initial": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-reduce-transforms": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-selector-parser": {
+            "version": {
+              "name": "2.2.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-svgo": {
+            "version": {
+              "name": "2.1.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-unique-selectors": {
+            "version": {
+              "name": "2.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-value-parser": {
+            "version": {
+              "name": "3.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "postcss-zindex": {
+            "version": {
+              "name": "2.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "prelude-ls": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "prepend-http": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "preserve": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pretty-error": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pretty-format": {
+            "version": {
+              "name": "18.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "private": {
+            "version": {
+              "name": "0.1.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "process": {
+            "version": {
+              "name": "0.11.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "process-nextick-args": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "progress": {
+            "version": {
+              "name": "1.1.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "promise": {
+            "version": {
+              "name": "7.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "prop-types": {
+            "version": {
+              "name": "15.7.2"
+            },
+            "source": "npm"
+          },
+          "proxy-addr": {
+            "version": {
+              "name": "2.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "prr": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "pseudomap": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "psl": {
+            "version": {
+              "name": "1.1.33"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "punycode": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "q": {
+            "version": {
+              "name": "1.5.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "qs": {
+            "version": {
+              "name": "6.5.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "query-string": {
+            "version": {
+              "name": "4.3.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "querystring": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "querystring-es3": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "querystringify": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "randomatic": {
+            "version": {
+              "name": "3.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "range-parser": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "raw-body": {
+            "version": {
+              "name": "2.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "rc": {
+            "version": {
+              "name": "1.2.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "react": {
+            "version": {
+              "name": "15.6.2"
+            },
+            "source": "npm"
+          },
+          "react-dev-utils": {
+            "version": {
+              "name": "0.5.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "react-dom": {
+            "version": {
+              "name": "15.6.2"
+            },
+            "source": "npm"
+          },
+          "react-is": {
+            "version": {
+              "name": "16.8.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "react-lifecycles-compat": {
+            "version": {
+              "name": "3.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "react-redux": {
+            "version": {
+              "name": "5.1.1"
+            },
+            "source": "npm"
+          },
+          "react-scripts": {
+            "version": {
+              "name": "0.9.5"
+            },
+            "source": "npm"
+          },
+          "read-pkg": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "read-pkg-up": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "readable-stream": {
+            "version": {
+              "name": "3.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "readdirp": {
+            "version": {
+              "name": "2.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "readline2": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "rechoir": {
+            "version": {
+              "name": "0.6.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "recursive-readdir": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "redeyed": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "reduce-css-calc": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "reduce-function-call": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "redux": {
+            "version": {
+              "name": "3.7.2"
+            },
+            "source": "npm"
+          },
+          "regenerate": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regenerator-runtime": {
+            "version": {
+              "name": "0.13.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regenerator-transform": {
+            "version": {
+              "name": "0.10.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regex-cache": {
+            "version": {
+              "name": "0.4.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regex-not": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regexpu-core": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regjsgen": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "regjsparser": {
+            "version": {
+              "name": "0.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "relateurl": {
+            "version": {
+              "name": "0.2.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "remove-trailing-separator": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "renderkid": {
+            "version": {
+              "name": "2.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "repeat-element": {
+            "version": {
+              "name": "1.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "repeat-string": {
+            "version": {
+              "name": "1.6.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "repeating": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "request": {
+            "version": {
+              "name": "2.88.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "require-directory": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "require-from-string": {
+            "version": {
+              "name": "1.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "require-main-filename": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "require-uncached": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "requires-port": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "resolve": {
+            "version": {
+              "name": "1.11.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "resolve-from": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "resolve-url": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "restore-cursor": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ret": {
+            "version": {
+              "name": "0.1.15"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "right-align": {
+            "version": {
+              "name": "0.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "rimraf": {
+            "version": {
+              "name": "2.6.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ripemd160": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "run-async": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "rx-lite": {
+            "version": {
+              "name": "3.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "safe-buffer": {
+            "version": {
+              "name": "5.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "safe-regex": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "safer-buffer": {
+            "version": {
+              "name": "2.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sane": {
+            "version": {
+              "name": "1.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sax": {
+            "version": {
+              "name": "1.2.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "semver": {
+            "version": {
+              "name": "5.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "send": {
+            "version": {
+              "name": "0.17.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "serve-index": {
+            "version": {
+              "name": "1.9.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "serve-static": {
+            "version": {
+              "name": "1.14.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "set-blocking": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "set-value": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "setimmediate": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "setprototypeof": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sha.js": {
+            "version": {
+              "name": "2.2.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "shelljs": {
+            "version": {
+              "name": "0.7.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "shellwords": {
+            "version": {
+              "name": "0.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "signal-exit": {
+            "version": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "slash": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "slice-ansi": {
+            "version": {
+              "name": "0.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "snapdragon": {
+            "version": {
+              "name": "0.8.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "snapdragon-node": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "snapdragon-util": {
+            "version": {
+              "name": "3.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sntp": {
+            "version": {
+              "name": "1.0.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sockjs": {
+            "version": {
+              "name": "0.3.19"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sockjs-client": {
+            "version": {
+              "name": "1.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sort-keys": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "source-list-map": {
+            "version": {
+              "name": "0.1.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "source-map": {
+            "version": {
+              "name": "0.4.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "source-map-resolve": {
+            "version": {
+              "name": "0.5.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "source-map-support": {
+            "version": {
+              "name": "0.4.18"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "source-map-url": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "spdx-correct": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "spdx-exceptions": {
+            "version": {
+              "name": "2.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "spdx-expression-parse": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "spdx-license-ids": {
+            "version": {
+              "name": "3.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "split-string": {
+            "version": {
+              "name": "3.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sprintf-js": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "sshpk": {
+            "version": {
+              "name": "1.16.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "static-extend": {
+            "version": {
+              "name": "0.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "statuses": {
+            "version": {
+              "name": "1.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "stream-browserify": {
+            "version": {
+              "name": "2.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "stream-cache": {
+            "version": {
+              "name": "0.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "stream-http": {
+            "version": {
+              "name": "2.8.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "strict-uri-encode": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "string-width": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "string_decoder": {
+            "version": {
+              "name": "1.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "stringstream": {
+            "version": {
+              "name": "0.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "strip-ansi": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "strip-bom": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "strip-json-comments": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "style-loader": {
+            "version": {
+              "name": "0.13.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "supports-color": {
+            "version": {
+              "name": "5.5.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "supports-hyperlinks": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "svgo": {
+            "version": {
+              "name": "0.7.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "symbol-observable": {
+            "version": {
+              "name": "1.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "symbol-tree": {
+            "version": {
+              "name": "3.2.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "table": {
+            "version": {
+              "name": "3.8.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tapable": {
+            "version": {
+              "name": "0.1.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tar": {
+            "version": {
+              "name": "4.4.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tar-pack": {
+            "version": {
+              "name": "3.4.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "test-exclude": {
+            "version": {
+              "name": "3.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "text-table": {
+            "version": {
+              "name": "0.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "throat": {
+            "version": {
+              "name": "3.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "through": {
+            "version": {
+              "name": "2.3.8"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "time-stamp": {
+            "version": {
+              "name": "2.2.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "timers-browserify": {
+            "version": {
+              "name": "2.0.10"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tmpl": {
+            "version": {
+              "name": "1.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-arraybuffer": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-fast-properties": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-object-path": {
+            "version": {
+              "name": "0.3.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-regex": {
+            "version": {
+              "name": "3.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "to-regex-range": {
+            "version": {
+              "name": "2.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "toidentifier": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "toposort": {
+            "version": {
+              "name": "1.0.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tough-cookie": {
+            "version": {
+              "name": "2.4.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tr46": {
+            "version": {
+              "name": "0.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "trim-right": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tty-browserify": {
+            "version": {
+              "name": "0.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tunnel-agent": {
+            "version": {
+              "name": "0.6.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "tweetnacl": {
+            "version": {
+              "name": "0.14.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "type": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "type-check": {
+            "version": {
+              "name": "0.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "type-is": {
+            "version": {
+              "name": "1.6.18"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "typedarray": {
+            "version": {
+              "name": "0.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "ua-parser-js": {
+            "version": {
+              "name": "0.7.20"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uglify-js": {
+            "version": {
+              "name": "2.7.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uglify-to-browserify": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uid-number": {
+            "version": {
+              "name": "0.0.6"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "union-value": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uniq": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uniqs": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "unpipe": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "unset-value": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "upper-case": {
+            "version": {
+              "name": "1.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uri-js": {
+            "version": {
+              "name": "4.2.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "urix": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "url": {
+            "version": {
+              "name": "0.11.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "url-loader": {
+            "version": {
+              "name": "0.5.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "url-parse": {
+            "version": {
+              "name": "1.4.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "use": {
+            "version": {
+              "name": "3.1.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "user-home": {
+            "version": {
+              "name": "2.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "util": {
+            "version": {
+              "name": "0.10.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "util-deprecate": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "utila": {
+            "version": {
+              "name": "0.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "utils-merge": {
+            "version": {
+              "name": "1.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "uuid": {
+            "version": {
+              "name": "3.3.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "validate-npm-package-license": {
+            "version": {
+              "name": "3.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "vary": {
+            "version": {
+              "name": "1.1.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "vendors": {
+            "version": {
+              "name": "1.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "verror": {
+            "version": {
+              "name": "1.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "vm-browserify": {
+            "version": {
+              "name": "0.0.4"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "walker": {
+            "version": {
+              "name": "1.0.7"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "watch": {
+            "version": {
+              "name": "0.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "watchpack": {
+            "version": {
+              "name": "0.2.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webidl-conversions": {
+            "version": {
+              "name": "4.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webpack": {
+            "version": {
+              "name": "1.14.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webpack-core": {
+            "version": {
+              "name": "0.6.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webpack-dev-middleware": {
+            "version": {
+              "name": "1.12.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webpack-dev-server": {
+            "version": {
+              "name": "1.16.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webpack-manifest-plugin": {
+            "version": {
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "webpack-sources": {
+            "version": {
+              "name": "0.1.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "websocket-driver": {
+            "version": {
+              "name": "0.7.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "websocket-extensions": {
+            "version": {
+              "name": "0.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "whatwg-encoding": {
+            "version": {
+              "name": "1.0.5"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "whatwg-fetch": {
+            "version": {
+              "name": "3.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "whatwg-url": {
+            "version": {
+              "name": "4.8.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "whet.extend": {
+            "version": {
+              "name": "0.9.9"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "which": {
+            "version": {
+              "name": "1.3.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "which-module": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "wide-align": {
+            "version": {
+              "name": "1.1.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "window-size": {
+            "version": {
+              "name": "0.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "wordwrap": {
+            "version": {
+              "name": "1.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "worker-farm": {
+            "version": {
+              "name": "1.7.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "wrap-ansi": {
+            "version": {
+              "name": "2.1.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "wrappy": {
+            "version": {
+              "name": "1.0.2"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "write": {
+            "version": {
+              "name": "0.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "xml-name-validator": {
+            "version": {
+              "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "xtend": {
+            "version": {
+              "name": "4.0.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "y18n": {
+            "version": {
+              "name": "3.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "yallist": {
+            "version": {
+              "name": "3.0.3"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "yargs": {
+            "version": {
+              "name": "3.10.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "yargs-parser": {
+            "version": {
+              "name": "4.2.1"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          }
+        },
+        "fingerprint": "031a0cccb9bfaa679156da737e56ab6b"
+      }
+    }
+  },
+  "manifests": {
+    "package.json": {
+      "current": {
+        "dependencies": {
+          "prop-types": {
+            "constraint": "^15.5.8",
+            "source": "npm"
+          },
+          "react": {
+            "constraint": "^15.5.4",
+            "source": "npm"
+          },
+          "react-dom": {
+            "constraint": "^15.5.4",
+            "source": "npm"
+          },
+          "react-redux": {
+            "constraint": "^5.0.4",
+            "source": "npm"
+          },
+          "react-scripts": {
+            "constraint": "^0.9.5",
+            "source": "npm"
+          },
+          "redux": {
+            "constraint": "^3.6.0",
+            "source": "npm"
+          }
+        }
+      },
+      "lockfile_path": "yarn.lock",
+      "updated": {
+        "dependencies": {
+          "react": {
+            "constraint": "^16.8.6",
+            "source": "npm"
+          },
+          "react-dom": {
+            "constraint": "^16.8.6",
+            "source": "npm"
+          },
+          "react-redux": {
+            "constraint": "^7.1.0",
+            "source": "npm"
+          },
+          "react-scripts": {
+            "constraint": "^3.0.1",
+            "source": "npm"
+          },
+          "redux": {
+            "constraint": "^4.0.1",
+            "source": "npm"
+          }
+        }
+      }
+    }
+  }
+}

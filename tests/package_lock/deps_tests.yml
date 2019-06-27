@@ -1,0 +1,16 @@
+tests:
+
+- name: package-lock.json
+  repo: repo
+  diff: repo_updated
+  diff_args:
+    - "-x"
+    - "node_modules"
+  data: dependencies.json
+
+- name: package-lock.json production
+  repo: repo
+  data: dependencies_production.json
+  user_config:
+    settings:
+      node_env: production

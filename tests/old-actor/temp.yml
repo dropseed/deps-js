@@ -1,0 +1,63 @@
+tests:
+- name: package.json
+  type: act
+  repo: basic/base
+  input: basic/input_dependencies.json
+  output: basic/output_dependencies.json
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/basic/final/ ./
+
+- name: package-lock.json
+  type: act
+  repo: package_lock/base
+  input: package_lock/input_dependencies.json
+  output: package_lock/output_dependencies.json
+
+- name: yarn.lock
+  type: act
+  repo: yarn/base
+  input: yarn/input_dependencies.json
+  output: yarn/output_dependencies.json
+
+- name: yarn.lock with caret and tilde
+  type: act
+  repo: yarn/ranges
+  input: yarn/ranges_input_dependencies.json
+  output: yarn/ranges_output_dependencies.json
+
+- name: yarn.lock with bounds update
+  type: act
+  repo: yarn/ranges_and_bounds
+  input: yarn/ranges_input_dependencies.json
+  output: yarn/ranges_and_bounds_output_dependencies.json
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff ./package.json ./final-package.json
+  user_config:
+    settings:
+      update_package_json_lower_bounds: true
+
+- name: package.json subdirectory
+  type: act
+  repo: subdirectory/base
+  input: subdirectory/input_dependencies.json
+  output: subdirectory/output_dependencies.json
+
+- name: package.json basic with registry mirror
+  type: act
+  repo: basic/base
+  input: basic/input_dependencies.json
+  output: basic/output_dependencies.json
+  user_config:
+    settings:
+      npmrc: |
+        registry=https://skimdb.npmjs.com/registry
+        another=tes
+      commit_message_prefix: "deps: "
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff -x ".git*" -x "node_modules" ${CWD}/basic/final/ ./

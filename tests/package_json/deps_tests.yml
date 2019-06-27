@@ -1,0 +1,13 @@
+tests:
+
+- name: package.json
+  repo: repo
+  diff: repo_updated
+  data: dependencies.json
+
+- name: package.json production
+  repo: repo
+  data: dependencies_production.json
+  user_config:
+    settings:
+      node_env: production

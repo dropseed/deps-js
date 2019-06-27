@@ -169,7 +169,7 @@ export class Lockfile {
       const manifestConstraint = this.manifestConstraintForDependency(name)
 
       dependenciesForSchema[name] = {
-        installed: { name: data.version },
+        version: { name: data.version },
         is_transitive: manifestConstraint === undefined,
         source: data.resolved && !data.resolved.startsWith('https://registry.npmjs.org/')
           ? data.resolved

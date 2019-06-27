@@ -1,0 +1,58 @@
+{
+  "manifests": {
+    "package.json": {
+      "current": {
+        "dependencies": {
+          "prop-types": {
+            "constraint": "15.5.8",
+            "source": "npm"
+          },
+          "react": {
+            "constraint": "15.5.4",
+            "source": "npm"
+          },
+          "react-dom": {
+            "constraint": "15.5.4",
+            "source": "npm"
+          },
+          "react-redux": {
+            "constraint": "5.0.4",
+            "source": "npm"
+          },
+          "react-scripts": {
+            "constraint": "0.9.5",
+            "source": "npm"
+          },
+          "redux": {
+            "constraint": "3.6.0",
+            "source": "npm"
+          }
+        }
+      },
+      "updated": {
+        "dependencies": {
+          "prop-types": {
+            "constraint": "15.7.2",
+            "source": "npm"
+          },
+          "react": {
+            "constraint": "16.8.6",
+            "source": "npm"
+          },
+          "react-dom": {
+            "constraint": "16.8.6",
+            "source": "npm"
+          },
+          "react-redux": {
+            "constraint": "7.1.0",
+            "source": "npm"
+          },
+          "redux": {
+            "constraint": "4.0.1",
+            "source": "npm"
+          }
+        }
+      }
+    }
+  }
+}
