@@ -6,6 +6,8 @@ Currently supports:
 - `package-lock.json`
 - `yarn.lock`
 
+## Example `deps.yml`
+
 ```yaml
 version: 3
 dependencies:
