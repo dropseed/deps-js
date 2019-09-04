@@ -66,7 +66,7 @@ export class Manifest {
           }
 
           const outdated = npmOutdated[name]
-          if (outdated && !semver.satisfies(outdated.latest, constraint)) {
+          if (outdated && !semver.prerelease(outdated.latest) && !semver.satisfies(outdated.latest, constraint)) {
             const latest = outdated.latest
             let latestConstraint = latest
 
