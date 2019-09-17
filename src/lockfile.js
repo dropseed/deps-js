@@ -94,7 +94,7 @@ export class Lockfile {
   }
 
   updatePackageLock() {
-    shell.exec(`cd ${this.dirPath} && npm update --ignore-scripts --quiet`)
+    shell.exec(`cd ${this.dirPath} && npm update --dev --ignore-scripts --quiet`)
   }
 
   manifestConstraintForDependency(name) {
