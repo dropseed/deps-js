@@ -8,6 +8,8 @@ export const act = (inputPath, outputPath) => {
   if (data.lockfiles) {
     Object.entries(data.lockfiles).forEach(([lockfilePath, lockfileData]) => {
       const lockfile = new Lockfile(lockfilePath)
+
+      lockfile.generate()  // make sure current is actually installed (npm update doesn't work well otherwise)
       lockfile.update()
 
       lockfileData.updated = lockfile.convertToSchema()
