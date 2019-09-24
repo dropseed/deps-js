@@ -5254,7 +5254,7 @@
         "dependencies": {
           "@babel/runtime": {
             "version": {
-              "name": "7.4.5"
+              "name": "7.6.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -7506,13 +7506,6 @@
             "is_transitive": true,
             "source": "npm"
           },
-          "hoist-non-react-statics": {
-            "version": {
-              "name": "1.2.0"
-            },
-            "is_transitive": true,
-            "source": "npm"
-          },
           "home-or-tmp": {
             "version": {
               "name": "2.0.0"
@@ -9395,7 +9388,7 @@
           },
           "react-is": {
             "version": {
-              "name": "16.8.6"
+              "name": "16.9.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10518,7 +10511,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "572ddea5c3f4d5e4e6c24026c217e3f3"
+        "fingerprint": "54be1253dec487df16c95ece8f7cc927"
       }
     }
   },
@@ -10556,19 +10549,19 @@
       "updated": {
         "dependencies": {
           "react": {
-            "constraint": "^16.8.6",
+            "constraint": "^16.9.0",
             "source": "npm"
           },
           "react-dom": {
-            "constraint": "^16.8.6",
+            "constraint": "^16.9.0",
             "source": "npm"
           },
           "react-redux": {
-            "constraint": "^7.1.0",
+            "constraint": "^7.1.1",
             "source": "npm"
           },
           "redux": {
-            "constraint": "^4.0.1",
+            "constraint": "^4.0.4",
             "source": "npm"
           }
         }
