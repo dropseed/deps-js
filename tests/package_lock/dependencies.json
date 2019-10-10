@@ -5254,7 +5254,7 @@
         "dependencies": {
           "@babel/runtime": {
             "version": {
-              "name": "7.6.2"
+              "name": "7.6.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9388,7 +9388,7 @@
           },
           "react-is": {
             "version": {
-              "name": "16.10.1"
+              "name": "16.10.2"
             },
             "is_transitive": true,
             "source": "npm"
@@ -9402,7 +9402,7 @@
           },
           "react-redux": {
             "version": {
-              "name": "5.1.1"
+              "name": "5.1.2"
             },
             "source": "npm"
           },
@@ -10511,7 +10511,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "a3e95bb5c62c67b2fddaf658de11b582"
+        "fingerprint": "761c0ef4888d34eb92e5b86e519d6b37"
       }
     }
   },
@@ -10549,11 +10549,11 @@
       "updated": {
         "dependencies": {
           "react": {
-            "constraint": "^16.10.1",
+            "constraint": "^16.10.2",
             "source": "npm"
           },
           "react-dom": {
-            "constraint": "^16.10.1",
+            "constraint": "^16.10.2",
             "source": "npm"
           },
           "react-redux": {
