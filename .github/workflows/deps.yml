@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
-    - run: yarn install
+    - run: yarn install --pure-lockfile
     - run: curl https://deps.app/install.sh | bash -s -- -b $HOME/bin
     - run: $HOME/bin/deps ci
       env:
