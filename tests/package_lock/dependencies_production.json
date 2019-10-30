@@ -9388,7 +9388,7 @@
           },
           "react-is": {
             "version": {
-              "name": "16.10.2"
+              "name": "16.11.0"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10511,7 +10511,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "761c0ef4888d34eb92e5b86e519d6b37"
+        "fingerprint": "2460b681e84b4a954c17ce7fbfcb0c6f"
       }
     }
   },
@@ -10549,11 +10549,11 @@
       "updated": {
         "dependencies": {
           "react": {
-            "constraint": "^16.10.2",
+            "constraint": "^16.11.0",
             "source": "npm"
           },
           "react-dom": {
-            "constraint": "^16.10.2",
+            "constraint": "^16.11.0",
             "source": "npm"
           },
           "react-redux": {
