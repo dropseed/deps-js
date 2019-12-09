@@ -12,7 +12,7 @@
     "flatten": "^1.0.2",
     "md5-file": "^4.0.0",
     "memory-cache": "^0.2.0",
-    "npm": "6.13.1",
+    "npm": "6.13.2",
     "npm-package-arg": "^7.0.0",
     "shell-escape": "^0.2.0",
     "shelljs": "^0.8.2",
