@@ -10561,7 +10561,7 @@
             "source": "npm"
           },
           "redux": {
-            "constraint": "^4.0.4",
+            "constraint": "^4.0.5",
             "source": "npm"
           }
         }
