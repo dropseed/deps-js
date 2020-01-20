@@ -5254,7 +5254,7 @@
         "dependencies": {
           "@babel/runtime": {
             "version": {
-              "name": "7.7.7"
+              "name": "7.8.3"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10511,7 +10511,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "4a34806723e81e00e76f7f8f5f03f97f"
+        "fingerprint": "7f73fa72dd095f0d9246f52e894fc9f3"
       }
     }
   },
