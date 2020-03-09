@@ -36,11 +36,11 @@
             "source": "npm"
           },
           "react": {
-            "constraint": "16.12.0",
+            "constraint": "16.13.0",
             "source": "npm"
           },
           "react-dom": {
-            "constraint": "16.12.0",
+            "constraint": "16.13.0",
             "source": "npm"
           },
           "react-redux": {
