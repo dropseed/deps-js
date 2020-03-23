@@ -23,6 +23,6 @@
     "prettier": "prettier --single-quote --trailing-comma=es5 --no-semi src/**/*.js --write"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^2.0.1"
   }
 }
