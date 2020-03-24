@@ -61,7 +61,9 @@ export class Lockfile {
   }
 
   generateYarnLock() {
-    shell.exec(`cd ${this.dirPath} && yarn install --ignore-scripts --ignore-engines --ignore-platform`)
+    shell.exec(
+      `cd ${this.dirPath} && yarn install --ignore-scripts --ignore-engines --ignore-platform`
+    )
   }
 
   generatePackageLock() {
@@ -85,16 +87,22 @@ export class Lockfile {
 
   updateYarnLock() {
     try {
-      shell.exec(`cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`)
+      shell.exec(
+        `cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
+      )
     } catch (e) {
       // may throw an 'Outdated lockfile' error, meaning install has to be run first
       this.generateYarnLock()
-      shell.exec(`cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`)
+      shell.exec(
+        `cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
+      )
     }
   }
 
   updatePackageLock() {
-    shell.exec(`cd ${this.dirPath} && npm update --dev --ignore-scripts --quiet`)
+    shell.exec(
+      `cd ${this.dirPath} && npm update --dev --ignore-scripts --quiet`
+    )
   }
 
   manifestConstraintForDependency(name) {
@@ -132,11 +140,7 @@ export class Lockfile {
 
       const manifestConstraint = this.manifestConstraintForDependency(info.name)
 
-      if (
-        manifestConstraint &&
-        dep !==
-          info.name + '@' + manifestConstraint
-      ) {
+      if (manifestConstraint && dep !== info.name + '@' + manifestConstraint) {
         // make sure we're getting the version that should be installed
         // in the root (not for a nested dependency) by only getting those that have
         // the package.json constraint in them
@@ -151,7 +155,10 @@ export class Lockfile {
       }
     }
 
-    return { dependencies: dependenciesForSchema, fingerprint: this.getFingerprint() }
+    return {
+      dependencies: dependenciesForSchema,
+      fingerprint: this.getFingerprint(),
+    }
   }
 
   convertPackageLockToSchema() {
@@ -171,9 +178,11 @@ export class Lockfile {
       dependenciesForSchema[name] = {
         version: { name: data.version },
         is_transitive: manifestConstraint === undefined,
-        source: data.resolved && !data.resolved.startsWith('https://registry.npmjs.org/')
-          ? data.resolved
-          : 'npm',
+        source:
+          data.resolved &&
+          !data.resolved.startsWith('https://registry.npmjs.org/')
+            ? data.resolved
+            : 'npm',
       }
     })
 
