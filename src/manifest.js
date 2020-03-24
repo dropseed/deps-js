@@ -9,7 +9,6 @@ import { Lockfile } from './lockfile'
 import { dependencyTypesToCollect } from './settings'
 
 export class Manifest {
-
   static manifestsInPath(dependencyPath) {
     const rootManifest = new Manifest(dependencyPath)
     return [rootManifest, ...rootManifest.getAdditionalManifests()]
@@ -41,32 +40,37 @@ export class Manifest {
   convertToSchema() {
     let output = {
       current: {
-        dependencies: {}
+        dependencies: {},
       },
       updated: {
-        dependencies: {}
+        dependencies: {},
       },
     }
 
     shell.config.fatal = false
     const npmOutdated = JSON.parse(
-      shell.exec(`cd ${this.dirPath} && npm outdated --json`, { silent: true }).stdout.trim()
+      shell
+        .exec(`cd ${this.dirPath} && npm outdated --json`, { silent: true })
+        .stdout.trim()
     )
     shell.config.fatal = true
 
-    dependencyTypesToCollect().forEach(dt => {
+    dependencyTypesToCollect().forEach((dt) => {
       if (dt in this.contents) {
         Object.entries(this.contents[dt]).forEach(([name, constraint]) => {
-
           const source = this.sourceForDependency(name, constraint)
 
           output.current.dependencies[name] = {
-            'constraint': constraint,
-            'source': source,
+            constraint: constraint,
+            source: source,
           }
 
           const outdated = npmOutdated[name]
-          if (outdated && !semver.prerelease(outdated.latest) && !semver.satisfies(outdated.latest, constraint)) {
+          if (
+            outdated &&
+            !semver.prerelease(outdated.latest) &&
+            !semver.satisfies(outdated.latest, constraint)
+          ) {
             const latest = outdated.latest
             let latestConstraint = latest
 
@@ -78,8 +82,8 @@ export class Manifest {
             }
 
             output.updated.dependencies[name] = {
-              'constraint': latestConstraint,
-              'source': source,
+              constraint: latestConstraint,
+              source: source,
             }
           }
         })
@@ -94,29 +98,40 @@ export class Manifest {
     try {
       // the command outputs {"type":"log","data":jsonstring}
       output = JSON.parse(
-        shell.exec(`cd ${this.dirPath} && yarn workspaces info --json`, { silent: true }).stdout.trim()
+        shell
+          .exec(`cd ${this.dirPath} && yarn workspaces info --json`, {
+            silent: true,
+          })
+          .stdout.trim()
       )
-    } catch(e) {
+    } catch (e) {
       console.log('Unable to find additional manifests')
       return []
     }
     const workspaces = JSON.parse(output.data)
-    return Object.values(workspaces).map(ws => new Manifest(path.join(this.dirPath, ws.location)))
+    return Object.values(workspaces).map(
+      (ws) => new Manifest(path.join(this.dirPath, ws.location))
+    )
   }
 
   updateFromData(manifestData) {
-    const lockfile = 'lockfile_path' in manifestData ? new Lockfile(manifestData.lockfile_path) : null
+    const lockfile =
+      'lockfile_path' in manifestData
+        ? new Lockfile(manifestData.lockfile_path)
+        : null
 
-    Object.entries(manifestData.updated.dependencies).forEach(([name, dependency]) => {
-      const installed = manifestData.current.dependencies[name].constraint
-      const updatedConstraint = dependency.constraint
+    Object.entries(manifestData.updated.dependencies).forEach(
+      ([name, dependency]) => {
+        const installed = manifestData.current.dependencies[name].constraint
+        const updatedConstraint = dependency.constraint
 
-      this.updatePackageJSONDependency(name, updatedConstraint)
+        this.updatePackageJSONDependency(name, updatedConstraint)
 
-      if (lockfile && lockfile.existed) {
-        lockfile.generate()
+        if (lockfile && lockfile.existed) {
+          lockfile.generate()
+        }
       }
-    })
+    )
   }
 
   updatePackageJSONDependency(name, constraint) {
@@ -125,11 +140,12 @@ export class Manifest {
     const indent = detectIndent(file).indent || '  '
     const packageJson = JSON.parse(file)
 
-    dependencyTypesToCollect().forEach(t => {
-      if (packageJson.hasOwnProperty(t) && packageJson[t].hasOwnProperty(name)) {
-        console.log(
-          `Updating ${name} to ${constraint} in ${t} of ${this.path}`
-        )
+    dependencyTypesToCollect().forEach((t) => {
+      if (
+        packageJson.hasOwnProperty(t) &&
+        packageJson[t].hasOwnProperty(name)
+      ) {
+        console.log(`Updating ${name} to ${constraint} in ${t} of ${this.path}`)
         packageJson[t][name] = constraint
       }
     })
@@ -151,5 +167,4 @@ export class Manifest {
 
     return parsed.type
   }
-
 }

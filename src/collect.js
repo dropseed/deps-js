@@ -2,14 +2,13 @@ import fs from 'fs'
 import { Lockfile } from './lockfile'
 import { Manifest } from './manifest'
 
-
 export const collect = (dependencyPath, outputPath) => {
   console.log(dependencyPath)
-  let output = {manifests: {}}
+  let output = { manifests: {} }
 
   // find the manifest(s)
   const manifests = Manifest.manifestsInPath(dependencyPath)
-  manifests.forEach(m => {
+  manifests.forEach((m) => {
     output.manifests[m.path] = m.convertToSchema()
   })
 
@@ -32,7 +31,9 @@ export const collect = (dependencyPath, outputPath) => {
     }
 
     // point all the manifests back to this lockfile (yarn workspaces)
-    Object.keys(output.manifests).forEach(name => output.manifests[name].lockfile_path = lockfile.path)
+    Object.keys(output.manifests).forEach(
+      (name) => (output.manifests[name].lockfile_path = lockfile.path)
+    )
   }
 
   // report the reuslts
