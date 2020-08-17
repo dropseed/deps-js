@@ -44,7 +44,7 @@
             "source": "npm"
           },
           "react-redux": {
-            "constraint": "7.2.0",
+            "constraint": "7.2.1",
             "source": "npm"
           },
           "redux": {
