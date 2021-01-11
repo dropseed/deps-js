@@ -1,8 +1,0 @@
-{
-  "name": "test",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "semantic-release": "8.1.0"
-  }
-}
