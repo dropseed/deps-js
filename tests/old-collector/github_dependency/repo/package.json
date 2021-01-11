@@ -1,8 +1,0 @@
-{
-  "name": "test",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "percy-docs": "git+https://github.com/percy/percy-docs.git#bc459749fbdf98f2d0e087d10359481fb4542b0e"
-  }
-}
