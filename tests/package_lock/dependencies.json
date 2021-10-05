@@ -6859,7 +6859,7 @@
           },
           "electron-to-chromium": {
             "version": {
-              "name": "1.3.859"
+              "name": "1.3.860"
             },
             "is_transitive": true,
             "source": "npm"
@@ -10809,7 +10809,7 @@
             "source": "npm"
           }
         },
-        "fingerprint": "c66dc977e1441f051e0a1a277bf6ed2d"
+        "fingerprint": "0771685620368c5bc02539ad69637fd4"
       }
     }
   },
