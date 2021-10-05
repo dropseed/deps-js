@@ -22,6 +22,8 @@ dependencies:
     - dependencies
 ```
 
+![yarn.lock deps pull request example](https://user-images.githubusercontent.com/649496/136111016-480de2d8-5ede-4dc0-90a4-201df83249da.png)
+
 ## Support
 
 Any questions or issues with this specific component should be discussed in [GitHub issues](https://github.com/dropseed/deps-js/issues).
