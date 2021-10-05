@@ -44,11 +44,11 @@
             "source": "npm"
           },
           "react-redux": {
-            "constraint": "7.2.3",
+            "constraint": "7.2.5",
             "source": "npm"
           },
           "redux": {
-            "constraint": "4.0.5",
+            "constraint": "4.1.1",
             "source": "npm"
           }
         }
