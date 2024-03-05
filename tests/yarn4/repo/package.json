@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18"
+  },
+  "devDependencies": {
+    "react-dom": "^18"
+  },
+  "packageManager": "yarn@4.1.1"
+}

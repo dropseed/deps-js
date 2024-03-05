@@ -48,6 +48,10 @@ export class Lockfile {
     return path.basename(this.path) === 'package-lock.json'
   }
 
+  isYarn4() {
+    return shell.exec('yarn --version').stdout.startsWith('4.')
+  }
+
   generate() {
     if (this.isYarnLock()) {
       return this.generateYarnLock()
@@ -61,9 +65,13 @@ export class Lockfile {
   }
 
   generateYarnLock() {
-    shell.exec(
-      `cd ${this.dirPath} && yarn install --ignore-scripts --ignore-engines --ignore-platform`
-    )
+    if (this.isYarn4()) {
+      shell.exec(`cd ${this.dirPath} && yarn install --mode=update-lockfile`)
+    } else {
+      shell.exec(
+        `cd ${this.dirPath} && yarn install --ignore-scripts --ignore-engines --ignore-platform`
+      )
+    }
   }
 
   generatePackageLock() {
@@ -86,16 +94,20 @@ export class Lockfile {
   }
 
   updateYarnLock() {
-    try {
-      shell.exec(
-        `cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
-      )
-    } catch (e) {
-      // may throw an 'Outdated lockfile' error, meaning install has to be run first
-      this.generateYarnLock()
-      shell.exec(
-        `cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
-      )
+    if (this.isYarn4()) {
+      shell.exec(`cd ${this.dirPath} && yarn up --mode=update-lockfile`)
+    } else {
+      try {
+        shell.exec(
+          `cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
+        )
+      } catch (e) {
+        // may throw an 'Outdated lockfile' error, meaning install has to be run first
+        this.generateYarnLock()
+        shell.exec(
+          `cd ${this.dirPath} && yarn upgrade --ignore-scripts --ignore-engines --ignore-platform`
+        )
+      }
     }
   }
 
@@ -126,33 +138,58 @@ export class Lockfile {
 
   convertYarnLockToSchema() {
     console.log('Converting yarn.lock to lockfile in dependencies-schema')
-    // TODO windows line endings are currently broken: https://github.com/yarnpkg/yarn/issues/5214
-    const file = fs.readFileSync(this.path, 'utf8').replace(/\r/g, '')
-    const yarnLockfileResults = yarnLockfile.parse(file)
 
     const dependenciesForSchema = {}
 
-    for (const dep in yarnLockfileResults.object) {
-      const info = yarnLockfile.explodeEntry(
-        dep,
-        yarnLockfileResults.object[dep]
+    if (this.isYarn4()) {
+      const output = shell.exec(
+        `cd ${this.dirPath} && yarn info --all --recursive --json`
       )
+      for (const line of output.split('\n')) {
+        if (line === '') continue
+        const info = JSON.parse(line)
 
-      const manifestConstraint = this.manifestConstraintForDependency(info.name)
+        // Skip anything that doesn't look like it's from npm for now...
+        if (info.value.indexOf('@npm:') === -1) continue
 
-      if (manifestConstraint && dep !== info.name + '@' + manifestConstraint) {
-        // make sure we're getting the version that should be installed
-        // in the root (not for a nested dependency) by only getting those that have
-        // the package.json constraint in them
-        continue
+        const name = info.value.split('@')[0]
+        const version = info.children.Version;
+        const is_transitive = this.manifestConstraintForDependency(name) === undefined
+        dependenciesForSchema[name] = {
+          version: { name: version },
+          is_transitive: is_transitive,
+          source: "npm",
+        }
+      }
+    } else {
+
+      // TODO windows line endings are currently broken: https://github.com/yarnpkg/yarn/issues/5214
+      const file = fs.readFileSync(this.path, 'utf8').replace(/\r/g, '')
+      const yarnLockfileResults = yarnLockfile.parse(file)
+
+      for (const dep in yarnLockfileResults.object) {
+        const info = yarnLockfile.explodeEntry(
+          dep,
+          yarnLockfileResults.object[dep]
+        )
+
+        const manifestConstraint = this.manifestConstraintForDependency(info.name)
+
+        if (manifestConstraint && dep !== info.name + '@' + manifestConstraint) {
+          // make sure we're getting the version that should be installed
+          // in the root (not for a nested dependency) by only getting those that have
+          // the package.json constraint in them
+          continue
+        }
+
+        dependenciesForSchema[info.name] = {
+          version: { name: info.version },
+          // constraint: dep.replace(`${info.name}@`, ''), // simply keep the comma separated ranges without the name@ parts
+          is_transitive: manifestConstraint === undefined,
+          source: info.registry,
+        }
       }
 
-      dependenciesForSchema[info.name] = {
-        version: { name: info.version },
-        // constraint: dep.replace(`${info.name}@`, ''), // simply keep the comma separated ranges without the name@ parts
-        is_transitive: manifestConstraint === undefined,
-        source: info.registry,
-      }
     }
 
     return {

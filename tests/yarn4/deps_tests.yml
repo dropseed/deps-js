@@ -1,0 +1,9 @@
+tests:
+
+- name: yarn4
+  repo: repo
+  diff: repo_updated
+  diff_args:
+    - "-x"
+    - ".yarn"
+  data: dependencies.json

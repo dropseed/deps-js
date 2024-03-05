@@ -1,0 +1,102 @@
+{
+  "lockfiles": {
+    "yarn.lock": {
+      "current": {
+        "dependencies": {
+          "js-tokens": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "loose-envify": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "react": {
+            "version": {
+              "name": "18.2.0"
+            },
+            "source": "npm"
+          },
+          "react-dom": {
+            "version": {
+              "name": "18.2.0"
+            },
+            "source": "npm"
+          },
+          "scheduler": {
+            "version": {
+              "name": "0.23.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          }
+        },
+        "fingerprint": "1bbc320984a9b15bfaddb19be2aadcde"
+      },
+      "updated": {
+        "dependencies": {
+          "js-tokens": {
+            "version": {
+              "name": "4.0.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "loose-envify": {
+            "version": {
+              "name": "1.4.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          },
+          "react": {
+            "version": {
+              "name": "18.2.0"
+            },
+            "source": "npm"
+          },
+          "react-dom": {
+            "version": {
+              "name": "18.2.0"
+            },
+            "source": "npm"
+          },
+          "scheduler": {
+            "version": {
+              "name": "0.23.0"
+            },
+            "is_transitive": true,
+            "source": "npm"
+          }
+        },
+        "fingerprint": "1bbc320984a9b15bfaddb19be2aadcde"
+      }
+    }
+  },
+  "manifests": {
+    "package.json": {
+      "current": {
+        "dependencies": {
+          "react": {
+            "constraint": "^18",
+            "source": "npm"
+          },
+          "react-dom": {
+            "constraint": "^18",
+            "source": "npm"
+          }
+        }
+      },
+      "lockfile_path": "yarn.lock",
+      "updated": {
+        "dependencies": {}
+      }
+    }
+  }
+}
