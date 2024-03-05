@@ -169,7 +169,7 @@ export class Lockfile {
 
     const dependenciesForSchema = {}
 
-    Object.entries(packageLock.dependencies || {}).forEach(([name, data]) => {
+    Object.entries(packageLock.dependencies).forEach(([name, data]) => {
       // skip bundled dependencies completely
       if (data.bundled) return
 
