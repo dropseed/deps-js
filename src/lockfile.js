@@ -166,25 +166,46 @@ export class Lockfile {
       'Converting package-lock.json to lockfile in dependencies-schema'
     )
     const packageLock = require(path.resolve(this.path))
-
     const dependenciesForSchema = {}
 
-    Object.entries(packageLock.dependencies).forEach(([name, data]) => {
-      // skip bundled dependencies completely
-      if (data.bundled) return
+    if (packageLock.lockfileVersion < 3) {
+      Object.entries(packageLock.dependencies).forEach(([name, data]) => {
+        // skip bundled dependencies completely
+        if (data.bundled) return
 
-      const manifestConstraint = this.manifestConstraintForDependency(name)
+        const manifestConstraint = this.manifestConstraintForDependency(name)
 
-      dependenciesForSchema[name] = {
-        version: { name: data.version },
-        is_transitive: manifestConstraint === undefined,
-        source:
-          data.resolved &&
-          !data.resolved.startsWith('https://registry.npmjs.org/')
+        dependenciesForSchema[name] = {
+          version: { name: data.version },
+          is_transitive: manifestConstraint === undefined,
+          source:
+            data.resolved &&
+            !data.resolved.startsWith('https://registry.npmjs.org/')
+              ? data.resolved
+              : 'npm',
+        }
+      })
+    } else {
+      Object.entries(packageLock.packages).forEach(([key, data]) => {
+        if (!key) return // The root package is an empty string
+
+        // Assume packages we care about start with node_modules/
+        if (!key.startsWith('node_modules/')) return
+
+        const name = key.split('/')[1]
+        const version = data.version
+        const manifestConstraint = this.manifestConstraintForDependency(name)
+
+        dependenciesForSchema[name] = {
+          version: { name: version },
+          is_transitive: manifestConstraint === undefined,
+          source: data.resolved &&
+            !data.resolved.startsWith('https://registry.npmjs.org/')
             ? data.resolved
             : 'npm',
-      }
-    })
+        }
+      })
+    }
 
     return {
       dependencies: dependenciesForSchema,

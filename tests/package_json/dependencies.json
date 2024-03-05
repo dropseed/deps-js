@@ -32,23 +32,23 @@
       "updated": {
         "dependencies": {
           "prop-types": {
-            "constraint": "15.7.2",
+            "constraint": "15.8.1",
             "source": "npm"
           },
           "react": {
-            "constraint": "17.0.2",
+            "constraint": "18.2.0",
             "source": "npm"
           },
           "react-dom": {
-            "constraint": "17.0.2",
+            "constraint": "18.2.0",
             "source": "npm"
           },
           "react-redux": {
-            "constraint": "7.2.5",
+            "constraint": "9.1.0",
             "source": "npm"
           },
           "redux": {
-            "constraint": "4.1.1",
+            "constraint": "5.0.1",
             "source": "npm"
           }
         }
